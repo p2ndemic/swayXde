@@ -36,8 +36,9 @@ My attempt to create a desktop environment for Sway
 |-------------|-------------|--------------|
 | 🐟 Shell & Framework | [fish](https://github.com/fish-shell/fish-shell) + [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) |
 | 🖥️ Terminal Emulator | [foot](https://codeberg.org/dnkl/foot) |
-| 💫 Shell Enhancers   | [starship](https://github.com/starship/starship) | [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
-| 🔍 Terminal Tools    | [fzf](https://github.com/junegunn/fzf) \| [skim](https://github.com/skim-rs/skim) \| [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) |
+| 💫 Shell Enhancers   | [starship](https://github.com/starship/starship) + [navi](https://github.com/denisidoro/navi) | [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
+| 🔧 Terminal Tools    | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat)
+| 🔍 File Search Tools | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
 
 ---
 
@@ -64,7 +65,7 @@ My attempt to create a desktop environment for Sway
 | 💻 System Utilities      | [iotop](https://github.com/Tomas-M/iotop) \| [kmon](https://github.com/orhun/kmon) \| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) \| [powertop](https://github.com/fenrus75/powertop) \| [acpid](https://wiki.archlinux.org/title/Acpid) |
 | 🧠 Info & Diagnostics    | [inxi](https://codeberg.org/smxi/inxi) \| [duf](https://github.com/muesli/duf) \| [wavemon](https://github.com/uoaerg/wavemon) \| [iftop](https://code.blinkace.com/pdw/iftop) |
 | 📁 Disk & File Tools     | [dua-cli](https://github.com/Byron/dua-cli) \| [fselect](https://github.com/jhspetersson/fselect) \| [broot](https://github.com/Canop/broot) |
-| 📚 Knowledge Tools       | [navi](https://github.com/denisidoro/navi) \| [xdg-ninja](https://github.com/b3nj5m1n/xdg-ninja) |
+| 📚 Knowledge Tools       |  \| [xdg-ninja](https://github.com/b3nj5m1n/xdg-ninja) |
 | 🧊 Misc                  | [wayfreeze](https://github.com/Jappie3/wayfreeze) \| [hyprfreeze](https://github.com/Zerodya/hyprfreeze) \| [vigiland](https://github.com/Jappie3/vigiland) \| [planify](https://github.com/alainm23/planify) \| [resources](https://github.com/nokyan/resources) \| [arch-update](https://github.com/Antiz96/arch-update) |
 | 🔧 Misc. Tools           | [wluma](https://github.com/maximbaz/wluma) \| [laptop-mode-tools](https://github.com/rickysarraf/laptop-mode-tools) \| [thermald](https://github.com/intel/thermal_daemon) |
 | 📦 Others                | [usql](https://github.com/xo/usql) \| [jq](https://jqlang.org/) \| [pik](https://github.com/jacek-kurlit/pik) \| [woomer](https://github.com/coffeeispower/woomer) |
