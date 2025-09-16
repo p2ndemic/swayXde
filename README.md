@@ -9,7 +9,7 @@ My attempt to create a desktop environment for Sway
 | Module Type | Module Name |
 |-------------|-------------|
 | 🧰 Operating System          | [Arch Linux](https://archlinux.org/) \| [CachyOS](https://cachyos.org/) |
-| ⚡ Power daemon              | [tuned](https://github.com/redhat-performance/tuned) + [tuned-gui](https://github.com/redhat-performance/tuned) |
+| ⚡ Power tuning daemon       | [tuned](https://github.com/redhat-performance/tuned) + [tuned-gui](https://github.com/redhat-performance/tuned) |
 | 🔋 Power Alert Daemon        | [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) |
 | 📶 Network Management tool   | [NetworkManager](https://networkmanager.dev/) + [nm-connection-editor](https://gitlab.gnome.org/GNOME/network-manager-applet) |
 | 📡 Bluetooth Management tool | [blueman](https://github.com/blueman-project/blueman) |
@@ -19,41 +19,41 @@ My attempt to create a desktop environment for Sway
 
 ## 🖼️ Display Managers & Wayland Stack
 
-| Module Type | Module Name |
-|-------------|-------------|
-| 🚪 Display Manager        | [ly](https://codeberg.org/fairyglade/ly) \| [gdm](https://gitlab.gnome.org/GNOME/gdm.git) \| [greetd](https://git.sr.ht/~kennylevinsen/greetd) + [regreet](https://github.com/rharish101/ReGreet) |
+| Module Type | Module Name | Alternatives |
+|-------------|-------------|--------------|
+| 🚪 Display Manager        | [ly](https://codeberg.org/fairyglade/ly) | [gdm](https://gitlab.gnome.org/GNOME/gdm.git) \|\| [greetd](https://git.sr.ht/~kennylevinsen/greetd) + [regreet](https://github.com/rharish101/ReGreet) |
 | 🪟 Wayland Compositor     | [sway](https://github.com/swaywm/sway) |
 | 📜 Wayland Protocols      | [wayland-protocols](https://gitlab.freedesktop.org/wayland/wayland-protocols) + [wlr-protocols](https://gitlab.freedesktop.org/wlroots/wlr-protocols) + [frog-protocols](https://github.com/misyltoad/frog-protocols) |
 | 🔐 Session Access Manager | [polkit](https://github.com/polkit-org/polkit) |
 | 🌀 Portal Backend         | [xdg-desktop-portal-wlr](https://github.com/emersion/xdg-desktop-portal-wlr) |
-| 🧩🐢 Qt Wayland Modules     | [qt5-wayland](https://archlinux.org/packages/extra/x86_64/qt5-wayland) + [qt6-wayland](https://archlinux.org/packages/extra/x86_64/qt6-wayland) |
+| 🧩 Qt Wayland Modules     | [qt5-wayland](https://archlinux.org/packages/extra/x86_64/qt5-wayland) + [qt6-wayland](https://archlinux.org/packages/extra/x86_64/qt6-wayland) |
 
 ---
 
 ## 📟 Terminal & Shell
 
-| Module Type | Module Name |
-|-------------|-------------|
+| Module Type | Module Name | Alternatives |
+|-------------|-------------|--------------|
 | 🐟 Shell & Framework | [fish](https://github.com/fish-shell/fish-shell) + [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) |
 | 🖥️ Terminal Emulator | [foot](https://codeberg.org/dnkl/foot) |
-| 💫 Shell Enhancers   | [starship](https://github.com/starship/starship) \| [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
+| 💫 Shell Enhancers   | [starship](https://github.com/starship/starship) | [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
 | 🔍 Terminal Tools    | [fzf](https://github.com/junegunn/fzf) \| [skim](https://github.com/skim-rs/skim) \| [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) |
 
 ---
 
 ## 🧩 Workspace Tools
 
-| Module Type | Module Name |
-|-------------|-------------|
-| 🧱 Bar / Panel         | [waybar](https://github.com/Alexays/Waybar) \| [ironbar](https://github.com/JakeStanger/ironbar) |
-| 💡 OSD                 | [swayosd](https://github.com/ErikReider/SwayOSD) \| [wob](https://github.com/francma/wob) |
-| 🔔 Notification Daemon | [fnott](https://codeberg.org/dnkl/fnott) \| [mako](https://github.com/emersion/mako) |
-| 🎚️ Brightness & Gamma  | [brightnessctl](https://github.com/Hummer12007/brightnessctl) \| [gammastep](https://gitlab.com/chinstrap/gammastep) \| [wlsunset]
+| Module Type | Module Name | Alternatives |
+|-------------|-------------|--------------|
+| 🧱 Bar / Panel         | [waybar](https://github.com/Alexays/Waybar) | [ironbar](https://github.com/JakeStanger/ironbar) |
+| 💡 OSD                 | [swayosd](https://github.com/ErikReider/SwayOSD)
+| 🔔 Notification Daemon | [fnott](https://codeberg.org/dnkl/fnott) \| [mako](https://github.com/emersion/mako) | [SwayNotificationCenter](https://github.com/ErikReider/SwayNotificationCenter)
+| 🎚️ Brightness & Gamma  | [brightnessctl](https://github.com/Hummer12007/brightnessctl) + [gammastep](https://gitlab.com/chinstrap/gammastep) | [wlsunset]
 (https://git.sr.ht/~kennylevinsen/wlsunset) |
-| 🖼️ Wallpaper Tools     | [swaybg](https://github.com/swaywm/swaybg) \| [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) |
-| 🔒 Lockscreen & Logout | [swaylock](https://github.com/swaywm/swaylock) \| [waylock](https://codeberg.org/ifreund/waylock) + [wleave](https://github.com/AMNatty/wleave) |
+| 🖼️ Wallpaper Tools     | [swaybg](https://github.com/swaywm/swaybg) | [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) |
+| 🔒 Lockscreen & Logout | [swaylock](https://github.com/swaywm/swaylock) + [wleave](https://github.com/AMNatty/wleave) | [waylock](https://codeberg.org/ifreund/waylock) |
 | 🧰 Configuration Tools | [swaysettings](https://github.com/ErikReider/SwaySettings) + [nwg-displays](https://github.com/nwg-piotr/nwg-displays) |
-| 📺 Output Config Tools | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) \| [kanshi](https://sr.ht/~emersion/kanshi) \| [shikane](https://gitlab.com/w0lff/shikane) |
+| 📺 Output Config Tools | [kanshi](https://sr.ht/~emersion/kanshi)[wlr-randr] | (https://gitlab.freedesktop.org/emersion/wlr-randr) \| [shikane](https://gitlab.com/w0lff/shikane) |
 
 ---
 
