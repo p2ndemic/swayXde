@@ -8,11 +8,12 @@ My attempt to create a desktop environment for Sway
 
 | Module Type | Module Name |
 |-------------|-------------|
-| 🧰 Operating System          | [Arch Linux](https://archlinux.org/) \| [CachyOS](https://cachyos.org/) |
+| 🧰 Operating System          | [Arch Linux](https://archlinux.org/) \| [CachyOS](https://cachyos.org/)
 | ⚡ Power tuning daemon       | [tuned](https://github.com/redhat-performance/tuned) + [tuned-gui](https://github.com/redhat-performance/tuned) |
 | 🔋 Power Alert Daemon        | [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) |
 | 📶 Network Management tool   | [networkmanager](https://networkmanager.dev/) + [nm-connection-editor](https://gitlab.gnome.org/GNOME/network-manager-applet) |
 | 📡 Bluetooth Management tool | [blueman](https://github.com/blueman-project/blueman) |
+| 🔊 Piperwire volume control tool | [pwvucontrol](https://github.com/saivert/pwvucontrol) |
 | 🧊 Idle Daemon               | [swayidle](https://github.com/swaywm/swayidle) |
 
 ---
@@ -36,9 +37,10 @@ My attempt to create a desktop environment for Sway
 |-------------|-------------|--------------|
 | 🐟 Shell & Framework | [fish](https://github.com/fish-shell/fish-shell) + [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) |
 | 🖥️ Terminal Emulator | [foot](https://codeberg.org/dnkl/foot) |
-| 💫 Shell Enhancers   | [starship](https://github.com/starship/starship) + [navi](https://github.com/denisidoro/navi) | [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
+| 💫 Shell Enhancers   | [starship](https://github.com/starship/starship) \| [navi](https://github.com/denisidoro/navi) | [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
 | 🔧 Terminal Tools    | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat)
 | 🔍 File Search Tools | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
+| 📈 Fetch      | [fastfetch](https://github.com/fastfetch-cli/fastfetch) |
 
 ---
 
@@ -83,20 +85,21 @@ My attempt to create a desktop environment for Sway
 
 ## 📦 Applications
 
-| Module Type | Module Name |
-|-------------|-------------|
+| Module Type | Module Name | Alternatives |
+|-------------|-------------|--------------|
 | 🚀 App Launcher          | [fuzzel](https://codeberg.org/dnkl/fuzzel) \| [walker](https://github.com/abenz1267/walker) |
 | 📁 File Managers         | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) \| [nautilus](https://wiki.gnome.org/Apps/Files) \| [yazi](https://github.com/sxyazi/yazi) |
 | 📝 Text Editors          | [zed](https://github.com/zed-industries/zed) \| [vscode](https://wiki.archlinux.org/title/Visual_Studio_Code) \| [micro](https://github.com/zyedidia/micro) \| [orbiton](https://github.com/xyproto/orbiton) \| [nano](https://cgit.git.savannah.gnu.org/cgit/nano.git) |
-| 📸 Screenshot Tools      | [wayshot](https://git.sr.ht/~shinyzenith/wayshot) \| [grimshot](https://github.com/OctopusET/sway-contrib) \| [shotman](https://git.sr.ht/~whynothugo/shotman) \| [satty](https://github.com/gabm/satty) |
+| 📸 Screenshot Tools      | [wayshot](https://git.sr.ht/~shinyzenith/wayshot) | [grimshot](https://github.com/OctopusET/sway-contrib) \| [shotman](https://git.sr.ht/~whynothugo/shotman) \| [satty](https://github.com/gabm/satty) |
 | 🎥 Screen Recording      | [wl-screenrec](https://github.com/russelltg/wl-screenrec) \| [gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) \| [obs](https://obsproject.com/) |
-| 🎵 Media Players         | [mpv](https://github.com/mpv-player/mpv) + [yt-dlp](https://github.com/yt-dlp/yt-dlp) |
-| 🎧 Audio Tools           | [rmpc](https://github.com/mierak/rmpc) \| [ncspot](https://github.com/hrkfdn/ncspot) \| [playerctl](https://github.com/altdesktop/playerctl) + [pwvucontrol](https://github.com/saivert/pwvucontrol) \| [easyeffects](https://github.com/wwmm/easyeffects) |
+| 🎚️ Multimedia Control Tools | [playerctl](https://github.com/altdesktop/playerctl) | [easyeffects](https://github.com/wwmm/easyeffects)|
+| 🎬 Media Players         | [mpv](https://github.com/mpv-player/mpv) + [yt-dlp](https://github.com/yt-dlp/yt-dlp) |
+| 🎵 Audio Players         | [rmpc](https://github.com/mierak/rmpc) + [ncspot](https://github.com/hrkfdn/ncspot) /
 | 📊 Audio Visualizer      | [cava](https://github.com/karlstav/cava) \| [musializer](https://github.com/tsoding/musializer) |
 | 📖 PDF Reader            | [zathura](https://github.com/pwmt/zathura)                                  |
 | 🖼️ Image Viewer          | [oculante](https://github.com/woelper/oculante)                             |
 | ⏰ Clock                 | [tenki](https://github.com/ckaznable/tenki)                                 |
-| 📈 System Fetch          | [fastfetch](https://github.com/fastfetch-cli/fastfetch)                     |
+
 | 🌧️ Terminal Visuals      | [ascii-rain](https://github.com/nkleemann/ascii-rain)                       |
 | 🗒️ Notes                 | [obsidian](https://obsidian.md/) \| [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) + [notesnook](https://notesnook.com/) |
 | 🔖 Bookmark Manager      | [raindrop](https://raindrop.io/)                                            |
