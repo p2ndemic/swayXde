@@ -11,7 +11,7 @@ My attempt to create a desktop environment for Sway
 | 🧰 Operating System          | [Arch Linux](https://archlinux.org/) \| [CachyOS](https://cachyos.org/) |
 | ⚡ Power tuning daemon       | [tuned](https://github.com/redhat-performance/tuned) + [tuned-gui](https://github.com/redhat-performance/tuned) |
 | 🔋 Power Alert Daemon        | [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) |
-| 📶 Network Management tool   | [NetworkManager](https://networkmanager.dev/) + [nm-connection-editor](https://gitlab.gnome.org/GNOME/network-manager-applet) |
+| 📶 Network Management tool   | [networkmanager](https://networkmanager.dev/) + [nm-connection-editor](https://gitlab.gnome.org/GNOME/network-manager-applet) |
 | 📡 Bluetooth Management tool | [blueman](https://github.com/blueman-project/blueman) |
 | 🧊 Idle Daemon               | [swayidle](https://github.com/swaywm/swayidle) |
 
