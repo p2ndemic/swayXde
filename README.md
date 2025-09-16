@@ -6,10 +6,10 @@ My attempt to create a desktop environment for Sway
 
 ## 🖥️ OS & Core Components
 
-| Module Type | Module Name |
-|-------------|-------------|
+| Module Type | Module Name | Optional |
+|-------------|-------------|----------|
 | 🧰 Operating System          | [Arch Linux](https://archlinux.org/) \| [CachyOS](https://cachyos.org/)
-| 🔹 Intel Drivers             | [intel-ucode](https://archlinux.org/packages/extra/any/intel-ucode) |
+| 🔹 Intel Drivers             | [intel-ucode](https://archlinux.org/packages/extra/any/intel-ucode/) + [vulkan-intel](https://archlinux.org/packages/extra/x86_64/vulkan-intel) + [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) + [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) + [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) + [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) + [intel-compute-runtime](https://archlinux.org/packages/extra/x86_64/intel-compute-runtime/) + [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) + [intel-media-driver](https://archlinux.org/packages/extra/x86_64/intel-media-driver/) + [vpl-gpu-rt](https://archlinux.org/packages/extra/x86_64/vpl-gpu-rt/) | [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) \| [level-zero-loader](https://archlinux.org/packages/extra/x86_64/level-zero-loader/) \| [level-zero-headers](https://archlinux.org/packages/extra/x86_64/level-zero-headers/) |
 | 🔸 AMD Drivers               | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode)
 | ⚡ Power tuning daemon       | [tuned](https://github.com/redhat-performance/tuned) + [tuned-gui](https://github.com/redhat-performance/tuned) |
 | 🔋 Power Alert Daemon        | [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) |
