@@ -15,6 +15,7 @@ My attempt to create a desktop environment for Sway
 | 📡 Bluetooth Management tool | [blueman](https://github.com/blueman-project/blueman) |
 | 🔊 Piperwire volume control tool | [pwvucontrol](https://github.com/saivert/pwvucontrol) |
 | 🧊 Idle Daemon               | [swayidle](https://github.com/swaywm/swayidle) |
+| 🅰️ Font rendering            | [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) · [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) |
 
 ## 📦 Drivers & Firmware
 
@@ -26,9 +27,9 @@ My attempt to create a desktop environment for Sway
 | 🧰 Mesa Stack           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) |
 | 🔹 Intel Vulkan Drivers | [vulkan-intel](https://archlinux.org/packages/extra/x86_64/vulkan-intel) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) |
 | 🔸 AMD Vulkan Drivers   | [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) |
-| 🔹 Intel OpenCL         | [intel-compute-runtime](https://archlinux.org/packages/extra/x86_64/intel-compute-runtime/) + [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) |
+| 🔹 Intel OpenCL         | [intel-compute-runtime](https://archlinux.org/packages/extra/x86_64/intel-compute-runtime/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) |
 | 🔸 AMD OpenCL           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [rocm-opencl-runtime](https://archlinux.org/packages/extra/x86_64/rocm-opencl-runtime/) \| [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) |
-| 🔹 Intel VA-API         | [intel-media-driver](https://archlinux.org/packages/extra/x86_64/intel-media-driver/) + [vpl-gpu-rt](https://archlinux.org/packages/extra/x86_64/vpl-gpu-rt/) |
+| 🔹 Intel VA-API         | [intel-media-driver](https://archlinux.org/packages/extra/x86_64/intel-media-driver/) · [vpl-gpu-rt](https://archlinux.org/packages/extra/x86_64/vpl-gpu-rt/) |
 | 🔸 AMD VA-API           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) |
 | 1️⃣ oneAPI               | |[level-zero-loader](https://archlinux.org/packages/extra/x86_64/level-zero-loader/) · [level-zero-headers](https://archlinux.org/packages/extra/x86_64/level-zero-headers/) |
 
@@ -126,7 +127,6 @@ My attempt to create a desktop environment for Sway
 
 | Module Type | Module Name |
 |-------------|-------------|
-| 🅰️ Font rendering | [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) \| [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) |
 | 🎨 Theme Manager  | [kvantum](https://github.com/tsujan/Kvantum) + [nwg-look](https://github.com/nwg-piotr/nwg-look) |
 | 🌈 GTK Themes     | [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
 | ✨ Qt Themes      | [kvlibadwaita](https://github.com/GabePoel/KvLibadwaita) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
