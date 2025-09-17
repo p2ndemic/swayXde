@@ -116,7 +116,6 @@ My attempt to create a desktop environment for Sway
 | 📖 PDF Reader            | [zathura](https://github.com/pwmt/zathura)                                  |
 | 🖼️ Image Viewer          | [oculante](https://github.com/woelper/oculante)                             |
 | ⏰ Clock                 | [tenki](https://github.com/ckaznable/tenki)                                 |
-
 | 🌧️ Terminal Visuals      | [ascii-rain](https://github.com/nkleemann/ascii-rain)                       |
 | 🗒️ Notes                 | [obsidian](https://obsidian.md/) \| [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) + [notesnook](https://notesnook.com/) |
 | 🔖 Bookmark Manager      | [raindrop](https://raindrop.io/)                                            |
@@ -127,7 +126,7 @@ My attempt to create a desktop environment for Sway
 
 | Module Type | Module Name |
 |-------------|-------------|
-| 🅰️ Font rendering | [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) |
+| 🅰️ Font rendering | [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) \| [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) |
 | 🎨 Theme Manager  | [kvantum](https://github.com/tsujan/Kvantum) + [nwg-look](https://github.com/nwg-piotr/nwg-look) |
 | 🌈 GTK Themes     | [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
 | ✨ Qt Themes      | [kvlibadwaita](https://github.com/GabePoel/KvLibadwaita) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
