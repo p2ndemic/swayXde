@@ -22,7 +22,7 @@ My attempt to create a desktop environment for Sway
 | Module Type | Module Name | Optional |
 |-------------|-------------|----------|
 | ⚙️ Linux Firmware       | [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) · [sof-firmware](https://archlinux.org/packages/extra/x86_64/sof-firmware/) |
-| 🧰 Mesa Stack           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) |
+| 🧰 Mesa Stack           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) | https://www.linuxfromscratch.org/blfs/view/git/x/mesa.html |
 | 📡 Bluetooth drivers    | |
 
 ### 🔹 Intel Drivers
