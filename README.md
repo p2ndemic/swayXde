@@ -137,4 +137,5 @@ My attempt to create a desktop environment for Sway
 
 ```
 https://github.com/aceydot/swaydots
+https://codeberg.org/stdrice/pengurice
 ```
