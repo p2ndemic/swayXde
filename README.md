@@ -64,6 +64,7 @@ My attempt to create a desktop environment for Sway
 | 🔒 Lockscreen & Logout | [swaylock](https://github.com/swaywm/swaylock) + [wleave](https://github.com/AMNatty/wleave) | [waylock](https://codeberg.org/ifreund/waylock) |
 | 🧰 Configuration Tools | [swaysettings](https://github.com/ErikReider/SwaySettings) + [nwg-displays](https://github.com/nwg-piotr/nwg-displays) |
 | 📺 Output Config Tools | [kanshi](https://sr.ht/~emersion/kanshi) | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) \| [shikane](https://gitlab.com/w0lff/shikane) |
+| 🔌 Auto-mount Tools    | [udiskie](https://github.com/coldfix/udiskie)
 
 ---
 
