@@ -16,29 +16,20 @@ My attempt to create a desktop environment for Sway
 | 🔊 Piperwire volume control tool | [pwvucontrol](https://github.com/saivert/pwvucontrol) |
 | 🧊 Idle Daemon               | [swayidle](https://github.com/swaywm/swayidle) |
 
-
-## 📦 Drivers & Firmware
-
-| Module Type | Module Name | Optional |
-|-------------|-------------|----------|
-| 🔹 Intel Drivers | [intel-ucode](https://archlinux.org/packages/extra/any/intel-ucode/) · [vulkan-intel](https://archlinux.org/packages/extra/x86_64/vulkan-intel) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) + [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) + [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) + [intel-compute-runtime](https://archlinux.org/packages/extra/x86_64/intel-compute-runtime/) + [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) + [intel-media-driver](https://archlinux.org/packages/extra/x86_64/intel-media-driver/) + [vpl-gpu-rt](https://archlinux.org/packages/extra/x86_64/vpl-gpu-rt/) | [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) ¦ [level-zero-loader](https://archlinux.org/packages/extra/x86_64/level-zero-loader/) ¦ [level-zero-headers](https://archlinux.org/packages/extra/x86_64/level-zero-headers/) |
-| 🔸 AMD Drivers   | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode) + [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/) + [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) + [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) + [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) + [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) + [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) + [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) | [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/)
-
-
 ## 📦 Drivers & Firmware
 
 | Module Type | Module Name | Optional |
 |-------------|-------------|----------|
 | ⚙️ Linux Firmware       | [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) · [sof-firmware](https://archlinux.org/packages/extra/x86_64/sof-firmware/) |
-| 🔹 Intel Microcode      | [intel-ucode](https://archlinux.org/packages/extra/any/intel-ucode/) |
-| 🔸 AMD Microcode        | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode) |
+| 🛠️ Intel Microcode      | [intel-ucode](https://archlinux.org/packages/extra/any/intel-ucode/) |
+| 🛠️ AMD Microcode        | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode) |
 | 🧰 Mesa Stack           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) |
 | 🔹 Intel Vulkan Drivers | [vulkan-intel](https://archlinux.org/packages/extra/x86_64/vulkan-intel) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) |
 | 🔸 AMD Vulkan Drivers   | [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) |
 | 🔹 Intel OpenCL         | [intel-compute-runtime](https://archlinux.org/packages/extra/x86_64/intel-compute-runtime/) + [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | \| [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) |
 | 🔸 AMD OpenCL           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | \| [rocm-opencl-runtime](https://archlinux.org/packages/extra/x86_64/rocm-opencl-runtime/) [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) |
 | 🔹 Intel VA-API         | [intel-media-driver](https://archlinux.org/packages/extra/x86_64/intel-media-driver/) + [vpl-gpu-rt](https://archlinux.org/packages/extra/x86_64/vpl-gpu-rt/) |
-| 🔸 AMD VA-API          | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) |
+| 🔸 AMD VA-API           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) |
 | 1️⃣ oneAPI               | |[level-zero-loader](https://archlinux.org/packages/extra/x86_64/level-zero-loader/) · [level-zero-headers](https://archlinux.org/packages/extra/x86_64/level-zero-headers/) |
 
 ---
