@@ -29,8 +29,7 @@ My attempt to create a desktop environment for Sway
 
 | Module Type | Module Name | Optional |
 |-------------|-------------|----------|
-| ⚙️ Linux Firmware  | [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) |
-| 🎛️ SOF             | [sof-firmware](https://archlinux.org/packages/extra/x86_64/sof-firmware/) |
+| ⚙️ Linux Firmware  | [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) · [sof-firmware](https://archlinux.org/packages/extra/x86_64/sof-firmware/) |
 | 🔹 Intel Microcode | [intel-ucode](https://archlinux.org/packages/extra/any/intel-ucode/) |
 | 🔸 AMD Microcode   | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode)|
 | 🔹 Intel Vulkan Drivers | [vulkan-intel](https://archlinux.org/packages/extra/x86_64/vulkan-intel) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) |
