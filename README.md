@@ -56,7 +56,7 @@ My attempt to create a desktop environment for Sway
 | 🐟 Shell & Framework | [fish](https://github.com/fish-shell/fish-shell) + [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) |
 | 💫 Shell Enhancers   | [starship](https://github.com/starship/starship) \| [navi](https://github.com/denisidoro/navi) | [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
 | 🖥️ Terminal Emulator | [foot](https://codeberg.org/dnkl/foot) |
-| 🔧 Terminal Tools    | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat)
+| 🔧 Terminal Tools    | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) \| [zoxide](https://github.com/ajeetdsouza/zoxide)
 | 🔍 File Search Tools | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
 | 📈 System Fetch      | [fastfetch](https://github.com/fastfetch-cli/fastfetch) |
 
