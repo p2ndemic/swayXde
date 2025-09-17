@@ -22,16 +22,27 @@ My attempt to create a desktop environment for Sway
 | Module Type | Module Name | Optional |
 |-------------|-------------|----------|
 | ⚙️ Linux Firmware       | [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) · [sof-firmware](https://archlinux.org/packages/extra/x86_64/sof-firmware/) |
-| 🛠️ Intel Microcode      | [intel-ucode](https://archlinux.org/packages/extra/any/intel-ucode/) |
-| 🛠️ AMD Microcode        | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode) |
 | 🧰 Mesa Stack           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) |
+| 🧰 Bluetooth drivers    | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) |
+
+### 🔹 Intel Drivers
+
+| Module Type | Module Name | Optional |
+|-------------|-------------|----------|
+| 🔹 Intel Microcode      | [intel-ucode](https://archlinux.org/packages/extra/any/intel-ucode/) |
 | 🔹 Intel Vulkan Drivers | [vulkan-intel](https://archlinux.org/packages/extra/x86_64/vulkan-intel) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) · [mesa-utils](https://archlinux.org/packages/extra/x86_64/mesa-utils/) |
-| 🔸 AMD Vulkan Drivers   | [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) · [mesa-utils](https://archlinux.org/packages/extra/x86_64/mesa-utils/) |
 | 🔹 Intel OpenCL         | [intel-compute-runtime](https://archlinux.org/packages/extra/x86_64/intel-compute-runtime/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) |
-| 🔸 AMD OpenCL           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [rocm-opencl-runtime](https://archlinux.org/packages/extra/x86_64/rocm-opencl-runtime/) \| [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) |
 | 🔹 Intel VA-API         | [intel-media-driver](https://archlinux.org/packages/extra/x86_64/intel-media-driver/) · [vpl-gpu-rt](https://archlinux.org/packages/extra/x86_64/vpl-gpu-rt/) |
-| 🔸 AMD VA-API           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) |
 | 1️⃣ oneAPI               | |[level-zero-loader](https://archlinux.org/packages/extra/x86_64/level-zero-loader/) · [level-zero-headers](https://archlinux.org/packages/extra/x86_64/level-zero-headers/) |
+
+### 🔸 AMD Drivers
+
+| Module Type | Module Name | Optional |
+|-------------|-------------|----------|
+| 🔸 AMD Microcode        | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode) |
+| 🔸 AMD Vulkan Drivers   | [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) · [mesa-utils](https://archlinux.org/packages/extra/x86_64/mesa-utils/) |
+| 🔸 AMD OpenCL           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [rocm-opencl-runtime](https://archlinux.org/packages/extra/x86_64/rocm-opencl-runtime/) \| [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) |
+| 🔸 AMD VA-API           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) |
 
 ---
 
@@ -42,6 +53,13 @@ My attempt to create a desktop environment for Sway
 | 🚪 Display Manager        | [ly](https://codeberg.org/fairyglade/ly) | [greetd](https://git.sr.ht/~kennylevinsen/greetd) ﹢ [regreet](https://github.com/rharish101/ReGreet) |
 | 🪟 Wayland Compositor     | [sway](https://github.com/swaywm/sway) |
 | 📜 Wayland Protocols      | [wayland-protocols](https://gitlab.freedesktop.org/wayland/wayland-protocols) + [wlr-protocols](https://gitlab.freedesktop.org/wlroots/wlr-protocols) + [frog-protocols](https://github.com/misyltoad/frog-protocols) |
+egl-wayland
+xdg-utils
+xdg-desktop-portal
+xdg-user-dirs-gtk
+xdg-desktop-portal-lxqt
+xorg-xwayland
+lxqt-policykit
 | 🔐 Session Access Manager | [polkit](https://github.com/polkit-org/polkit) |
 | 🌀 Portal Backend         | [xdg-desktop-portal-wlr](https://github.com/emersion/xdg-desktop-portal-wlr) |
 | 🧩 Qt Wayland Modules     | [qt5-wayland](https://archlinux.org/packages/extra/x86_64/qt5-wayland) + [qt6-wayland](https://archlinux.org/packages/extra/x86_64/qt6-wayland) |
