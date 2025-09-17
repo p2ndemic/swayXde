@@ -8,7 +8,7 @@ My attempt to create a desktop environment for Sway
 
 | Module Type | Module Name |
 |-------------|-------------|
-| 🧰 Operating System          | [Arch Linux](https://archlinux.org/) ‖ [CachyOS](https://cachyos.org/)
+| 🐧 Operating System          | [Arch Linux](https://archlinux.org/) ‖ [CachyOS](https://cachyos.org/)
 | ⚡ Power tuning daemon       | [tuned](https://github.com/redhat-performance/tuned) ﹢ [tuned-gui](https://github.com/redhat-performance/tuned) |
 | 🔋 Power Alert Daemon        | [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) |
 | 📶 Network Management tool   | [networkmanager](https://networkmanager.dev/) ﹢ [nm-connection-editor](https://gitlab.gnome.org/GNOME/network-manager-applet) |
@@ -29,10 +29,12 @@ My attempt to create a desktop environment for Sway
 
 | Module Type | Module Name | Optional |
 |-------------|-------------|----------|
-| 🔹 Intel Firmware | [intel-ucode](https://archlinux.org/packages/extra/any/intel-ucode/) |
-| 🔸 AMD Firmware   | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode)|
+| ⚙️ Linux Firmware  | [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) |
+| 🎛️ SOF             | [sof-firmware](https://archlinux.org/packages/extra/x86_64/sof-firmware/) |
+| 🔹 Intel Microcode | [intel-ucode](https://archlinux.org/packages/extra/any/intel-ucode/) |
+| 🔸 AMD Microcode   | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode)|
 | 🔹 Intel Vulkan Drivers | [vulkan-intel](https://archlinux.org/packages/extra/x86_64/vulkan-intel) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) |
-| 🔸 AMD Vulkan Drivers   | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode)|
+| 🔸 AMD Vulkan Drivers   | [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) |
 
 ---
 
