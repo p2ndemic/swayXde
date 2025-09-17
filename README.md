@@ -24,6 +24,16 @@ My attempt to create a desktop environment for Sway
 | 🔹 Intel Drivers | [intel-ucode](https://archlinux.org/packages/extra/any/intel-ucode/) · [vulkan-intel](https://archlinux.org/packages/extra/x86_64/vulkan-intel) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) + [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) + [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) + [intel-compute-runtime](https://archlinux.org/packages/extra/x86_64/intel-compute-runtime/) + [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) + [intel-media-driver](https://archlinux.org/packages/extra/x86_64/intel-media-driver/) + [vpl-gpu-rt](https://archlinux.org/packages/extra/x86_64/vpl-gpu-rt/) | [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) ¦ [level-zero-loader](https://archlinux.org/packages/extra/x86_64/level-zero-loader/) ¦ [level-zero-headers](https://archlinux.org/packages/extra/x86_64/level-zero-headers/) |
 | 🔸 AMD Drivers   | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode) + [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/) + [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) + [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) + [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) + [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) + [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) + [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) | [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/)
 
+
+## 📦 Drivers & Firmware
+
+| Module Type | Module Name | Optional |
+|-------------|-------------|----------|
+| 🔹 Intel Firmware | [intel-ucode](https://archlinux.org/packages/extra/any/intel-ucode/) |
+| 🔸 AMD Firmware   | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode)|
+| 🔹 Intel Vulkan Drivers | [vulkan-intel](https://archlinux.org/packages/extra/x86_64/vulkan-intel) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) |
+| 🔸 AMD Vulkan Drivers   | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode)|
+
 ---
 
 ## 🖼️ Display Managers & Wayland Stack
@@ -119,10 +129,15 @@ My attempt to create a desktop environment for Sway
 
 | Module Type | Module Name |
 |-------------|-------------|
-| 🎨 Theme Manager | [kvantum](https://github.com/tsujan/Kvantum) + [nwg-look](https://github.com/nwg-piotr/nwg-look) |
-| 🌈 GTK Themes    | [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
-| ✨ Qt Themes     | [kvlibadwaita](https://github.com/GabePoel/KvLibadwaita) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
-| 🧸 Icons         | [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) |
-| 🔤 Fonts         | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) |
+| 🅰️ Font rendering | [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) |
+| 🎨 Theme Manager  | [kvantum](https://github.com/tsujan/Kvantum) + [nwg-look](https://github.com/nwg-piotr/nwg-look) |
+| 🌈 GTK Themes     | [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
+| ✨ Qt Themes      | [kvlibadwaita](https://github.com/GabePoel/KvLibadwaita) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
+| 🧸 Icons          | [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) |
+| 🔤 Fonts          | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) |
 
 ---
+
+```
+https://github.com/aceydot/swaydots
+```
