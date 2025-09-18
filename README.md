@@ -15,7 +15,8 @@ My attempt to create a desktop environment for Sway
 | 📡 Bluetooth Management tool | [blueman](https://github.com/blueman-project/blueman) |
 | 🔊 Piperwire volume control tool | [pwvucontrol](https://github.com/saivert/pwvucontrol) |
 | 🌙 Idle Daemon               | [swayidle](https://github.com/swaywm/swayidle) |
-| 🅰️ Font rendering            | [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) · [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) | 🧳 Archiving & Compression   | |
+| 🅰️ Font rendering            | [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) · [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) |
+| 🧳 Archiving & Compression   | |
 
 ## 📦 Drivers & Firmware
 
