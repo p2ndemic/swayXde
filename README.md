@@ -52,17 +52,11 @@ My attempt to create a desktop environment for Sway
 |-------------|-------------|--------------|
 | 🚪 Display Manager        | [ly](https://codeberg.org/fairyglade/ly) | [greetd](https://git.sr.ht/~kennylevinsen/greetd) ﹢ [regreet](https://github.com/rharish101/ReGreet) |
 | 🪟 Wayland Compositor     | [sway](https://github.com/swaywm/sway) |
-| 📜 Wayland Protocols      | [wayland-protocols](https://gitlab.freedesktop.org/wayland/wayland-protocols) + [wlr-protocols](https://gitlab.freedesktop.org/wlroots/wlr-protocols) + [frog-protocols](https://github.com/misyltoad/frog-protocols) |
-egl-wayland
-xdg-utils
-xdg-desktop-portal
-xdg-user-dirs-gtk
-xdg-desktop-portal-lxqt
-xorg-xwayland
-lxqt-policykit
-| 🔐 Session Access Manager | [polkit](https://github.com/polkit-org/polkit) |
-| 🌀 Portal Backend         | [xdg-desktop-portal-wlr](https://github.com/emersion/xdg-desktop-portal-wlr) |
-| 🧩 Qt Wayland Modules     | [qt5-wayland](https://archlinux.org/packages/extra/x86_64/qt5-wayland) + [qt6-wayland](https://archlinux.org/packages/extra/x86_64/qt6-wayland) |
+| 📜 Wayland Protocols      | [wayland-protocols](https://gitlab.freedesktop.org/wayland/wayland-protocols) ﹢ [wlr-protocols](https://gitlab.freedesktop.org/wlroots/wlr-protocols) + [frog-protocols](https://github.com/misyltoad/frog-protocols) |
+| 🛰️ EGL Wayland & XWayland | [egl-wayland](https://archlinux.org/packages/extra/x86_64/egl-wayland/) · [xorg-xwayland](https://archlinux.org/packages/extra/x86_64/xorg-xwayland/)
+| 🧩 Qt Wayland Modules     | [qt5-wayland](https://archlinux.org/packages/extra/x86_64/qt5-wayland) · [qt6-wayland](https://archlinux.org/packages/extra/x86_64/qt6-wayland) |
+| 🔐 Session Access Manager | [polkit](https://wiki.archlinux.org/title/Polkit) | [lxqt-policykit](https://archlinux.org/packages/extra/x86_64/lxqt-policykit/)
+| 🌀 Portal Backend         | [xdg-desktop-portal](https://wiki.archlinux.org/title/XDG_Desktop_Portal) · [xdg-desktop-portal-wlr](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-wlr/) · [xdg-utils](https://wiki.archlinux.org/title/Xdg-utils)| [xdg-desktop-portal-lxqt](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-lxqt/) | [xdg-user-dirs-gtk](https://archlinux.org/packages/extra/x86_64/xdg-user-dirs-gtk/)
 
 ---
 
