@@ -1,13 +1,12 @@
-<img width=150 height=60 align=left src="https://swaywm.org/logo.png">
+<img width=150 height=50 align=left src="https://swaywm.org/logo.png">
 <img width=150 height=50 align=right src="https://archlinux.org/static/logos/archlinux-logo-light-1200dpi.7ccd81fd52dc.png">
 
 <br><br>
 
-<p align="center">
-  <strong><font size="40">swayXde</font></strong>
-</p>
+<h1 align="center">swayXde</h1>
 
-My attempt to create a desktop environment for Sway
+<h6 align="right"><em>My attempt to create a desktop environment for Sway</em></h1>
+
 
 
 ## 🖥️ OS & Core Components
@@ -17,7 +16,7 @@ My attempt to create a desktop environment for Sway
 | 🐧 Operating System          | [Arch Linux](https://archlinux.org/) ‖ [CachyOS](https://cachyos.org/)
 | ⚡ Power tuning daemon       | [tuned](https://github.com/redhat-performance/tuned) ﹢ [tuned-gui](https://github.com/redhat-performance/tuned) |
 | 🔋 Power Alert Daemon        | [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) |
-| 📶 Network Management tool   | [networkmanager](https://networkmanager.dev/) ﹢ [nm-connection-editor](https://archlinux.org/packages/extra/x86_64/nm-connection-editor/) |
+| 📶🌐 Network Management tool   | [networkmanager](https://networkmanager.dev/) ﹢ [nm-connection-editor](https://archlinux.org/packages/extra/x86_64/nm-connection-editor/) |
 | 📡 Bluetooth Management tool | [blueman](https://github.com/blueman-project/blueman) |
 | 🔊 Piperwire volume control tool | [pwvucontrol](https://github.com/saivert/pwvucontrol) |
 | 🌙 Idle Daemon               | [swayidle](https://github.com/swaywm/swayidle) |
@@ -31,7 +30,7 @@ My attempt to create a desktop environment for Sway
 |-------------|-------------|----------|------|
 | ⚙️ Linux Firmware       | [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) · [sof-firmware](https://archlinux.org/packages/extra/x86_64/sof-firmware/) |
 | 🧰 Mesa Stack           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) | |
-| 📡 Bluetooth drivers    | |
+| 📡 Bluetooth drivers    | [bluez](https://wiki.archlinux.org/title/Bluetooth) · [bluez-libs](https://archlinux.org/packages/extra/x86_64/bluez-libs/) · [bluez-utils](https://archlinux.org/packages/extra/x86_64/bluez-utils/) | [bluez-hid2hci](https://archlinux.org/packages/extra/x86_64/bluez-hid2hci/) | sudo systemctl enable --now bluetooth.service && sudo usermod -aG lp $USER |
 
 ### 🔹 Intel Drivers
 
