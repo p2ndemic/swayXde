@@ -1,6 +1,12 @@
+<img width=150 height=60 align=left src="https://swaywm.org/logo.png">
 <img width=150 height=50 align=right src="https://archlinux.org/static/logos/archlinux-logo-light-1200dpi.7ccd81fd52dc.png">
 
-# swayXde
+<br><br>
+
+<p align="center">
+  <strong><font size="40">swayXde</font></strong>
+</p>
+
 My attempt to create a desktop environment for Sway
 
 
