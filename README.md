@@ -15,7 +15,7 @@ My attempt to create a desktop environment for Sway
 | 📡 Bluetooth Management tool | [blueman](https://github.com/blueman-project/blueman) |
 | 🔊 Piperwire volume control tool | [pwvucontrol](https://github.com/saivert/pwvucontrol) |
 | 🧊 Idle Daemon               | [swayidle](https://github.com/swaywm/swayidle) |
-| 🅰️ Font rendering            | [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) · [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) |
+| 🅰️ Font rendering            | [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) · [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) | 🧳 Archiving & Compression   | 
 
 ## 📦 Drivers & Firmware
 
@@ -65,12 +65,14 @@ My attempt to create a desktop environment for Sway
 
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
-| 🐟 Shell & Framework | [fish](https://github.com/fish-shell/fish-shell) + [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) |
-| 💫 Shell Enhancers   | [starship](https://github.com/starship/starship) \| [navi](https://github.com/denisidoro/navi) | [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
-| 🖥️ Terminal Emulator | [foot](https://codeberg.org/dnkl/foot) |
-| 🔧 Terminal Tools    | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) \| [zoxide](https://github.com/ajeetdsouza/zoxide) \| [broot](https://github.com/Canop/broot) \| [duf](https://github.com/muesli/duf) | [dua-cli](https://github.com/Byron/dua-cli) |
-| 🔍 File Search Tools | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
-| 📈 System Fetch      | [fastfetch](https://github.com/fastfetch-cli/fastfetch) |
+| 🐟 Shell & Framework   | [fish](https://github.com/fish-shell/fish-shell) ﹢ [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) |
+| 💫 Shell Enhancers     | [starship](https://github.com/starship/starship) \| [navi](https://github.com/denisidoro/navi) | [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
+| 🖥️ Terminal Emulator   | [foot](https://codeberg.org/dnkl/foot) |
+| 🔧 Terminal Tools      | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) \| [broot](https://github.com/Canop/broot) \| [duf](https://github.com/muesli/duf) | [dua-cli](https://github.com/Byron/dua-cli) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
+| 🔍 File Search Tools   | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
+| 💾 Disk Usage & cleaning |
+| 📈 System Fetch & Info | [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) |
+| 📝 Diff and merge tools | 
 
 ---
 
@@ -88,6 +90,7 @@ My attempt to create a desktop environment for Sway
 | 📺 Output Config Tools | [kanshi](https://sr.ht/~emersion/kanshi) | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) \| [shikane](https://gitlab.com/w0lff/shikane) |
 | 🔌 Auto-mount Tools    | [udiskie](https://github.com/coldfix/udiskie)
 
+
 ---
 
 ## 🧰 Utilities & System Tools
@@ -96,7 +99,7 @@ My attempt to create a desktop environment for Sway
 |-------------|-------------|
 | 📊 Monitoring & Metrics  | [btop](https://github.com/aristocratos/btop) \| [glances](https://github.com/nicolargo/glances) \| [netdata](https://github.com/netdata/netdata) \| [nvtop](https://github.com/Syllo/nvtop) \| [s-tui](https://github.com/amanusk/s-tui) \| [neohtop](https://github.com/Abdenasser/neohtop) \| [mission-center](https://gitlab.com/mission-center-devs/mission-center) |
 | 💻 System Utilities      | [iotop](https://github.com/Tomas-M/iotop) \| [kmon](https://github.com/orhun/kmon) \| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) \| [powertop](https://github.com/fenrus75/powertop) \| [acpid](https://wiki.archlinux.org/title/Acpid) |
-| 🧠 Info & Diagnostics    | [inxi](https://codeberg.org/smxi/inxi) \| [duf](https://github.com/muesli/duf) \| [wavemon](https://github.com/uoaerg/wavemon) \| [iftop](https://code.blinkace.com/pdw/iftop) |
+| 🧠 Info & Diagnostics    | [wavemon](https://github.com/uoaerg/wavemon) \| [iftop](https://code.blinkace.com/pdw/iftop) |
 | 📁 Disk & File Tools     | [dua-cli](https://github.com/Byron/dua-cli) \| [fselect](https://github.com/jhspetersson/fselect) \| [broot](https://github.com/Canop/broot) |
 | 📚 Knowledge Tools       |  \| [xdg-ninja](https://github.com/b3nj5m1n/xdg-ninja) |
 | 🧊 Misc                  | [wayfreeze](https://github.com/Jappie3/wayfreeze) \| [hyprfreeze](https://github.com/Zerodya/hyprfreeze) \| [vigiland](https://github.com/Jappie3/vigiland) \| [planify](https://github.com/alainm23/planify) \| [resources](https://github.com/nokyan/resources) \| [arch-update](https://github.com/Antiz96/arch-update) |
@@ -153,3 +156,28 @@ https://github.com/aceydot/swaydots
 https://codeberg.org/stdrice/pengurice
 https://taingram.org/blog/sway-tips.html
 ```
+🔄
+
+
+✨ Подходящие эмодзи:
+Эмодзи	Значение / Обоснование
+🧬	"DNA" — слияние, сравнение различий (отлично передаёт идею merge/diff)
+🔀	"Twisted arrows" — merge, разветвление, объединение
+🔎	"Magnifying glass" — просмотр различий
+🪄	"Magic wand" — автоматическое слияние, умный diff (актуально для difftastic, delta)
+⚖️	"Scales" — сравнение / выбор между двумя сторонами
+🪢	"Knot" — конфликт, который надо развязать (merge conflict)
+📝	"Writing" — редактирование во время сравнения
+📄	"Document" — работа с файлами (в контексте diff/merge)
+✅ Рекомендованный вариант:
+| 🧬 Diff & Merge Tools | diff + vimdiff + meld + kdiff3 + delta + difftastic |
+
+Альтернативы:
+
+🔀 — акцент на слияние (merge)
+
+🔎 — акцент на визуальное сравнение
+
+⚖️ — акцент на выбор между версиями
+
+🪢 — если хочешь немного юмора/креативности про merge-конфликты 😅
