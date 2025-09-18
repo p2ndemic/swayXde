@@ -14,7 +14,7 @@ My attempt to create a desktop environment for Sway
 | 📶 Network Management tool   | [networkmanager](https://networkmanager.dev/) ﹢ [nm-connection-editor](https://gitlab.gnome.org/GNOME/network-manager-applet) |
 | 📡 Bluetooth Management tool | [blueman](https://github.com/blueman-project/blueman) |
 | 🔊 Piperwire volume control tool | [pwvucontrol](https://github.com/saivert/pwvucontrol) |
-| 🧊 Idle Daemon               | [swayidle](https://github.com/swaywm/swayidle) |
+| 🌙 Idle Daemon               | [swayidle](https://github.com/swaywm/swayidle) |
 | 🅰️ Font rendering            | [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) · [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) | 🧳 Archiving & Compression   | 
 
 ## 📦 Drivers & Firmware
