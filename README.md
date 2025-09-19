@@ -15,7 +15,7 @@
 |-------------|-------------|
 | 💻 Operating System          | [Arch Linux](https://archlinux.org/) |
 | 🐧 Kernel                    | [linux-prjc-lfbmq](https://gitlab.com/alfredchen/linux-prjc/-/tree/linux-6.17.y-prjc-lfbmq) · _[Test](https://www.reddit.com/r/linux_gaming/comments/1nkg0lr/update_on_my_bmq_scheduler_post_a_sidebyside/)_ |
-| ⚡ Power tuning daemon       | [tuned](https://github.com/redhat-performance/tuned) ﹢ [tuned-gui](https://github.com/redhat-performance/tuned) |
+| ⚡ Power tuning daemon       | [tuned](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) ﹢ [tuned-gui](https://github.com/redhat-performance/tuned) |
 | 🔋 Power Alert Daemon        | [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) |
 | 📶🌐 Network Management tool | [networkmanager](https://networkmanager.dev/) ﹢ [nm-connection-editor](https://archlinux.org/packages/extra/x86_64/nm-connection-editor/) |
 | 📡 Bluetooth Management tool | [blueman](https://github.com/blueman-project/blueman) |
@@ -41,6 +41,7 @@
 | 🔹 Intel Vulkan    | [vulkan-intel](https://archlinux.org/packages/extra/x86_64/vulkan-intel) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) · [mesa-utils](https://archlinux.org/packages/extra/x86_64/mesa-utils/) |
 | 🔹 Intel OpenCL    | [intel-compute-runtime](https://archlinux.org/packages/extra/x86_64/intel-compute-runtime/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) | _env OCL_ICD_VENDORS=/etc/OpenCL/vendors/intel.icd_ |
 | 🔹 Intel VA-API    | [intel-media-driver](https://archlinux.org/packages/extra/x86_64/intel-media-driver/) · [vpl-gpu-rt](https://archlinux.org/packages/extra/x86_64/vpl-gpu-rt/) · [libvpl-tools](https://archlinux.org/packages/extra/x86_64/libvpl-tools/) | | _[Arch Wiki](https://wiki.archlinux.org/title/Hardware_video_acceleration)_ |
+[thermald](https://wiki.archlinux.org/title/CPU_frequency_scaling#thermald)
 | 1️⃣ oneAPI          | _optional_ | [level-zero-loader](https://archlinux.org/packages/extra/x86_64/level-zero-loader/) · [level-zero-headers](https://archlinux.org/packages/extra/x86_64/level-zero-headers/) |
 
 ### 🔸 AMD Drivers
