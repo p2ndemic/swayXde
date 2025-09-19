@@ -15,6 +15,7 @@
 |-------------|-------------|----------|------|
 | 💻 Operating System            | [Arch Linux](https://archlinux.org/) |
 | 🐧 Kernel                      | [linux-prjc-lfbmq](https://gitlab.com/alfredchen/linux-prjc/-/tree/linux-6.17.y-prjc-lfbmq) | | _[Test](https://www.reddit.com/r/linux_gaming/comments/1nkg0lr/update_on_my_bmq_scheduler_post_a_sidebyside/)_ |
+| File system utils | [xfsprogs](https://archlinux.org/packages/core/x86_64/xfsprogs/) | [Arch Wiki](https://wiki.archlinux.org/title/File_systems) |
 | ⚡ Power tuning daemon         | [tuned](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) ﹢ [tuned-gui](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) | | _sudo systemctl enable --now tuned.service_ |
 | 🔋 UPower & Power Alert Daemon | [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) | 
 | 📶 Network Drivers & Utils     | [networkmanager](https://wiki.archlinux.org/title/NetworkManager) ﹢ [nm-connection-editor](https://archlinux.org/packages/extra/x86_64/nm-connection-editor/) | |  _sudo systemctl enable --now NetworkManager.service_ |
