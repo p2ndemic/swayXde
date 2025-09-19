@@ -16,8 +16,8 @@
 | 💻 Operating System            | [Arch Linux](https://archlinux.org/) |
 | 🐧 Kernel                      | [linux-prjc-lfbmq](https://gitlab.com/alfredchen/linux-prjc/-/tree/linux-6.17.y-prjc-lfbmq) | | _[Test](https://www.reddit.com/r/linux_gaming/comments/1nkg0lr/update_on_my_bmq_scheduler_post_a_sidebyside/)_ |
 | File system utils | [xfsprogs](https://archlinux.org/packages/core/x86_64/xfsprogs/) | [Arch Wiki](https://wiki.archlinux.org/title/File_systems) |
+| 🔋 UPower & Power Alert Daemon | [upower](https://archlinux.org/packages/extra/x86_64/upower/) · [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) | 
 | ⚡ Power tuning daemon         | [tuned](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) ﹢ [tuned-gui](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) | | _sudo systemctl enable --now tuned.service_ |
-| 🔋 UPower & Power Alert Daemon | [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) | 
 | 📶 Network Drivers & Utils     | [networkmanager](https://wiki.archlinux.org/title/NetworkManager) ﹢ [nm-connection-editor](https://archlinux.org/packages/extra/x86_64/nm-connection-editor/) | |  _sudo systemctl enable --now NetworkManager.service_ |
 | 📡 Bluetooth Drivers & Utils   | [bluez](https://wiki.archlinux.org/title/Bluetooth) · [bluez-libs](https://archlinux.org/packages/extra/x86_64/bluez-libs/) · [bluez-utils](https://archlinux.org/packages/extra/x86_64/bluez-utils/) · [blueman](https://github.com/blueman-project/blueman) | [bluez-hid2hci](https://archlinux.org/packages/extra/x86_64/bluez-hid2hci/) · [bluez-obex](https://archlinux.org/packages/extra/x86_64/bluez-obex/) | _sudo usermod -aG lp $USER && sudo systemctl enable --now bluetooth.service_ |
 | 🎛️ ALSA   | [pwvucontrol](https://github.com/saivert/pwvucontrol) |
