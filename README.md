@@ -30,26 +30,26 @@
 |-------------|-------------|----------|------|
 | ⚙️ Linux Firmware       | [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) · [sof-firmware](https://archlinux.org/packages/extra/x86_64/sof-firmware/) |
 | 🧰 Mesa Stack           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) | |
-| 📡 Bluetooth drivers    | [bluez](https://wiki.archlinux.org/title/Bluetooth) · [bluez-libs](https://archlinux.org/packages/extra/x86_64/bluez-libs/) · [bluez-utils](https://archlinux.org/packages/extra/x86_64/bluez-utils/) | [bluez-hid2hci](https://archlinux.org/packages/extra/x86_64/bluez-hid2hci/) | sudo systemctl enable --now bluetooth.service && sudo usermod -aG lp $USER |
+| 📡 Bluetooth drivers    | [bluez](https://wiki.archlinux.org/title/Bluetooth) · [bluez-libs](https://archlinux.org/packages/extra/x86_64/bluez-libs/) · [bluez-utils](https://archlinux.org/packages/extra/x86_64/bluez-utils/) | [bluez-hid2hci](https://archlinux.org/packages/extra/x86_64/bluez-hid2hci/) | _sudo usermod -aG lp $USER && sudo systemctl enable --now bluetooth.service_ |
 
 ### 🔹 Intel Drivers
 
-| Module Type | Module Name | Optional |
-|-------------|-------------|----------|
+| Module Type | Module Name | Optional | Note |
+|-------------|-------------|----------|------|
 | 🔹 Intel Microcode | [intel-ucode](https://archlinux.org/packages/extra/any/intel-ucode/) |
 | 🔹 Intel Vulkan    | [vulkan-intel](https://archlinux.org/packages/extra/x86_64/vulkan-intel) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) · [mesa-utils](https://archlinux.org/packages/extra/x86_64/mesa-utils/) |
 | 🔹 Intel OpenCL    | [intel-compute-runtime](https://archlinux.org/packages/extra/x86_64/intel-compute-runtime/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) |
-| 🔹 Intel VA-API    | [intel-media-driver](https://archlinux.org/packages/extra/x86_64/intel-media-driver/) · [vpl-gpu-rt](https://archlinux.org/packages/extra/x86_64/vpl-gpu-rt/) · [libvpl-tools](https://github.com/intel/libvpl-tools/) |
+| 🔹 Intel VA-API    | [intel-media-driver](https://archlinux.org/packages/extra/x86_64/intel-media-driver/) · [vpl-gpu-rt](https://archlinux.org/packages/extra/x86_64/vpl-gpu-rt/) · [libvpl-tools](https://archlinux.org/packages/extra/x86_64/libvpl-tools/) | | _[Arch Wiki](https://wiki.archlinux.org/title/Hardware_video_acceleration)_ |
 | 1️⃣ oneAPI          | _optional_ | [level-zero-loader](https://archlinux.org/packages/extra/x86_64/level-zero-loader/) · [level-zero-headers](https://archlinux.org/packages/extra/x86_64/level-zero-headers/) |
 
 ### 🔸 AMD Drivers
 
-| Module Type | Module Name | Optional |
-|-------------|-------------|----------|
+| Module Type | Module Name | Optional | Note |
+|-------------|-------------|----------|------|
 | 🔸 AMD Microcode | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode) |
 | 🔸 AMD Vulkan    | [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) · [mesa-utils](https://archlinux.org/packages/extra/x86_64/mesa-utils/) |
 | 🔸 AMD OpenCL    | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [rocm-opencl-runtime](https://archlinux.org/packages/extra/x86_64/rocm-opencl-runtime/) \| [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) |
-| 🔸 AMD VA-API    | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) |
+| 🔸 AMD VA-API    | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) | | _[Arch Wiki](https://wiki.archlinux.org/title/Hardware_video_acceleration)_ |
 
 ---
 
@@ -72,14 +72,14 @@
 
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
-| 🐟 Shell & Framework   | [fish](https://github.com/fish-shell/fish-shell) ﹢ [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) |
-| 💫 Shell Enhancers     | [starship](https://github.com/starship/starship) \| [navi](https://github.com/denisidoro/navi) | [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
-| 🖥️ Terminal Emulator   | [foot](https://codeberg.org/dnkl/foot) |
-| 🔧 Terminal Tools      | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) \| [broot](https://github.com/Canop/broot) \| [duf](https://github.com/muesli/duf) | [dua-cli](https://github.com/Byron/dua-cli) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
-| 🔍 File Search Tools   | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
-| 💾 Disk Usage & cleaning |
-| 📈 System Fetch & Info | [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) |
-| 📝 Diff and merge tools | 
+| 🐟 Shell & Framework     | [fish](https://github.com/fish-shell/fish-shell) ﹢ [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) |
+| 💫 Shell Enhancers       | [starship](https://github.com/starship/starship) \| [navi](https://github.com/denisidoro/navi) | [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
+| 🖥️ Terminal Emulator     | [foot](https://codeberg.org/dnkl/foot) |
+| 🔧 Terminal Tools        | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) \| [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
+| 🔍 File Search Tools     | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
+| 💾 Disk Usage & Cleaning | [duf](https://github.com/muesli/duf) | [dua-cli](https://github.com/Byron/dua-cli)
+| 📈 System Fetch & Info   | [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) |
+| 📝 Diff and merge tools  | [meld](https://gitlab.gnome.org/GNOME/meld)
 
 ---
 
@@ -105,7 +105,7 @@
 | Module Type | Module Name |
 |-------------|-------------|
 | 📊 Monitoring & Metrics  | [btop](https://github.com/aristocratos/btop) \| [glances](https://github.com/nicolargo/glances) \| [netdata](https://github.com/netdata/netdata) \| [nvtop](https://github.com/Syllo/nvtop) \| [s-tui](https://github.com/amanusk/s-tui) \| [neohtop](https://github.com/Abdenasser/neohtop) \| [mission-center](https://gitlab.com/mission-center-devs/mission-center) |
-| 💻 System Utilities      | [iotop](https://github.com/Tomas-M/iotop) \| [kmon](https://github.com/orhun/kmon) \| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) \| [powertop](https://github.com/fenrus75/powertop) \| [acpid](https://wiki.archlinux.org/title/Acpid) |
+| 💻 System Utilities      | [iotop](https://github.com/Tomas-M/iotop) \| [kmon](https://github.com/orhun/kmon) \| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) \| [powertop](https://github.com/fenrus75/powertop) \| |
 | 🧠 Info & Diagnostics    | [wavemon](https://github.com/uoaerg/wavemon) \| [iftop](https://code.blinkace.com/pdw/iftop) |
 | 📁 Disk & File Tools     | [dua-cli](https://github.com/Byron/dua-cli) \| [fselect](https://github.com/jhspetersson/fselect) \| [broot](https://github.com/Canop/broot) |
 | 📚 Knowledge Tools       |  \| [xdg-ninja](https://github.com/b3nj5m1n/xdg-ninja) |
