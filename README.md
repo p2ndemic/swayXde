@@ -19,7 +19,7 @@
 | 🔋 UPower & Power Alert Daemon | [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) | 
 | 📶 Network Drivers & Utils     | [networkmanager](https://wiki.archlinux.org/title/NetworkManager) ﹢ [nm-connection-editor](https://archlinux.org/packages/extra/x86_64/nm-connection-editor/) |  _sudo systemctl enable --now NetworkManager.service_ |
 | 📡 Bluetooth Drivers & Utils   | [bluez](https://wiki.archlinux.org/title/Bluetooth) · [bluez-libs](https://archlinux.org/packages/extra/x86_64/bluez-libs/) · [bluez-utils](https://archlinux.org/packages/extra/x86_64/bluez-utils/) · [blueman](https://github.com/blueman-project/blueman) | [bluez-hid2hci](https://archlinux.org/packages/extra/x86_64/bluez-hid2hci/) · [bluez-obex](https://archlinux.org/packages/extra/x86_64/bluez-obex/) | _sudo usermod -aG lp $USER && sudo systemctl enable --now bluetooth.service_ |
-| 🔊 ALSA   | [pwvucontrol](https://github.com/saivert/pwvucontrol) |
+| 🎛️ ALSA   | [pwvucontrol](https://github.com/saivert/pwvucontrol) |
 | 🔊 Piperwire & Wireplumber     | [pwvucontrol](https://github.com/saivert/pwvucontrol) |
 | 🌙 Idle Daemon                 | [swayidle](https://github.com/swaywm/swayidle) |
 | 🅰️ Font rendering              | [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) · [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) |
@@ -77,11 +77,11 @@
 |-------------|-------------|--------------|
 | 🐟 Shell & Framework     | [fish](https://github.com/fish-shell/fish-shell) ﹢ [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) |
 | 💫 Shell Enhancers       | [starship](https://github.com/starship/starship) \| [navi](https://github.com/denisidoro/navi) | [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
-| 🖥️ Terminal Emulator     | [foot](https://codeberg.org/dnkl/foot) |
+| 📟 Terminal Emulator     | [foot](https://codeberg.org/dnkl/foot) |
 | 🔧 Terminal Tools        | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | 🔍 File Search Tools     | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
 | 💾 Disk Usage & Cleaning | [duf](https://github.com/muesli/duf) | [dua-cli](https://github.com/Byron/dua-cli)
-| 📈 System Fetch & Info   | [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) |
+| 📈🧰 System Fetch & Info   | [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) |
 | 📝 Diff and merge tools  | [meld](https://gitlab.gnome.org/GNOME/meld)
 
 ---
