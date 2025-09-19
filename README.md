@@ -16,7 +16,7 @@
 | 🐧 Operating System          | [Arch Linux](https://archlinux.org/) ‖ [CachyOS](https://cachyos.org/)
 | ⚡ Power tuning daemon       | [tuned](https://github.com/redhat-performance/tuned) ﹢ [tuned-gui](https://github.com/redhat-performance/tuned) |
 | 🔋 Power Alert Daemon        | [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) |
-| 📶🌐 Network Management tool   | [networkmanager](https://networkmanager.dev/) ﹢ [nm-connection-editor](https://archlinux.org/packages/extra/x86_64/nm-connection-editor/) |
+| 📶🌐 Network Management tool | [networkmanager](https://networkmanager.dev/) ﹢ [nm-connection-editor](https://archlinux.org/packages/extra/x86_64/nm-connection-editor/) |
 | 📡 Bluetooth Management tool | [blueman](https://github.com/blueman-project/blueman) |
 | 🔊 Piperwire volume control tool | [pwvucontrol](https://github.com/saivert/pwvucontrol) |
 | 🌙 Idle Daemon               | [swayidle](https://github.com/swaywm/swayidle) |
@@ -75,7 +75,7 @@
 | 🐟 Shell & Framework     | [fish](https://github.com/fish-shell/fish-shell) ﹢ [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) |
 | 💫 Shell Enhancers       | [starship](https://github.com/starship/starship) \| [navi](https://github.com/denisidoro/navi) | [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
 | 🖥️ Terminal Emulator     | [foot](https://codeberg.org/dnkl/foot) |
-| 🔧 Terminal Tools        | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) \| [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
+| 🔧 Terminal Tools        | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | 🔍 File Search Tools     | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
 | 💾 Disk Usage & Cleaning | [duf](https://github.com/muesli/duf) | [dua-cli](https://github.com/Byron/dua-cli)
 | 📈 System Fetch & Info   | [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) |
