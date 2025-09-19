@@ -15,8 +15,8 @@
 |-------------|-------------|------|
 | 💻 Operating System          | [Arch Linux](https://archlinux.org/) |
 | 🐧 Kernel                    | [linux-prjc-lfbmq](https://gitlab.com/alfredchen/linux-prjc/-/tree/linux-6.17.y-prjc-lfbmq) · _[Test](https://www.reddit.com/r/linux_gaming/comments/1nkg0lr/update_on_my_bmq_scheduler_post_a_sidebyside/)_ |
-| ⚡ Power tuning daemon       | [tuned](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) ﹢ [tuned-gui](https://github.com/redhat-performance/tuned) |
-| 🔋 Power Alert Daemon        | [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) | _sudo systemctl enable --now tuned.service_ |
+| ⚡ Power tuning daemon       | [tuned](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) ﹢ [tuned-gui](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) | _sudo systemctl enable --now tuned.service_ |
+| 🔋 Power Alert Daemon        | [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) | 
 | 📶🌐 Network Management tool | [networkmanager](https://networkmanager.dev/) ﹢ [nm-connection-editor](https://archlinux.org/packages/extra/x86_64/nm-connection-editor/) |
 | 📡 Bluetooth Management tool | [blueman](https://github.com/blueman-project/blueman) |
 | 🔊 Piperwire volume control tool | [pwvucontrol](https://github.com/saivert/pwvucontrol) |
