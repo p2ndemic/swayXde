@@ -15,7 +15,8 @@
 |-------------|-------------|----------|------|
 | 💻 Operating System            | [Arch Linux](https://archlinux.org/) |
 | 🐧 Kernel                      | [linux-prjc-lfbmq](https://gitlab.com/alfredchen/linux-prjc/-/tree/linux-6.17.y-prjc-lfbmq) | | _[Test](https://www.reddit.com/r/linux_gaming/comments/1nkg0lr/update_on_my_bmq_scheduler_post_a_sidebyside/)_ |
-| File System utils               | [xfsprogs](https://archlinux.org/packages/core/x86_64/xfsprogs/) | [Arch Wiki](https://wiki.archlinux.org/title/File_systems) |
+| 💀 Chaotic-AUR                 |[chaotic-aur](https://aur.chaotic.cx/)| | _[Wiki](https://aur.chaotic.cx/docs)_ |
+| 🗃️ File System utils           | [xfsprogs](https://archlinux.org/packages/core/x86_64/xfsprogs/) | [Arch Wiki](https://wiki.archlinux.org/title/File_systems) |
 | 🔋 UPower & Power Alert Daemon | [upower](https://archlinux.org/packages/extra/x86_64/upower/) · [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) | 
 | ⚡ Power tuning daemon         | [tuned](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) ﹢ [tuned-gui](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) | | _sudo systemctl enable --now tuned.service_ |
 | 📶 Network Drivers & Utils     | [ethtool](https://archlinux.org/packages/extra/x86_64/ethtool/) · [iwd](https://archlinux.org/packages/extra/x86_64/iwd/) · [wireless-regdb](https://archlinux.org/packages/core/any/wireless-regdb/) · [networkmanager](https://wiki.archlinux.org/title/NetworkManager) ﹢ [nm-connection-editor](https://archlinux.org/packages/extra/x86_64/nm-connection-editor/) | [impala](https://github.com/pythops/impala) | _sudo systemctl disable --now wpa_supplicant.service_ →  _sudo systemctl enable --now NetworkManager.service_ → _[nm_config](https://github.com/p2ndemic/dotfiles/blob/main/etc/NetworkManager/conf.d/99-iwd.conf)_ → _[iwd_config](https://github.com/p2ndemic/dotfiles/blob/main/etc/iwd/main.conf)_ → _[wireless-regdom_config](https://github.com/p2ndemic/dotfiles/tree/main/etc/conf.d)_ → _rfkill unblock wlan_|
@@ -25,7 +26,7 @@
 | 🌙 Idle Daemon                 | [swayidle](https://github.com/swaywm/swayidle) |
 | 🅰️ Font rendering              | [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) · [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) |
 | 🧊 Archiving & Compression     | [libarchive](https://archlinux.org/packages/core/x86_64/libarchive/) · [7zip](https://archlinux.org/packages/extra/x86_64/7zip/) · [arqiver](https://aur.archlinux.org/packages/arqiver) |
-|[chaotic-aur](https://aur.chaotic.cx/)|
+
 
 ## 📦 Drivers & Firmware
 
@@ -216,3 +217,49 @@ https://taingram.org/blog/sway-tips.html
 🌬️ — ветер (морозная атмосфера)
 🧣🧤 — шарф и варежки (зимняя одежда, в тему пингвинов)
 🌐
+
+
+📁 Эмодзи для File System Utils:
+📂 Общие символы файлов и папок:
+
+📁 — папка
+
+📂 — открытая папка
+
+🗂️ — организованные папки (например, индексация)
+
+🗃️ — архив, хранилище
+
+🗄️ — файловый шкаф (метафора хранения)
+
+📄 Символы файлов:
+
+📄 — документ
+
+📝 — редактируемый файл
+
+📃 — прокручиваемый документ
+
+📑 — документы с закладками (можно ассоциировать с многими файлами)
+
+⚙️ Действия и утилиты:
+
+⚙️ — настройки, утилиты
+
+🔧 — инструмент (работа с файлами)
+
+🧰 — набор инструментов (всё в одном)
+
+🔒 / 🔓 — защита файлов/доступ
+
+❌ — удаление
+
+📤 / 📥 — экспорт/импорт
+
+🔁 — синхронизация
+
+✂️ — вырезать
+
+📋 — копировать
+
+📌 — закрепить
