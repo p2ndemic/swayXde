@@ -35,15 +35,13 @@
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
 | ⚙️ Linux Firmware       | [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) · [sof-firmware](https://archlinux.org/packages/extra/x86_64/sof-firmware/) |
-| 🧰 Mesa Stack           | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) | |
-| 📡 Bluetooth drivers    | [bluez](https://wiki.archlinux.org/title/Bluetooth) · [bluez-libs](https://archlinux.org/packages/extra/x86_64/bluez-libs/) · [bluez-utils](https://archlinux.org/packages/extra/x86_64/bluez-utils/) | [bluez-hid2hci](https://archlinux.org/packages/extra/x86_64/bluez-hid2hci/) · [bluez-obex](https://archlinux.org/packages/extra/x86_64/bluez-obex/) | _sudo usermod -aG lp $USER && sudo systemctl enable --now bluetooth.service_ |
 
 ### 🔹 Intel Drivers
 
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
 | 🔹 Intel Microcode | [intel-ucode](https://archlinux.org/packages/extra/any/intel-ucode/) |
-| 🔹 Intel Vulkan    | [vulkan-intel](https://archlinux.org/packages/extra/x86_64/vulkan-intel) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) · [mesa-utils](https://archlinux.org/packages/extra/x86_64/mesa-utils/) |
+| 🔹 Intel Vulkan    | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) · [vulkan-intel](https://archlinux.org/packages/extra/x86_64/vulkan-intel) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) · [mesa-utils](https://archlinux.org/packages/extra/x86_64/mesa-utils/) |
 | 🔹 Intel OpenCL    | [intel-compute-runtime](https://archlinux.org/packages/extra/x86_64/intel-compute-runtime/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) | _env OCL_ICD_VENDORS=/etc/OpenCL/vendors/intel.icd_ |
 | 🔹 Intel VA-API    | [intel-media-driver](https://archlinux.org/packages/extra/x86_64/intel-media-driver/) · [vpl-gpu-rt](https://archlinux.org/packages/extra/x86_64/vpl-gpu-rt/) · [libvpl-tools](https://archlinux.org/packages/extra/x86_64/libvpl-tools/) | | _[Arch Wiki](https://wiki.archlinux.org/title/Hardware_video_acceleration)_ |
 | 🌡️ Intel Thermal Daemon | [thermald](https://wiki.archlinux.org/title/CPU_frequency_scaling#thermald) |
@@ -54,7 +52,7 @@
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
 | 🔸 AMD Microcode | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode) |
-| 🔸 AMD Vulkan    | [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) · [mesa-utils](https://archlinux.org/packages/extra/x86_64/mesa-utils/) |
+| 🔸 AMD Vulkan    | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/)  [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) · [mesa-utils](https://archlinux.org/packages/extra/x86_64/mesa-utils/) |
 | 🔸 AMD OpenCL    | [opencl-mesa](https://archlinux.org/packages/extra/x86_64/opencl-mesa/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [rocm-opencl-runtime](https://archlinux.org/packages/extra/x86_64/rocm-opencl-runtime/) \| [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) | _env RUSTICL_ENABLE=radeonsi_ |
 | 🔸 AMD VA-API    | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) | | _[Arch Wiki](https://wiki.archlinux.org/title/Hardware_video_acceleration)_ |
 
