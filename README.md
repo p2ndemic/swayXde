@@ -25,7 +25,7 @@
 | 🔊 Piperwire                   | [pwvucontrol](https://github.com/saivert/pwvucontrol) |
 | 🪄 Wireplumber & Utils         | 
 | 🌙 Idle Daemon                 | [swayidle](https://github.com/swaywm/swayidle) |
-| 🅰️ Font rendering              | [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) · [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) |
+| 🅰️ Font rendering              | [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) · [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) |
 | 🔤 Fonts                       | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) |
 | 🧊 Archiving & Compression     | [libarchive](https://archlinux.org/packages/core/x86_64/libarchive/) · [7zip](https://archlinux.org/packages/extra/x86_64/7zip/) · [arqiver](https://aur.archlinux.org/packages/arqiver) |
 
