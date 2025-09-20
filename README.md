@@ -26,6 +26,7 @@
 | 🪄 Wireplumber & Utils         | 
 | 🌙 Idle Daemon                 | [swayidle](https://github.com/swaywm/swayidle) |
 | 🅰️ Font rendering              | [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) · [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) |
+| 🔤 Fonts                       | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) |
 | 🧊 Archiving & Compression     | [libarchive](https://archlinux.org/packages/core/x86_64/libarchive/) · [7zip](https://archlinux.org/packages/extra/x86_64/7zip/) · [arqiver](https://aur.archlinux.org/packages/arqiver) |
 
 
@@ -160,7 +161,6 @@
 | 🌈 GTK Themes     | [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
 | ✨ Qt Themes      | [kvlibadwaita](https://github.com/GabePoel/KvLibadwaita) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
 | 🧸 Icons          | [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) |
-| 🔤 Fonts          | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) |
 
 ---
 
