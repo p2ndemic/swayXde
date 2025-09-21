@@ -18,7 +18,8 @@
 | 🗃️ FS Utils            | [xfsprogs](https://archlinux.org/packages/core/x86_64/xfsprogs/) | | _[Arch Wiki](https://wiki.archlinux.org/title/File_systems)_ |
 | 🔋 Power Management    | [upower](https://archlinux.org/packages/extra/x86_64/upower/) · [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) | 
 | ⚡ Power Tuning Daemon | [tuned](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) ﹢ [tuned-gui](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) | | _sudo systemctl enable --now tuned.service_ |
-| 💀 Chaotic-AUR         | [chaotic-aur](https://aur.chaotic.cx/)| | _[Wiki](https://aur.chaotic.cx/docs)_ |
+| 📦 Package Management  | [git](https://wiki.archlinux.org/title/Git) · | |  |
+| 🧙 AUR Helpers         | 💀 [chaotic-aur](https://aur.chaotic.cx/) · [yay](https://aur.archlinux.org/packages/yay) · [rebuild-detector](https://archlinux.org/packages/extra/any/rebuild-detector/)| [paru](https://aur.archlinux.org/packages/paru) | _[Сhaotic Wiki](https://aur.chaotic.cx/docs)_ |
 
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
@@ -28,7 +29,7 @@
 | 🧊 Archiving & Compression     | [libarchive](https://archlinux.org/packages/core/x86_64/libarchive/) · [7zip](https://archlinux.org/packages/extra/x86_64/7zip/) · [arqiver](https://aur.archlinux.org/packages/arqiver) |
 
 
-## 📦 Drivers & Firmware
+## 🧬 Drivers & Firmware
 
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
