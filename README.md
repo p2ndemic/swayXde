@@ -32,7 +32,7 @@
 
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
-| ⚙️ Linux Firmware       | [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) · [sof-firmware](https://archlinux.org/packages/extra/x86_64/sof-firmware/) |
+| ⚙️ Linux Firmware       | [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) · [sof-firmware](https://archlinux.org/packages/extra/x86_64/sof-firmware/) | | _[Arch Wiki](https://wiki.archlinux.org/title/Linux_firmware)_ · _[SOF Doc](https://thesofproject.github.io/latest/getting_started/intel_debug/introduction.html)_ |
 
 ### 🔹 Intel Drivers
 
