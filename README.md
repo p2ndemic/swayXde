@@ -20,13 +20,7 @@
 | 📦 Package Management  | [pacman-contrib](https://archlinux.org/packages/extra/x86_64/pacman-contrib/) · [pkgfile](https://wiki.archlinux.org/title/Pkgfile) · [reflector](https://wiki.archlinux.org/title/Reflector) · [rebuild-detector](https://archlinux.org/packages/extra/any/rebuild-detector/) · [git](https://wiki.archlinux.org/title/Git) · [octopi](https://aur.archlinux.org/packages/octopi) | | _[Arch Wiki](https://wiki.archlinux.org/title/Pacman)_ |
 | 🧙 AUR Helpers         | [chaotic-aur](https://aur.chaotic.cx/) · [yay](https://aur.archlinux.org/packages/yay) | [paru](https://aur.archlinux.org/packages/paru) | 💀 _[Сhaotic Wiki](https://aur.chaotic.cx/docs)_ |
 
-| Module Type | Module Name | Optional | Note |
-|-------------|-------------|----------|------|
-| 🌙 Idle Daemon                 | [swayidle](https://github.com/swaywm/swayidle) |
-| 🅰️ Font rendering              | [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) · [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) |
-| 🔤 Fonts                       | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) |
-| 🧊 Archiving & Compression     | [libarchive](https://archlinux.org/packages/core/x86_64/libarchive/) · [7zip](https://archlinux.org/packages/extra/x86_64/7zip/) · [arqiver](https://aur.archlinux.org/packages/arqiver) |
-
+---
 
 ## 🧬 Drivers & Firmware
 
@@ -45,6 +39,8 @@
 | 🌡️ Intel Thermal Daemon | [thermald](https://archlinux.org/packages/extra/x86_64/thermald/) | | _[Arch Wiki](https://wiki.archlinux.org/title/CPU_frequency_scaling#thermald)_ ➟ _sudo systemctl enable --now thermald_ |
 | 1️⃣ oneAPI          | _optional_ | [level-zero-loader](https://archlinux.org/packages/extra/x86_64/level-zero-loader/) · [level-zero-headers](https://archlinux.org/packages/extra/x86_64/level-zero-headers/) |
 
+---
+
 ### 🔸 AMD Drivers
 
 | Module Type | Module Name | Optional | Note |
@@ -54,11 +50,15 @@
 | 🔸 AMD OpenCL    | [opencl-mesa](https://archlinux.org/packages/extra/x86_64/opencl-mesa/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [rocm-opencl-runtime](https://archlinux.org/packages/extra/x86_64/rocm-opencl-runtime/) \| [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) | _[Arch Wiki](https://wiki.archlinux.org/title/GPGPU)_ ➟ _env RUSTICL_ENABLE=radeonsi_ |
 | 🔸 AMD VA-API    | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) | | _[Arch Wiki](https://wiki.archlinux.org/title/Hardware_video_acceleration)_ ➟ _env LIBVA_DRIVER_NAME=radeonsi_ |
 
+---
+
 ### 🌐 Network & Bluetooth Drivers
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
 | 📶 Network Drivers & Utils     | [ethtool](https://archlinux.org/packages/extra/x86_64/ethtool/) · [iwd](https://archlinux.org/packages/extra/x86_64/iwd/) · [wireless-regdb](https://archlinux.org/packages/core/any/wireless-regdb/) · [xl2tpd](https://archlinux.org/packages/extra/x86_64/xl2tpd/) · [networkmanager](https://wiki.archlinux.org/title/NetworkManager) ﹢ [nm-connection-editor](https://archlinux.org/packages/extra/x86_64/nm-connection-editor/) | [modemmanager](https://archlinux.org/packages/extra/x86_64/modemmanager/) · [usb_modeswitch](https://archlinux.org/packages/extra/x86_64/usb_modeswitch/) · [nss-mdns](https://archlinux.org/packages/extra/x86_64/nss-mdns/) \| [impala](https://github.com/pythops/impala) · _[networkmanager_plugins](https://networkmanager.dev/docs/vpn/)_ | _[nm_config](https://github.com/p2ndemic/dotfiles/blob/main/etc/NetworkManager/conf.d/99-iwd.conf)_ → _[iwd_config](https://github.com/p2ndemic/dotfiles/blob/main/etc/iwd/main.conf)_ → _[wireless-regdom_config](https://github.com/p2ndemic/dotfiles/tree/main/etc/conf.d)_ → _sudo systemctl disable --now wpa_supplicant_ →  _sudo systemctl enable --now NetworkManager_ → _rfkill unblock wlan_|
 | 📡 Bluetooth Drivers & Utils   | [bluez](https://wiki.archlinux.org/title/Bluetooth) · [bluez-libs](https://archlinux.org/packages/extra/x86_64/bluez-libs/) · [bluez-utils](https://archlinux.org/packages/extra/x86_64/bluez-utils/) · [blueman](https://github.com/blueman-project/blueman) | [bluez-hid2hci](https://archlinux.org/packages/extra/x86_64/bluez-hid2hci/) · [bluez-obex](https://archlinux.org/packages/extra/x86_64/bluez-obex/) | _sudo usermod -aG lp $USER → sudo systemctl enable --now bluetooth.service_ |
+
+---
 
 ### 📼 Sound Drivers & Codecs
 | Module Type | Module Name | Optional | Note |
@@ -66,7 +66,6 @@
 | 🎛️ ALSA                        | [alsa-firmware](https://archlinux.org/packages/extra/any/alsa-firmware/) · [alsa-utils](https://archlinux.org/packages/extra/x86_64/alsa-utils/) · [alsa-plugins](https://archlinux.org/packages/extra/x86_64/alsa-plugins/) · [alsa-card-profiles](https://archlinux.org/packages/extra/x86_64/alsa-card-profiles/) | | _[Arch Wiki](https://wiki.archlinux.org/title/Advanced_Linux_Sound_Architecture)_ |
 | 🔊 Piperwire                   | [pipewire](https://archlinux.org/packages/extra/x86_64/pipewire/) · [pipewire-alsa](https://archlinux.org/packages/extra/x86_64/pipewire-alsa/) · [pipewire-pulse](https://archlinux.org/packages/extra/x86_64/pipewire-pulse/) · [pwvucontrol](https://github.com/saivert/pwvucontrol) | [pipewire-jack](https://archlinux.org/packages/extra/x86_64/pipewire-jack/) · [pipewire-libcamera](https://archlinux.org/packages/extra/x86_64/pipewire-libcamera/) | _[Arch Wiki](https://wiki.archlinux.org/title/PipeWire)_ ➟ systemctl --user enable --now pipewire ➟ systemctl --user enable --now pipewire-pulse |
 | 🪄 Wireplumber & Utils         | [wireplumber](https://archlinux.org/packages/extra/x86_64/wireplumber/) · [rtkit](https://archlinux.org/packages/extra/x86_64/rtkit/) | | _[Arch Wiki](https://wiki.archlinux.org/title/WirePlumber)_ ➟ systemctl --user enable --now wireplumber ➟ sudo systemctl enable --now rtkit |
-
 
 ---
 
@@ -82,6 +81,17 @@
 | 🔐 Session Access Manager | [polkit](https://wiki.archlinux.org/title/Polkit) · [lxqt-policykit](https://archlinux.org/packages/extra/x86_64/lxqt-policykit/)
 | 🌀 XDG Portal Backend     | [xdg-desktop-portal](https://wiki.archlinux.org/title/XDG_Desktop_Portal) · [xdg-desktop-portal-wlr](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-wlr/) · [xdg-desktop-portal-lxqt](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-lxqt/)
 | 🗂️ XDG User Dirs & Utils  | [xdg-user-dirs](https://wiki.archlinux.org/title/XDG_user_directories) · [xdg-utils](https://wiki.archlinux.org/title/Xdg-utils)
+
+---
+
+| Module Type | Module Name | Optional | Note |
+|-------------|-------------|----------|------|
+| 🌙 Idle Daemon                 | [swayidle](https://github.com/swaywm/swayidle) |
+| 🅰️ Font rendering              | [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) · [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) |
+| 🔤 Fonts                       | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) |
+| 🧊 Archiving & Compression     | [libarchive](https://archlinux.org/packages/core/x86_64/libarchive/) · [7zip](https://archlinux.org/packages/extra/x86_64/7zip/) · [arqiver](https://aur.archlinux.org/packages/arqiver) |
+
+---
 
 ---
 
