@@ -18,7 +18,7 @@
 | 🗃️ FS Utils            | [xfsprogs](https://archlinux.org/packages/core/x86_64/xfsprogs/) | | _[Arch Wiki](https://wiki.archlinux.org/title/File_systems)_ |
 | 🔋 Power Management    | [upower](https://archlinux.org/packages/extra/x86_64/upower/) · [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) | 
 | ⚡ Power Tuning Daemon | [tuned](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) ﹢ [tuned-gui](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) | | _sudo systemctl enable --now tuned.service_ |
-| 📦 Package Management  | [git](https://wiki.archlinux.org/title/Git) · | |  |
+| 📦 Package Management  | [git](https://wiki.archlinux.org/title/Git) · [pacman-contrib](https://archlinux.org/packages/extra/x86_64/pacman-contrib/) · [pkgfile](https://wiki.archlinux.org/title/Pkgfile) · [reflector](https://wiki.archlinux.org/title/Reflector) · [octopi](https://aur.archlinux.org/packages/octopi) | | _[Arch Wiki](https://wiki.archlinux.org/title/Pacman)_ |
 | 🧙 AUR Helpers         | 💀 [chaotic-aur](https://aur.chaotic.cx/) · [yay](https://aur.archlinux.org/packages/yay) · [rebuild-detector](https://archlinux.org/packages/extra/any/rebuild-detector/)| [paru](https://aur.archlinux.org/packages/paru) | _[Сhaotic Wiki](https://aur.chaotic.cx/docs)_ |
 
 | Module Type | Module Name | Optional | Note |
