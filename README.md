@@ -97,7 +97,7 @@
 
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
-| 🐟 Shell & Framework     | [fish](https://github.com/fish-shell/fish-shell) ﹢ [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) |
+| 🐟 Shell & Framework     | [fish](https://github.com/fish-shell/fish-shell) |
 | 💫 Shell Enhancers       | [starship](https://github.com/starship/starship) \| [navi](https://github.com/denisidoro/navi) | [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
 | 📟 Terminal Emulator     | [foot](https://codeberg.org/dnkl/foot) |
 | 🔧 Terminal Tools        | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
