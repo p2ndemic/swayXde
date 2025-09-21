@@ -69,7 +69,7 @@
 
 ---
 
-## 🛰️ Display Managers & Wayland Stack
+## 🛰️🧪 Display Managers & Wayland Stack
 
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
@@ -285,3 +285,5 @@ https://taingram.org/blog/sway-tips.html
 📌 — закрепить
 
 🔋
+
+🛰️🧪
