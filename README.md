@@ -69,11 +69,10 @@
 
 ---
 
-## 🛰️🧪 Display Managers & Wayland Stack
-
+## 🧱 Display Managers & Wayland Stack
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
-| 🚪 Display Manager        | [ly](https://codeberg.org/fairyglade/ly) | [greetd](https://git.sr.ht/~kennylevinsen/greetd) ﹢ [regreet](https://github.com/rharish101/ReGreet) |
+| 🧑‍💻 Display Manager        | [ly](https://codeberg.org/fairyglade/ly) | [greetd](https://git.sr.ht/~kennylevinsen/greetd) ﹢ [regreet](https://github.com/rharish101/ReGreet) |
 | 🪟 Wayland Compositor     | [sway](https://github.com/swaywm/sway) |
 | 📜 Wayland Protocols      | [wayland-protocols](https://gitlab.freedesktop.org/wayland/wayland-protocols) ﹢ [wlr-protocols](https://gitlab.freedesktop.org/wlroots/wlr-protocols) ﹢ [frog-protocols](https://github.com/misyltoad/frog-protocols) |
 | 🧩 Wayland Integration    | [egl-wayland](https://archlinux.org/packages/extra/x86_64/egl-wayland/) · [xorg-xwayland](https://archlinux.org/packages/extra/x86_64/xorg-xwayland/) · [qt5-wayland](https://archlinux.org/packages/extra/x86_64/qt5-wayland) · [qt6-wayland](https://archlinux.org/packages/extra/x86_64/qt6-wayland)
@@ -281,6 +280,8 @@ https://taingram.org/blog/sway-tips.html
 ✂️ — вырезать
 
 📋 — копировать
+
+🚪
 
 📌 — закрепить
 
