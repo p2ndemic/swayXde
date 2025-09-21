@@ -27,7 +27,7 @@
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
 | ⚙️ Linux Firmware | [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) · [sof-firmware](https://archlinux.org/packages/extra/x86_64/sof-firmware/) | [fwupd](https://archlinux.org/packages/extra/x86_64/fwupd/) | _[Arch Wiki](https://wiki.archlinux.org/title/Linux_firmware)_ · _[SOF Doc](https://thesofproject.github.io/latest/getting_started/intel_debug/introduction.html)_ · _[fwupd Wiki](https://wiki.archlinux.org/title/Fwupd)_ |
-| 🔧 Hardware Utils | [dmidecode](https://archlinux.org/packages/extra/x86_64/dmidecode/) · [hwdetect](https://wiki.archlinux.org/title/Hwdetect) · [usbutils](https://archlinux.org/packages/core/x86_64/usbutils/) | [hwinfo](https://archlinux.org/packages/extra/x86_64/hwinfo/) · [dmraid](https://archlinux.org/packages/core/x86_64/dmraid/) · [hdparm](https://archlinux.org/packages/core/x86_64/hdparm/) · [lsscsi](https://archlinux.org/packages/extra/x86_64/lsscsi/) · [mtools](https://archlinux.org/packages/extra/x86_64/mtools/) · [sg3_utils](https://archlinux.org/packages/extra/x86_64/sg3_utils/) |
+| 🔧 Hardware Utils | [dmidecode](https://archlinux.org/packages/extra/x86_64/dmidecode/) · [hwdetect](https://wiki.archlinux.org/title/Hwdetect) · [usbutils](https://archlinux.org/packages/core/x86_64/usbutils/) | [hwinfo](https://archlinux.org/packages/extra/x86_64/hwinfo/) · [dmraid](https://archlinux.org/packages/core/x86_64/dmraid/) · [sg3_utils](https://archlinux.org/packages/extra/x86_64/sg3_utils/) |
 
 ### 🔹 Intel Drivers
 
