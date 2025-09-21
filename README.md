@@ -32,7 +32,7 @@
 
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
-| ⚙️ Linux Firmware       | [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) · [sof-firmware](https://archlinux.org/packages/extra/x86_64/sof-firmware/) · [fwupd](https://archlinux.org/packages/extra/x86_64/fwupd/) | | _[Arch Wiki](https://wiki.archlinux.org/title/Linux_firmware)_ · _[SOF Doc](https://thesofproject.github.io/latest/getting_started/intel_debug/introduction.html)_ · _[fwupd Wiki](https://wiki.archlinux.org/title/Fwupd)_ |
+| ⚙️ Linux Firmware | [linux-firmware](https://archlinux.org/packages/core/any/linux-firmware/) · [sof-firmware](https://archlinux.org/packages/extra/x86_64/sof-firmware/) | [fwupd](https://archlinux.org/packages/extra/x86_64/fwupd/) | _[Arch Wiki](https://wiki.archlinux.org/title/Linux_firmware)_ · _[SOF Doc](https://thesofproject.github.io/latest/getting_started/intel_debug/introduction.html)_ · _[fwupd Wiki](https://wiki.archlinux.org/title/Fwupd)_ |
 
 ### 🔹 Intel Drivers
 
@@ -49,7 +49,7 @@
 
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
-| 🔸 AMD Microcode | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode) |
+| 🔸 AMD Microcode | [amd-ucode](https://archlinux.org/packages/core/any/amd-ucode) | |  _[Arch Wiki](https://wiki.archlinux.org/title/Microcode)_ |
 | 🔸 AMD Vulkan    | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) · [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) · [mesa-utils](https://archlinux.org/packages/extra/x86_64/mesa-utils/) | [vulkan-validation-layers](https://archlinux.org/packages/extra/x86_64/vulkan-validation-layers/) · [vulkan-extra-layers](https://archlinux.org/packages/extra/x86_64/vulkan-extra-layers/) | _[Arch Wiki](https://wiki.archlinux.org/title/Vulkan)_ · _[Mesa Doc](https://docs.mesa3d.org/envvars.html)_ |
 | 🔸 AMD OpenCL    | [opencl-mesa](https://archlinux.org/packages/extra/x86_64/opencl-mesa/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [rocm-opencl-runtime](https://archlinux.org/packages/extra/x86_64/rocm-opencl-runtime/) \| [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) | _[Arch Wiki](https://wiki.archlinux.org/title/GPGPU)_ ➟ _env RUSTICL_ENABLE=radeonsi_ |
 | 🔸 AMD VA-API    | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) | | _[Arch Wiki](https://wiki.archlinux.org/title/Hardware_video_acceleration)_ ➟ _env LIBVA_DRIVER_NAME=radeonsi_ |
