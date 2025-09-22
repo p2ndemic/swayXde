@@ -190,6 +190,7 @@ https://github.com/aceydot/swaydots
 https://codeberg.org/stdrice/pengurice
 https://taingram.org/blog/sway-tips.html
 https://gist.github.com/Ashe/b1bf084206c17e984eb26e63f0fb9f59
+https://github.com/topics/sway
 ```
 🔄
 
