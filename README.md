@@ -72,7 +72,7 @@
 
 ---
 
-## 🪟 Display Managers & Wayland Stack
+## 🪟 DM & Wayland Stack
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
 | 🚪 Display Manager        | [ly](https://codeberg.org/fairyglade/ly) | [greetd](https://git.sr.ht/~kennylevinsen/greetd) ﹢ [regreet](https://github.com/rharish101/ReGreet) |
