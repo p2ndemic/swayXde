@@ -59,7 +59,7 @@
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
 | 📶 Network Drivers & Utils     | [ethtool](https://archlinux.org/packages/extra/x86_64/ethtool/) · [iwd](https://archlinux.org/packages/extra/x86_64/iwd/) · [wireless-regdb](https://archlinux.org/packages/core/any/wireless-regdb/) · [xl2tpd](https://archlinux.org/packages/extra/x86_64/xl2tpd/) · [wireless_tools](https://archlinux.org/packages/extra/x86_64/wireless_tools/) · [networkmanager](https://wiki.archlinux.org/title/NetworkManager) | [networkmanager-iwd](https://aur.archlinux.org/packages/networkmanager-iwd) \| [modemmanager](https://archlinux.org/packages/extra/x86_64/modemmanager/) · [usb_modeswitch](https://archlinux.org/packages/extra/x86_64/usb_modeswitch/) · [nss-mdns](https://archlinux.org/packages/extra/x86_64/nss-mdns/) \| [impala](https://github.com/pythops/impala) · _[networkmanager_plugins](https://networkmanager.dev/docs/vpn/)_ | _[nm_config](https://github.com/p2ndemic/dotfiles/blob/main/etc/NetworkManager/conf.d/99-iwd.conf)_ ➟ _[iwd_config](https://github.com/p2ndemic/dotfiles/blob/main/etc/iwd/main.conf)_ → _[wireless-regdom_config](https://github.com/p2ndemic/dotfiles/tree/main/etc/conf.d)_ ➟ _sudo systemctl disable --now wpa_supplicant_ ➟ _sudo systemctl enable --now NetworkManager_ ➟ _rfkill unblock wlan_|
-| 📡 Bluetooth Drivers & Utils   | [bluez](https://wiki.archlinux.org/title/Bluetooth) · [bluez-libs](https://archlinux.org/packages/extra/x86_64/bluez-libs/) · [bluez-utils](https://archlinux.org/packages/extra/x86_64/bluez-utils/) · [blueman](https://github.com/blueman-project/blueman) | [bluez-hid2hci](https://archlinux.org/packages/extra/x86_64/bluez-hid2hci/) · [bluez-obex](https://archlinux.org/packages/extra/x86_64/bluez-obex/) | _sudo usermod -aG lp $USER ➟ sudo systemctl enable --now bluetooth.service_ |
+| 📡 Bluetooth Drivers & Utils   | [bluez](https://wiki.archlinux.org/title/Bluetooth) · [bluez-libs](https://archlinux.org/packages/extra/x86_64/bluez-libs/) · [bluez-utils](https://archlinux.org/packages/extra/x86_64/bluez-utils/) · [blueman](https://github.com/blueman-project/blueman) | [bluez-hid2hci](https://archlinux.org/packages/extra/x86_64/bluez-hid2hci/) · [bluez-obex](https://archlinux.org/packages/extra/x86_64/bluez-obex/) \| [bluetui](https://github.com/pythops/bluetui)| _sudo usermod -aG lp $USER ➟ sudo systemctl enable --now bluetooth.service_ |
 
 ---
 
@@ -106,7 +106,7 @@
 | 🔧 Terminal Tools        | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | 🔍 File Search Tools     | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
 | 💾 Disk Usage & Cleaning | [duf](https://github.com/muesli/duf) | [dua-cli](https://github.com/Byron/dua-cli)
-| 📈🧰 System Fetch & Info   | [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) |
+| 📈🧰 System Fetch & Info | [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) · [trippy](https://github.com/fujiapple852/trippy)|
 | 📝 Diff and merge tools  | [meld](https://gitlab.gnome.org/GNOME/meld)
 
 ---
@@ -139,7 +139,7 @@
 | 📚 Knowledge Tools       |  \| [xdg-ninja](https://github.com/b3nj5m1n/xdg-ninja) |
 | 🧊 Misc                  | [wayfreeze](https://github.com/Jappie3/wayfreeze) \| [hyprfreeze](https://github.com/Zerodya/hyprfreeze) \| [vigiland](https://github.com/Jappie3/vigiland) \| [planify](https://github.com/alainm23/planify) \| [resources](https://github.com/nokyan/resources) \| [arch-update](https://github.com/Antiz96/arch-update) |
 | 🔧 Misc. Tools           | [wluma](https://github.com/maximbaz/wluma) \| [laptop-mode-tools](https://github.com/rickysarraf/laptop-mode-tools) \| [thermald](https://github.com/intel/thermal_daemon) |
-| 📦 Others                | [usql](https://github.com/xo/usql) \| [jq](https://jqlang.org/) \| [pik](https://github.com/jacek-kurlit/pik) \| [woomer](https://github.com/coffeeispower/woomer) |
+| 📦 Others                | [usql](https://github.com/xo/usql) \| [rainfrog](https://github.com/achristmascarl/rainfrog) \| [jq](https://jqlang.org/) \| [pik](https://github.com/jacek-kurlit/pik) \| [woomer](https://github.com/coffeeispower/woomer) |
 
 ---
 
