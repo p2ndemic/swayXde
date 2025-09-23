@@ -186,6 +186,7 @@
 ---
 
 ```
+https://wiki.gentoo.org/wiki/Sway
 https://github.com/aceydot/swaydots
 https://codeberg.org/stdrice/pengurice
 https://taingram.org/blog/sway-tips.html
