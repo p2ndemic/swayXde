@@ -189,6 +189,7 @@
 https://wiki.gentoo.org/wiki/Sway
 https://habr.com/ru/articles/484378/
 https://fedoraproject.org/wiki/SIGs/Sway
+https://github.com/alebastr/dotfiles
 https://github.com/madic-creates/Sway-DE/blob/master/config/sway/sway.d/01_general.conf
 
 https://github.com/aceydot/swaydots
