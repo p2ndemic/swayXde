@@ -193,6 +193,7 @@ https://fedoraproject.org/wiki/SIGs/Sway
 https://gitlab.com/fedora/sigs/sway/sway-config-fedora
 https://github.com/alebastr/dotfiles
 https://github.com/madic-creates/Sway-DE/blob/master/config/sway/sway.d/01_general.conf
+https://valerioviperino.me/sway-fresh-start/
 
 https://github.com/aceydot/swaydots
 https://codeberg.org/stdrice/pengurice
