@@ -195,6 +195,8 @@ https://github.com/alebastr/dotfiles
 https://github.com/madic-creates/Sway-DE/blob/master/config/sway/sway.d/01_general.conf
 https://valerioviperino.me/sway-fresh-start/
 https://claromes.com/blog/customizing-my-micro-editor
+https://fig.io/manual/micro
+https://forum.garudalinux.org/t/mastering-the-micro-text-editor/32889/13
 
 https://github.com/aceydot/swaydots
 https://codeberg.org/stdrice/pengurice
