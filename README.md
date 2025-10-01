@@ -125,6 +125,8 @@
 | 📈🧰 System Fetch & Info | [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) · [trippy](https://github.com/fujiapple852/trippy)|
 | 📝 Diff and merge tools  | [meld](https://gitlab.gnome.org/GNOME/meld)
 
+https://github.com/dandavison/delta
+
 ---
 
 ## 🧩 Workspace Tools
