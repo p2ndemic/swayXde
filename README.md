@@ -19,8 +19,9 @@
 | 🕒 NTP Daemon         | [systemd-timesyncd](https://www.freedesktop.org/software/systemd/man/latest/systemd-timesyncd.service.html) | [chrony](https://wiki.archlinux.org/title/Chrony) | _[Arch Wiki](https://wiki.archlinux.org/title/Systemd-timesyncd)_ ➟ _[timesyncd_config](https://github.com/p2ndemic/dotfiles/blob/main/etc/systemd/timesyncd.conf.d/99-local.conf)_ ➟ _sudo systemctl enable --now systemd-timesyncd.service_ |
 | ⚡ Power Management   | [upower](https://archlinux.org/packages/extra/x86_64/upower/) · [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) · [tuned](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) ﹢ [tuned-gui](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) · [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | [tuned-ppd](https://archlinux.org/packages/extra/any/tuned-ppd/) · [systemtap](https://archlinux.org/packages/extra/x86_64/systemtap/) · [wireless_tools](https://archlinux.org/packages/extra/x86_64/wireless_tools/) · [laptop-mode-tools](https://wiki.archlinux.org/title/Laptop_Mode_Tools) | _[Arch Wiki](https://wiki.archlinux.org/title/Power_management)_ ➟ _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ ➟ _[tuned Wiki](https://wiki.archlinux.org/title/TuneD)_ ➟ _sudo systemctl enable --now tuned.service_|
 | 📦 Package Management | [pacman-contrib](https://archlinux.org/packages/extra/x86_64/pacman-contrib/) · [pkgfile](https://wiki.archlinux.org/title/Pkgfile) · [reflector](https://wiki.archlinux.org/title/Reflector) · [rebuild-detector](https://archlinux.org/packages/extra/any/rebuild-detector/) · [git](https://wiki.archlinux.org/title/Git) · [octopi](https://aur.archlinux.org/packages/octopi) | | _[Arch Wiki](https://wiki.archlinux.org/title/Pacman)_ |
-| 🅰️ Font rendering     | [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) · [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) |
 | 🧊 Archiving & Compression | [zlib-ng](https://archlinux.org/packages/extra/x86_64/zlib-ng/) · [zlib-ng-compat](https://archlinux.org/packages/extra/x86_64/zlib-ng-compat/) · [libarchive](https://archlinux.org/packages/core/x86_64/libarchive/) · [7zip](https://archlinux.org/packages/extra/x86_64/7zip/) · [arqiver](https://aur.archlinux.org/packages/arqiver) |
+| 🅰️ Font rendering     | [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) · [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) |
+| 🔤 Fonts              | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) |
 | 🧙 AUR Helpers        | [chaotic-aur](https://aur.chaotic.cx/) · [yay](https://aur.archlinux.org/packages/yay) | [paru](https://aur.archlinux.org/packages/paru) | 💀 _[Сhaotic Wiki](https://aur.chaotic.cx/docs)_ |
 
 ---
@@ -93,7 +94,7 @@
 |-------------|-------------|----------|------|
 | 🌙 Idle Daemon                 | [swayidle](https://github.com/swaywm/swayidle) |
 
-| 🔤 Fonts                       | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) |
+
 
 
 ---
