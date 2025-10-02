@@ -115,18 +115,10 @@ cp -r dotfiles/.config/* ~/.config
 | 🌙 Idle Daemon         | [swayidle](https://github.com/swaywm/swayidle) |
 | 🔒 Lockscreen & Logout | [swaylock](https://github.com/swaywm/swaylock)﹢[wleave](https://github.com/AMNatty/wleave) | [waylock](https://codeberg.org/ifreund/waylock) |
 | 🔔 Notification Daemon | [mako](https://github.com/emersion/mako) | [fnott](https://codeberg.org/dnkl/fnott) \| [SwayNotificationCenter](https://github.com/ErikReider/SwayNotificationCenter) |
-| 🧱 Bar / Panel         | [waybar](https://github.com/Alexays/Waybar) | [ironbar](https://github.com/JakeStanger/ironbar) \| [gbar](https://aur.archlinux.org/packages/gbar-git) \| [ashell](https://aur.archlinux.org/packages/ashell) |
-| 💡 OSD                 | [swayosd](https://github.com/ErikReider/SwayOSD) |
+| 🚀 App Launcher        | [fuzzel](https://codeberg.org/dnkl/fuzzel) \| [walker](https://github.com/abenz1267/walker) |
+| 🧱 Bar & OSD           | [waybar](https://github.com/Alexays/Waybar) ﹢ [swayosd](https://github.com/ErikReider/SwayOSD) | [ironbar](https://github.com/JakeStanger/ironbar) \| [gbar](https://aur.archlinux.org/packages/gbar-git) \| [ashell](https://aur.archlinux.org/packages/ashell) |
 | 🎚️ Brightness & Gamma  | [brightnessctl](https://github.com/Hummer12007/brightnessctl) | [gammastep](https://gitlab.com/chinstrap/gammastep) \| [wlsunset](https://git.sr.ht/~kennylevinsen/wlsunset) |
 | 📺 Output Config Tools | [kanshi](https://sr.ht/~emersion/kanshi) \| [nwg-displays](https://github.com/nwg-piotr/nwg-displays) | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) \| [shikane](https://gitlab.com/w0lff/shikane) |
-
-
-| 🧰 Configuration Tools |  | [swaysettings](https://github.com/ErikReider/SwaySettings) | 
-
-
-
-
----
 
 ---
 
@@ -140,7 +132,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🔧 Terminal Tools        | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | 🔍 File Search Tools     | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
 | 💾 Disk Usage & Cleaning | [duf](https://github.com/muesli/duf) | [dua-cli](https://github.com/Byron/dua-cli)
-| 📈🧰 System Fetch & Info | [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) · [trippy](https://github.com/fujiapple852/trippy)|
+| 🧰 System Fetch & Info   | [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) · [trippy](https://github.com/fujiapple852/trippy)|
 | 📝 Diff and merge tools  | [meld](https://gitlab.gnome.org/GNOME/meld)
 
 https://github.com/dandavison/delta
@@ -191,7 +183,7 @@ https://github.com/dandavison/delta
 
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
-| 🚀 App Launcher          | [fuzzel](https://codeberg.org/dnkl/fuzzel) \| [walker](https://github.com/abenz1267/walker) |
+
 | 📁 File Managers         | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) \| [nautilus](https://wiki.gnome.org/Apps/Files) \| [yazi](https://github.com/sxyazi/yazi) |
 | 📝 Text Editors          | [zed](https://github.com/zed-industries/zed) \| [vscode](https://wiki.archlinux.org/title/Visual_Studio_Code) \| [micro](https://github.com/zyedidia/micro) \| [orbiton](https://github.com/xyproto/orbiton) \| [nano](https://cgit.git.savannah.gnu.org/cgit/nano.git) |
 | 📸 Screenshot Tools      | [wayshot](https://git.sr.ht/~shinyzenith/wayshot) | [grimshot](https://github.com/OctopusET/sway-contrib) \| [shotman](https://git.sr.ht/~whynothugo/shotman) \| [satty](https://github.com/gabm/satty) |
@@ -280,6 +272,7 @@ https://ctlos.github.io/wiki/wm/sway/
 🛏️ — кровать
 🌃 — ночной город
 🪐 — планета (можно для космической тематики сна)
+💡
 
 ❄️ — снег
 🌨️ — снежная погода
