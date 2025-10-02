@@ -41,7 +41,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🅰️ Font rendering     | [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) · [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) |
 | 🔤 Fonts              | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) |
 | 🧙 AUR Helpers        | [chaotic-aur](https://aur.chaotic.cx/) · [yay](https://aur.archlinux.org/packages/yay) | [paru](https://aur.archlinux.org/packages/paru) | 💀 _[Сhaotic Wiki](https://aur.chaotic.cx/docs)_ |
-
+| 🔌 Auto-mount Tools   | [udiskie](https://github.com/coldfix/udiskie)
 ---
 
 ## 🧬 Drivers & Firmware
@@ -146,13 +146,6 @@ https://github.com/dandavison/delta
 
 
 
-
-
-
-
-| 🔌 Auto-mount Tools    | [udiskie](https://github.com/coldfix/udiskie)
-
-
 ---
 
 ## 🧰 Utilities & System Tools
@@ -183,7 +176,6 @@ https://github.com/dandavison/delta
 
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
-
 | 📁 File Managers         | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) \| [nautilus](https://wiki.gnome.org/Apps/Files) \| [yazi](https://github.com/sxyazi/yazi) |
 | 📝 Text Editors          | [zed](https://github.com/zed-industries/zed) \| [vscode](https://wiki.archlinux.org/title/Visual_Studio_Code) \| [micro](https://github.com/zyedidia/micro) \| [orbiton](https://github.com/xyproto/orbiton) \| [nano](https://cgit.git.savannah.gnu.org/cgit/nano.git) |
 | 📸 Screenshot Tools      | [wayshot](https://git.sr.ht/~shinyzenith/wayshot) | [grimshot](https://github.com/OctopusET/sway-contrib) \| [shotman](https://git.sr.ht/~whynothugo/shotman) \| [satty](https://github.com/gabm/satty) |
