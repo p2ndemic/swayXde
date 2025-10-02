@@ -8,6 +8,24 @@
 <h6 align="right"><em>My attempt to create a desktop environment for Sway</em></h1>
 
 
+## Installation
+
+There is no installation script yet, but in the meantime you can clone the repo and copy the contents of the `./config` folder into your `./config` folder.
+
+<u>Example</u>:
+
+```
+git clone https://github.com/p2ndemic/dotfiles.git
+cp -r dotfiles/.config/* ~/.config
+```
+
+### TODO
+
+- [ ] Add installation script
+- [ ] Better documentation
+
+## Screenshots
+
 
 ## 🖥️ OS & Core Components
 
