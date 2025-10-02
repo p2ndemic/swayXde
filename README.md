@@ -128,7 +128,7 @@ cp -r dotfiles/.config/* ~/.config
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
 | 🐟 Shell                 | [fish](https://github.com/fish-shell/fish-shell) |
-| 💫 Shell Enhancers       | [starship](https://github.com/starship/starship) \| [navi](https://github.com/denisidoro/navi) | [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) |
+| 💫 Shell Enhancers       | [starship](https://github.com/starship/starship) \| [navi](https://github.com/denisidoro/navi) |
 | 📟 Terminal Emulator     | [foot](https://codeberg.org/dnkl/foot) |
 | 🔧 Terminal Tools        | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | 🔍 File Search Tools     | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
