@@ -123,7 +123,7 @@ cp -r dotfiles/.config/* ~/.config
 
 ---
 
-## 📟 Terminal & Shell
+## 🐚 Terminal & Shell
 
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
