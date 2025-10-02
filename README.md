@@ -119,7 +119,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🚀 App Launcher        | [fuzzel](https://codeberg.org/dnkl/fuzzel) | [walker](https://github.com/abenz1267/walker) |
 | 🧱 Bar & OSD           | [waybar](https://github.com/Alexays/Waybar) ﹢ [swayosd](https://github.com/ErikReider/SwayOSD) | [ironbar](https://github.com/JakeStanger/ironbar) \| [gbar](https://aur.archlinux.org/packages/gbar-git) \| [ashell](https://aur.archlinux.org/packages/ashell) |
 | 🎚️ Brightness & Gamma  | [brightnessctl](https://github.com/Hummer12007/brightnessctl) | [gammastep](https://gitlab.com/chinstrap/gammastep) \| [wlsunset](https://git.sr.ht/~kennylevinsen/wlsunset) |
-| 📺 Output Config Tools | [kanshi](https://sr.ht/~emersion/kanshi) \| [nwg-displays](https://github.com/nwg-piotr/nwg-displays) | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) \| [shikane](https://gitlab.com/w0lff/shikane) |
+| 📺 Output Config Tools | [kanshi](https://sr.ht/~emersion/kanshi) · [nwg-displays](https://github.com/nwg-piotr/nwg-displays) | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) \| [shikane](https://gitlab.com/w0lff/shikane) |
 
 ---
 
