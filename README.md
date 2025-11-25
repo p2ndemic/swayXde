@@ -63,6 +63,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🌡️ Intel Thermal Daemon | [thermald](https://archlinux.org/packages/extra/x86_64/thermald/) | | _[Arch Wiki](https://wiki.archlinux.org/title/CPU_frequency_scaling#thermald)_ ➟ _sudo systemctl enable --now thermald_ |
 | 🧪 Intel GPU Tools      | _optional_ | [intel-gpu-tools](https://archlinux.org/packages/extra/x86_64/intel-gpu-tools/) |
 | 1️⃣ oneAPI               | _optional_ | [level-zero-loader](https://archlinux.org/packages/extra/x86_64/level-zero-loader/) · [level-zero-headers](https://archlinux.org/packages/extra/x86_64/level-zero-headers/) |
+| 🔧 adriconf               | _optional_ | [adriconf](https://archlinux.org/packages/extra/x86_64/adriconf/) | 
 
 ---
 
@@ -74,6 +75,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🔸 AMD Vulkan    | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) · [vulkan-radeon](https://archlinux.org/packages/extra/x86_64/vulkan-radeon/) · [vulkan-icd-loader](https://archlinux.org/packages/extra/x86_64/vulkan-icd-loader/) · [vulkan-headers](https://archlinux.org/packages/extra/any/vulkan-headers/) · [vulkan-mesa-layers](https://archlinux.org/packages/extra/x86_64/vulkan-mesa-layers/) · [vulkan-tools](https://archlinux.org/packages/extra/x86_64/vulkan-tools/) · [mesa-utils](https://archlinux.org/packages/extra/x86_64/mesa-utils/) | [vulkan-validation-layers](https://archlinux.org/packages/extra/x86_64/vulkan-validation-layers/) · [vulkan-extra-layers](https://archlinux.org/packages/extra/x86_64/vulkan-extra-layers/) | _[Arch Wiki](https://wiki.archlinux.org/title/Vulkan)_ · _[Mesa Doc](https://docs.mesa3d.org/envvars.html)_ |
 | 🔸 AMD OpenCL    | [opencl-mesa](https://archlinux.org/packages/extra/x86_64/opencl-mesa/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [rocm-opencl-runtime](https://archlinux.org/packages/extra/x86_64/rocm-opencl-runtime/) \| [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) | _[Arch Wiki](https://wiki.archlinux.org/title/GPGPU)_ ➟ _env RUSTICL_ENABLE=radeonsi_ |
 | 🔸 AMD VA-API    | [mesa](https://archlinux.org/packages/extra/x86_64/mesa/) | | _[Arch Wiki](https://wiki.archlinux.org/title/Hardware_video_acceleration)_ ➟ _env LIBVA_DRIVER_NAME=radeonsi_ |
+| 🔧 adriconf               | _optional_ | [adriconf](https://archlinux.org/packages/extra/x86_64/adriconf/) | 
 
 ---
 
