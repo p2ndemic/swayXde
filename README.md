@@ -536,3 +536,5 @@ Nerd Fonts Icons
 
 
 
+
+https://labwc.github.io/hidpi-scaling-patches.html
