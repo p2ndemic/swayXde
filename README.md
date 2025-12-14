@@ -538,3 +538,6 @@ Nerd Fonts Icons
 
 
 https://labwc.github.io/hidpi-scaling-patches.html
+
+
+https://github.com/dawsers/scroll - тут описаны полезные настройки Sway и его форка Scroll. Указаны полезные переменные окружения и т.д
