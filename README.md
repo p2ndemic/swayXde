@@ -119,7 +119,7 @@ cp -r dotfiles/.config/* ~/.config
 |-------------|-------------|--------------|
 | 🖼️ Wallpaper Tools     | [swaybg](https://github.com/swaywm/swaybg) | [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) \| [swww](https://github.com/LGFae/swww) |
 | 🌙 Idle Daemon         | [swayidle](https://github.com/swaywm/swayidle) |
-| 🔒 Lockscreen & Logout | [chayang](https://aur.archlinux.org/packages/chayang) ﹢ [swaylock](https://github.com/swaywm/swaylock) ﹢ [fuzzel powermenu](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/fuzzel-powermenu-index.sh) | [waylock](https://codeberg.org/ifreund/waylock) \| [wleave](https://github.com/AMNatty/wleave) |
+| 🔒 Lockscreen & Logout | [chayang](https://aur.archlinux.org/packages/chayang) ﹢ [swaylock](https://github.com/swaywm/swaylock) ﹢ [fuzzel-powermenu](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/fuzzel-powermenu-index.sh) | [waylock](https://codeberg.org/ifreund/waylock) \| [wleave](https://github.com/AMNatty/wleave) |
 | 🔔 Notification Daemon | [mako](https://github.com/emersion/mako) | [fnott](https://codeberg.org/dnkl/fnott) \| [SwayNotificationCenter](https://github.com/ErikReider/SwayNotificationCenter) |
 | 🚀 App Launcher        | [fuzzel](https://codeberg.org/dnkl/fuzzel) | [walker](https://github.com/abenz1267/walker) |
 | 🧱 Bar & OSD           | [waybar](https://github.com/Alexays/Waybar) ﹢ [swayosd](https://github.com/ErikReider/SwayOSD) | [ironbar](https://github.com/JakeStanger/ironbar) \| [gbar](https://aur.archlinux.org/packages/gbar-git) \| [ashell](https://aur.archlinux.org/packages/ashell) |
