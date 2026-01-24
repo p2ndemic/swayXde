@@ -537,9 +537,10 @@ Nerd Fonts Icons
 
 
 
-https://labwc.github.io/hidpi-scaling-patches.html
+https://labwc.github.io/hidpi-scaling-patches.html  
 
 
-https://github.com/dawsers/scroll - тут описаны полезные настройки Sway и его форка Scroll. Указаны полезные переменные окружения и т.д
-https://github.com/devmobasa/wayscriber
-https://github.com/snes19xx/EverCal
+https://github.com/dawsers/scroll - тут описаны полезные настройки Sway и его форка Scroll. Указаны полезные переменные окружения и т.д  
+https://github.com/devmobasa/wayscriber  
+https://github.com/snes19xx/EverCal  
+/opt/evercal/ever_cal  
