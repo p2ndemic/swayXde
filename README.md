@@ -105,7 +105,7 @@ cp -r dotfiles/.config/* ~/.config
 |-------------|--------------|--------------|
 | 🌲 Wayland Compositor      | [labwc](https://wiki.archlinux.org/title/Labwc) \| [sway](https://github.com/swaywm/sway) | [niri](https://wiki.archlinux.org/title/Niri) |
 | 📜 Wayland Protocols       | [wayland-protocols](https://gitlab.freedesktop.org/wayland/wayland-protocols) ﹢ [wlr-protocols](https://gitlab.freedesktop.org/wlroots/wlr-protocols) ﹢ [frog-protocols](https://github.com/misyltoad/frog-protocols) |
-| 🧩 Wayland Integration     | [egl-wayland](https://archlinux.org/packages/extra/x86_64/egl-wayland/) · [xorg-xwayland](https://archlinux.org/packages/extra/x86_64/xorg-xwayland/) · [qt6-wayland](https://archlinux.org/packages/extra/x86_64/qt6-wayland)
+| 🧩 Wayland Integration     | [egl-wayland](https://archlinux.org/packages/extra/x86_64/egl-wayland/) · [xorg-xwayland](https://archlinux.org/packages/extra/x86_64/xorg-xwayland/) · [qt5-wayland](https://archlinux.org/packages/extra/x86_64/qt5-wayland) · [qt6-wayland](https://archlinux.org/packages/extra/x86_64/qt6-wayland)
 | 🧵 Wayland Session Manager | [uwsm ](https://wiki.archlinux.org/title/Universal_Wayland_Session_Manager) |
 | 🔐 Session Access Manager  | [polkit](https://wiki.archlinux.org/title/Polkit) · [lxqt-policykit](https://archlinux.org/packages/extra/x86_64/lxqt-policykit/)
 | 🌀 XDG Portal Backend      | [xdg-desktop-portal](https://wiki.archlinux.org/title/XDG_Desktop_Portal) · [xdg-desktop-portal-wlr](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-wlr/) · [xdg-desktop-portal-lxqt](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-lxqt/)
