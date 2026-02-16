@@ -61,9 +61,9 @@ cp -r dotfiles/.config/* ~/.config
 | 🔹 Intel OpenCL         | [intel-compute-runtime](https://archlinux.org/packages/extra/x86_64/intel-compute-runtime/) · [opencl-icd-loader](https://aur.archlinux.org/packages/opencl-icd-loader) | [ocl-icd](https://archlinux.org/packages/extra/x86_64/ocl-icd/) | _[Arch Wiki](https://wiki.archlinux.org/title/GPGPU)_ ➟ _env OCL_ICD_VENDORS=/etc/OpenCL/vendors/intel.icd_ |
 | 🔹 Intel VA-API         | [intel-media-driver](https://archlinux.org/packages/extra/x86_64/intel-media-driver/) · [vpl-gpu-rt](https://archlinux.org/packages/extra/x86_64/vpl-gpu-rt/) · [libvpl-tools](https://archlinux.org/packages/extra/x86_64/libvpl-tools/) | | _[Arch Wiki](https://wiki.archlinux.org/title/Hardware_video_acceleration)_ ➟ _env LIBVA_DRIVER_NAME=iHD_ |
 | 🌡️ Intel Thermal Daemon | [thermald](https://archlinux.org/packages/extra/x86_64/thermald/) | | _[Arch Wiki](https://wiki.archlinux.org/title/CPU_frequency_scaling#thermald)_ ➟ _sudo systemctl enable --now thermald_ |
+| 1️⃣ oneAPI               | [level-zero-loader](https://archlinux.org/packages/extra/x86_64/level-zero-loader/) · [level-zero-headers](https://archlinux.org/packages/extra/x86_64/level-zero-headers/) |
 | 🧪 Intel GPU Tools      | _optional_ | [intel-gpu-tools](https://archlinux.org/packages/extra/x86_64/intel-gpu-tools/) |
-| 1️⃣ oneAPI               | _optional_ | [level-zero-loader](https://archlinux.org/packages/extra/x86_64/level-zero-loader/) · [level-zero-headers](https://archlinux.org/packages/extra/x86_64/level-zero-headers/) |
-| 🔧 adriconf               | _optional_ | [adriconf](https://archlinux.org/packages/extra/x86_64/adriconf/) | 
+| 🔧 adriconf             | _optional_ | [adriconf](https://archlinux.org/packages/extra/x86_64/adriconf/) | 
 
 ---
 
