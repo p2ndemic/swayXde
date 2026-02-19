@@ -41,7 +41,7 @@ cp -r dotfiles/.config/* ~/.config
 | 📦 Package Management | [pacman-contrib](https://archlinux.org/packages/extra/x86_64/pacman-contrib/) · [pkgfile](https://wiki.archlinux.org/title/Pkgfile) · [reflector](https://wiki.archlinux.org/title/Reflector) · [rebuild-detector](https://archlinux.org/packages/extra/any/rebuild-detector/) · [git](https://wiki.archlinux.org/title/Git) · [octopi](https://aur.archlinux.org/packages/octopi) | | _[Arch Wiki](https://wiki.archlinux.org/title/Pacman)_ |
 | 🧊 Archiving & Compression | [zlib-ng](https://archlinux.org/packages/extra/x86_64/zlib-ng/) · [zlib-ng-compat](https://archlinux.org/packages/extra/x86_64/zlib-ng-compat/) · [libarchive](https://archlinux.org/packages/core/x86_64/libarchive/) · [7zip](https://archlinux.org/packages/extra/x86_64/7zip/) · [arqiver](https://aur.archlinux.org/packages/arqiver) |
 | 🅰️ Font rendering     | [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) · [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) |
-| 🔤 Fonts              | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) |
+| 🔤 Fonts              | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) · [cascadia-code](https://github.com/microsoft/cascadia-code) |
 | 🧙 AUR Helpers        | [chaotic-aur](https://aur.chaotic.cx/) · [yay](https://aur.archlinux.org/packages/yay) | [paru](https://aur.archlinux.org/packages/paru) | 💀 _[Сhaotic Wiki](https://aur.chaotic.cx/docs)_ |
 
 ---
