@@ -140,18 +140,15 @@ cp -r dotfiles/.config/* ~/.config
 
 ---
 
-## 🐚 Terminal & Shell
+## 🔧 CLI Tools
 
 | Module Type | Module Name | Alternatives |
-|-------------|-------------|--------------|
-| 📟 Terminal Emulator     | [foot](https://codeberg.org/dnkl/foot) |
-| 🐟 Shell                 | [fish](https://github.com/fish-shell/fish-shell) |
-| 💫 Shell Enhancers       | [starship](https://github.com/starship/starship) \| [navi](https://github.com/denisidoro/navi) |
-| 🔧 CLI Tools             | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
-| 🔍 File Search Tools     | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
-| 💾 Disk Usage & Cleaning | [duf](https://github.com/muesli/duf) | [dua-cli](https://github.com/Byron/dua-cli)
-| 🧰 System Fetch & Info   | [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) · [trippy](https://github.com/fujiapple852/trippy)|
-| 📝 Diff and merge tools  | [meld](https://gitlab.gnome.org/GNOME/meld)
+|-------------|-------------|--------------||
+| 🔧 CLI Tools              | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
+| 🔍 File Search Tools      | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
+| 💾 Disk Usage & Cleaning  | [duf](https://github.com/muesli/duf) | [dua-cli](https://github.com/Byron/dua-cli)
+| 🧰 System Fetch & Info    | [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) · [trippy](https://github.com/fujiapple852/trippy)|
+| 📝 Diff and merge tools   | [meld](https://gitlab.gnome.org/GNOME/meld)
 
 https://github.com/dandavison/delta
 
