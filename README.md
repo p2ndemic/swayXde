@@ -120,7 +120,7 @@ cp -r dotfiles/.config/* ~/.config
 |-------------|-------------|--------------|
 | 📟 Terminal Emulator | [foot](https://codeberg.org/dnkl/foot) |
 | 🐟 Shell             | [fish](https://github.com/fish-shell/fish-shell) |
-| 💫 Shell Enhancers   | [starship](https://github.com/starship/starship) · [navi](https://github.com/denisidoro/navi) |
+| 💫 Shell Enhancers   | [starship](https://github.com/starship/starship) ﹢ [navi](https://github.com/denisidoro/navi) |
 | 🚀 App Launcher      | [fuzzel](https://codeberg.org/dnkl/fuzzel) | [walker](https://github.com/abenz1267/walker) |
 
 ---
