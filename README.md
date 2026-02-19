@@ -114,6 +114,17 @@ cp -r dotfiles/.config/* ~/.config
 
 ---
 
+## 🐚 Terminal & Shell
+
+| Module Type | Module Name | Alternatives |
+|-------------|-------------|--------------|
+| 📟 Terminal Emulator | [foot](https://codeberg.org/dnkl/foot) |
+| 🐟 Shell             | [fish](https://github.com/fish-shell/fish-shell) |
+| 💫 Shell Enhancers   | [starship](https://github.com/starship/starship) \| [navi](https://github.com/denisidoro/navi) |
+| 🚀 App Launcher      | [fuzzel](https://codeberg.org/dnkl/fuzzel) | [walker](https://github.com/abenz1267/walker) |
+
+---
+
 ## 🌲 WL Compositor Core Modules
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
@@ -121,8 +132,8 @@ cp -r dotfiles/.config/* ~/.config
 | 🌙 Idle Daemon         | [swayidle](https://github.com/swaywm/swayidle) |
 | 🔒 Lockscreen & Logout | [wlopm](https://aur.archlinux.org/packages/wlopm) ﹢ [swaylock](https://github.com/swaywm/swaylock) ﹢ [fuzzel-powermenu](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/fuzzel-powermenu-index.sh) | [chayang](https://aur.archlinux.org/packages/chayang) |
 | 🔔 Notification Daemon | [mako](https://github.com/emersion/mako) | [fnott](https://codeberg.org/dnkl/fnott) |
-| 🚀 App Launcher        | [fuzzel](https://codeberg.org/dnkl/fuzzel) | [walker](https://github.com/abenz1267/walker) |
-| 🧱 Bar & OSD           | [waybar](https://github.com/Alexays/Waybar) ﹢ [wob](https://github.com/francma/wob) ﹢ [fuzzel-custom-menu](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/fuzzel-launcher-index.sh) | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) \| [ironbar](https://github.com/JakeStanger/ironbar) \| [gbar](https://aur.archlinux.org/packages/gbar-git) \| [ashell](https://aur.archlinux.org/packages/ashell) \| [vibepanel](https://github.com/prankstr/vibepanel)|
+| 🧱 Bar & OSD           | [waybar](https://github.com/Alexays/Waybar) ﹢ [fuzzel-custom-menu](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/fuzzel-launcher-index.sh) | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) \| [ironbar](https://github.com/JakeStanger/ironbar) \| [gbar](https://aur.archlinux.org/packages/gbar-git) \| [ashell](https://aur.archlinux.org/packages/ashell) \| [vibepanel](https://github.com/prankstr/vibepanel)|
+| 🔲 OSD                 | [wob](https://github.com/francma/wob) ﹢ [wob-brightness.sh](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/wob-brightness.sh) + [wob-volume.sh](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/wob-volume.sh)
 | 🎚️ Brightness & Gamma  | [brightnessctl](https://github.com/Hummer12007/brightnessctl) | [gammastep](https://gitlab.com/chinstrap/gammastep) \| [wlsunset](https://git.sr.ht/~kennylevinsen/wlsunset) |
 | 📺 Output Config Tools | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | [nwg-displays](https://github.com/nwg-piotr/nwg-displays) \| [shikane](https://gitlab.com/w0lff/shikane) |
 | ⌨️ xkb-monitor         | [xkb-monitor](https://github.com/drougas/xkb-monitor) | for Labwc + Waybar Integration! |
