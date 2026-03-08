@@ -79,7 +79,7 @@ cp -r dotfiles/.config/* ~/.config
 
 ---
 
-### 🌐 Network & Bluetooth Drivers
+### 🌐 Network Drivers & Utils
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
 | 🛜 Network Drivers & Utils   | [ethtool](https://archlinux.org/packages/extra/x86_64/ethtool/) · [iwd](https://archlinux.org/packages/extra/x86_64/iwd/) · [wireless-regdb](https://archlinux.org/packages/core/any/wireless-regdb/) | _[xl2tpd](https://archlinux.org/packages/extra/x86_64/xl2tpd/)_ \| [modemmanager](https://archlinux.org/packages/extra/x86_64/modemmanager/) · [usb_modeswitch](https://archlinux.org/packages/extra/x86_64/usb_modeswitch/) · [nss-mdns](https://archlinux.org/packages/extra/x86_64/nss-mdns/) | _[iwd_config](https://github.com/p2ndemic/dotfiles/blob/main/etc/iwd/main.conf)_ ➟ _[wireless-regdom_config](https://github.com/p2ndemic/dotfiles/blob/main/etc/conf.d/wireless-regdom)_ ➟ _rfkill unblock wlan_ |
