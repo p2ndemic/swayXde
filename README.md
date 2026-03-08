@@ -175,7 +175,7 @@ cp -r dotfiles/.config/* ~/.config
         Systemd Unit
       </a>
     </td>
-    <td align="left">swaybg systemd unit</td>
+    <td align="left"></td>
   </tr>
 </table>
 
