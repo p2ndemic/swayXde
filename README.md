@@ -158,7 +158,7 @@ cp -r dotfiles/.config/* ~/.config
     <th align="left">Note</th>
   </tr>
   <tr>
-    <td align="left">Wallpaper Tool</td>
+    <td align="left">Wallpaper tool</td>
     <td align="left">
       <a href="https://archlinux.org/packages/extra/x86_64/swaybg/"
          target="_blank"
@@ -178,7 +178,7 @@ cp -r dotfiles/.config/* ~/.config
     <td align="left"></td>
   </tr>
   <tr>
-    <td align="left">Status Bar</td>
+    <td align="left">Status bar</td>
     <td align="left">
       <a href="https://wiki.archlinux.org/title/Waybar"
          target="_blank"
@@ -210,7 +210,7 @@ cp -r dotfiles/.config/* ~/.config
     <th align="left">Note</th>
   </tr>
   <tr>
-    <td align="left">Wallpaper Tool</td>
+    <td align="left">Wallpaper tool</td>
     <td align="left">
       <a href="https://wiki.archlinux.org/title/PCManFM"
          target="_blank"
@@ -230,7 +230,7 @@ cp -r dotfiles/.config/* ~/.config
     <td align="left">PCmanFM-QT Daemon Mode</td>
   </tr>
   <tr>
-    <td align="left">Status Bar</td>
+    <td align="left">Status bar</td>
     <td align="left">
       <a href="https://wiki.archlinux.org/title/Waybar"
          target="_blank"
