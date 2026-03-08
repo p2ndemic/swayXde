@@ -101,13 +101,13 @@ cp -r dotfiles/.config/* ~/.config
 ### 🌀 Bluetooth Drivers & Utils
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
-| 📡 Bluetooth Drivers | [bluez](https://wiki.archlinux.org/title/Bluetooth) · [bluez-libs](https://archlinux.org/packages/extra/x86_64/bluez-libs/) · [bluez-utils](https://archlinux.org/packages/extra/x86_64/bluez-utils/) · [bluez-hid2hci](https://archlinux.org/packages/extra/x86_64/bluez-hid2hci/) | [bluez-obex](https://archlinux.org/packages/extra/x86_64/bluez-obex/) | _[Arch Wiki](https://wiki.archlinux.org/title/Bluetooth)_ ➟  _rfkill unblock bluetooth_ ➟ _sudo systemctl enable --now bluetooth.service_ |
-| 📡 Bluetooth Utils | [blueman](https://github.com/blueman-project/blueman) | [overskride](https://github.com/kaii-lb/overskride) |
+| 🌀 Bluetooth Drivers | [bluez](https://wiki.archlinux.org/title/Bluetooth) · [bluez-libs](https://archlinux.org/packages/extra/x86_64/bluez-libs/) · [bluez-utils](https://archlinux.org/packages/extra/x86_64/bluez-utils/) · [bluez-hid2hci](https://archlinux.org/packages/extra/x86_64/bluez-hid2hci/) | [bluez-obex](https://archlinux.org/packages/extra/x86_64/bluez-obex/) | _[Arch Wiki](https://wiki.archlinux.org/title/Bluetooth)_ ➟  _rfkill unblock bluetooth_ ➟ _sudo systemctl enable --now bluetooth.service_ |
+| 🌀 Bluetooth Utils | [blueman](https://github.com/blueman-project/blueman) | [overskride](https://github.com/kaii-lb/overskride) |
 
 
 ---
 
-## 🪟 Wayland Stack
+## 🧩 Wayland Stack
 | Module Type | Module Name  | Alternatives |
 |-------------|--------------|--------------|
 | 🌲 Wayland Compositor      | [labwc](https://wiki.archlinux.org/title/Labwc) \| [sway](https://github.com/swaywm/sway) | [niri](https://wiki.archlinux.org/title/Niri) |
@@ -132,7 +132,7 @@ cp -r dotfiles/.config/* ~/.config
 
 ---
 
-## 🌲 WL Compositor Core Modules
+## 🔮 WL Compositor Core Modules
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
 | 🖼️ Wallpaper Tools     | [swaybg](https://github.com/swaywm/swaybg) | [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) \| [swww](https://github.com/LGFae/swww) |
