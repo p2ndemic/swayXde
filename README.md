@@ -171,6 +171,76 @@ cp -r dotfiles/.config/* ~/.config
   </tr>
 </table>
 
+<table border="1">
+  <tr>
+    <th colspan="2">▫️Sway &nbsp;</th>
+  </tr>
+    <tr>
+    <td>Wallpaper Tool</td>
+    <td>pcmanfm-qt</td>
+    <td>pcmanfm-qt</td>
+  </tr>
+    <tr>
+    <td>Анна</td>
+    <td>25</td>
+  </tr>
+</table>
+
+
+
+<table border="1">
+  <tr>
+    <th colspan="2">Sway &nbsp;</th>
+  </tr>
+  <tr>
+    <th>Module Type</th>
+    <th>Module Name</th>
+  </tr>
+  <tr>
+    <td>Анна</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Анна</td>
+    <td>25</td>
+  </tr>
+  <tr>
+    <td>Анна</td>
+    <td>25</td>
+  </tr>
+</table>
+
+
+<table border="1">
+  <tr>
+    <th colspan="3">Sway &nbsp;</th>
+  </tr>
+  <tr>
+    <th>Module Type</th>
+    <th>Module Name</th>
+    <th>Note</th>
+  </tr>
+  <tr>
+    <td>🔹 Wallpaper Tool</td>
+    <td>
+      <a href="https://wiki.archlinux.org/title/PCManFM"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="pcmanfm-qt">
+        pcmanfm-qt
+      </a>
+    </td>
+    <td>
+      <a href="https://archlinux.org/packages/extra/x86_64/pcmanfm-qt/"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="config">
+        config
+      </a>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## 🔧 CLI Tools
