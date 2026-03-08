@@ -149,17 +149,17 @@ cp -r dotfiles/.config/* ~/.config
 
 <table border="1">
   <tr>
-    <th colspan="4" style="text-align:left;">Sway &nbsp;</th>
+    <th colspan="4" align="left">Sway &nbsp;</th>
   </tr>
   <tr>
-    <th style="text-align:left;">Module Type</th>
-    <th style="text-align:left;">Module Name</th>
-    <th style="text-align:left;">Config</th>
-    <th style="text-align:left;">Note</th>
+    <th align="left">Module Type</th>
+    <th align="left">Module Name</th>
+    <th align="left">Config</th>
+    <th align="left">Note</th>
   </tr>
   <tr>
-    <td style="text-align: left;">▫️ Wallpaper Tool</td>
-    <td style="text-align: left;">
+    <td align="left">Wallpaper Tool</td>
+    <td align="left">
       <a href="https://archlinux.org/packages/extra/x86_64/swaybg/"
          target="_blank"
          rel="noopener noreferrer"
@@ -167,7 +167,7 @@ cp -r dotfiles/.config/* ~/.config
         swaybg
       </a>
     </td>
-    <td style="text-align: left;">
+    <td align="left">
       <a href="https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/swaybg.service"
          target="_blank"
          rel="noopener noreferrer"
@@ -175,44 +175,9 @@ cp -r dotfiles/.config/* ~/.config
         Systemd Unit
       </a>
     </td>
-    <td style="text-align: left;">swaybg systemd unit</td>
+    <td align="left">swaybg systemd unit</td>
   </tr>
 </table>
-
-
-<table border="1">
-  <tr>
-    <th colspan="4" style="text-align: left;">Labwc</th>
-  </tr>
-  <tr>
-    <th style="text-align: left;">Module Type</th>
-    <th style="text-align: left;">Module Name</th>
-    <th style="text-align: left;">Config</th>
-    <th style="text-align: left;">Note</th>
-  </tr>
-  <tr>
-    <td style="text-align: left;">▫️ Wallpaper Tool</td>
-    <td style="text-align: left;">
-      <a href="https://wiki.archlinux.org/title/PCManFM"
-         target="_blank"
-         rel="noopener noreferrer"
-         title="pcmanfm-qt">
-        pcmanfm-qt
-      </a>
-    </td>
-    <td style="text-align: left;">
-      <a href="https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/pcmanfm-qt.service"
-         target="_blank"
-         rel="noopener noreferrer"
-         title="PCmanFM-QT Daemon Mode">
-        Systemd Unit
-      </a>
-    </td>
-    <td style="text-align: left;">PCManFM-QT Daemon Mode</td>
-  </tr>
-</table>
-
----
 
 <table border="1">
   <tr>
@@ -225,7 +190,7 @@ cp -r dotfiles/.config/* ~/.config
     <th align="left">Note</th>
   </tr>
   <tr>
-    <td align="left">▫️ Wallpaper Tool</td>
+    <td align="left">Wallpaper Tool</td>
     <td align="left">
       <a href="https://wiki.archlinux.org/title/PCManFM"
          target="_blank"
