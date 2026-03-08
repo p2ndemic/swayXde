@@ -213,7 +213,7 @@ cp -r dotfiles/.config/* ~/.config
 
 <table border="1">
   <tr>
-    <th colspan="3">🔹 Sway &nbsp;</th>
+    <th colspan="3">LabWC &nbsp;</th>
   </tr>
   <tr>
     <th>Module Type</th>
@@ -221,7 +221,7 @@ cp -r dotfiles/.config/* ~/.config
     <th>Note</th>
   </tr>
   <tr>
-    <td>Wallpaper Tool</td>
+    <td>▫️ Wallpaper Tool</td>
     <td>
       <a href="https://wiki.archlinux.org/title/PCManFM"
          target="_blank"
@@ -231,7 +231,7 @@ cp -r dotfiles/.config/* ~/.config
       </a>
     </td>
     <td>
-      <a href="https://archlinux.org/packages/extra/x86_64/pcmanfm-qt/"
+      <a href="https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/pcmanfm-qt.service"
          target="_blank"
          rel="noopener noreferrer"
          title="pcmanfm-qt daemon mode">
