@@ -142,7 +142,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🧱 Bar                 | [waybar](https://github.com/Alexays/Waybar) | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) \| [ironbar](https://github.com/JakeStanger/ironbar) \| [gbar](https://aur.archlinux.org/packages/gbar-git) \| [vibepanel](https://github.com/prankstr/vibepanel)|
 | 🔲 OSD                 | [wob](https://github.com/francma/wob) ﹢ [wob-brightness.sh](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/wob-brightness.sh) ﹢ [wob-volume.sh](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/wob-volume.sh)
 | 🔆 Brightness & Gamma  | [brightnessctl](https://github.com/Hummer12007/brightnessctl) | [gammastep](https://gitlab.com/chinstrap/gammastep) \| [wlsunset](https://git.sr.ht/~kennylevinsen/wlsunset) |
-| 📺 Output Config Tools | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | [nwg-displays](https://github.com/nwg-piotr/nwg-displays) \| [shikane](https://gitlab.com/w0lff/shikane) |
+| 🎴 Output Config Tools | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | [nwg-displays](https://github.com/nwg-piotr/nwg-displays) \| [shikane](https://gitlab.com/w0lff/shikane) |
 | ⌨️ Input tools         | [xkb-monitor](https://github.com/drougas/xkb-monitor) | for Labwc + Waybar Integration! |
 
 ## 🔰 WC Specific Modules
