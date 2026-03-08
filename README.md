@@ -41,7 +41,6 @@ cp -r dotfiles/.config/* ~/.config
 | 📦 Package Management | [pacman-contrib](https://archlinux.org/packages/extra/x86_64/pacman-contrib/) · [pkgfile](https://wiki.archlinux.org/title/Pkgfile) · [reflector](https://wiki.archlinux.org/title/Reflector) · [rebuild-detector](https://archlinux.org/packages/extra/any/rebuild-detector/) · [git](https://wiki.archlinux.org/title/Git) · [octopi](https://aur.archlinux.org/packages/octopi) | | _[Arch Wiki](https://wiki.archlinux.org/title/Pacman)_ |
 | 🧊 Archiving & Compression | [zlib-ng](https://archlinux.org/packages/extra/x86_64/zlib-ng/) · [zlib-ng-compat](https://archlinux.org/packages/extra/x86_64/zlib-ng-compat/) · [libarchive](https://archlinux.org/packages/core/x86_64/libarchive/) · [7zip](https://archlinux.org/packages/extra/x86_64/7zip/) · [arqiver](https://aur.archlinux.org/packages/arqiver) |
 | 🅰️ Font rendering     | [freetype2](https://archlinux.org/packages/extra/x86_64/freetype2/) · [fontconfig](https://archlinux.org/packages/extra/x86_64/fontconfig/) |
-| 🔤 Fonts              | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) · [cascadia-code](https://github.com/microsoft/cascadia-code) · [terminus-font](https://archlinux.org/packages/extra/any/terminus-font/) |
 | 🧙 AUR Helpers        | [chaotic-aur](https://aur.chaotic.cx/) · [yay](https://aur.archlinux.org/packages/yay) | [paru](https://aur.archlinux.org/packages/paru) | 💀 _[Сhaotic Wiki](https://aur.chaotic.cx/docs)_ |
 
 ---
@@ -117,7 +116,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🔐 Session Access Manager  | [polkit](https://wiki.archlinux.org/title/Polkit) · [lxqt-policykit](https://archlinux.org/packages/extra/x86_64/lxqt-policykit/)
 | 🌀 XDG Portal Backend      | [xdg-desktop-portal](https://wiki.archlinux.org/title/XDG_Desktop_Portal) · [xdg-desktop-portal-wlr](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-wlr/) · [xdg-desktop-portal-lxqt](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-lxqt/)
 | 🗂️ XDG User Dirs & Utils   | [xdg-user-dirs](https://wiki.archlinux.org/title/XDG_user_directories) · [xdg-utils](https://wiki.archlinux.org/title/Xdg-utils)
-| ⛶ Display Manager         | _none_ | [greetd](https://git.sr.ht/~kennylevinsen/greetd) ﹢ [regreet](https://github.com/rharish101/ReGreet) \| [ly](https://codeberg.org/fairyglade/ly) |
+| 🪟 Display Manager         | _none_ | [greetd](https://git.sr.ht/~kennylevinsen/greetd) ﹢ [regreet](https://github.com/rharish101/ReGreet) \| [ly](https://codeberg.org/fairyglade/ly) |
 
 ---
 
@@ -132,7 +131,7 @@ cp -r dotfiles/.config/* ~/.config
 
 ---
 
-## 🔮 WL Compositor Core Modules
+## 🔮 WC Core Modules
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
 | 🌄 Wallpaper Tools     | [swaybg](https://github.com/swaywm/swaybg) | [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) \| [swww](https://github.com/LGFae/swww) |
@@ -151,11 +150,11 @@ cp -r dotfiles/.config/* ~/.config
 
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
-| 🔧 CLI Tools              | [eza](https://github.com/eza-community/eza) \| [bat](https://github.com/sharkdp/bat) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
-| 🔍 File Search Tools      | [fzf](https://github.com/junegunn/fzf) \| [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim)
-| 💾 Disk Usage & Cleaning  | [duf](https://github.com/muesli/duf) | [dua-cli](https://github.com/Byron/dua-cli)
-| 🧰 System Fetch & Info    | [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) · [trippy](https://github.com/fujiapple852/trippy)|
-| 📝 Diff and merge tools   | [meld](https://gitlab.gnome.org/GNOME/meld)
+| 🔧 Core                  | [bat](https://github.com/sharkdp/bat) · [eza](https://github.com/eza-community/eza) · [fzf](https://github.com/junegunn/fzf) · [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
+| 🔍 File Search Tools     | [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim) |
+| 💾 Disk Usage & Cleaning | [duf](https://github.com/muesli/duf) | [dua-cli](https://github.com/Byron/dua-cli)
+| 🧰 System Fetch & Info   | [trippy](https://github.com/fujiapple852/trippy) |
+| 📝 Diff and merge tools  | [meld](https://gitlab.gnome.org/GNOME/meld) |
 
 https://github.com/dandavison/delta
 
@@ -174,6 +173,9 @@ https://github.com/dandavison/delta
 
 | Module Type | Module Name |
 |-------------|-------------|
+| 🔧 CLI Tools   | [bat](https://github.com/sharkdp/bat) · [eza](https://github.com/eza-community/eza) · [fzf](https://github.com/junegunn/fzf) · [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
+
+
 | 📊 Monitoring & Metrics  | [btop](https://github.com/aristocratos/btop) \| [glances](https://github.com/nicolargo/glances) \| [netdata](https://github.com/netdata/netdata) \| [nvtop](https://github.com/Syllo/nvtop) \| [s-tui](https://github.com/amanusk/s-tui) \| [neohtop](https://github.com/Abdenasser/neohtop) \| [mission-center](https://gitlab.com/mission-center-devs/mission-center) |
 | 💻 System Utilities      | [iotop](https://github.com/Tomas-M/iotop) \| [kmon](https://github.com/orhun/kmon) \| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) \| [powertop](https://github.com/fenrus75/powertop) \| https://archlinux.org/packages/extra/x86_64/caligula/ |
 | 🧠 Info & Diagnostics    | [wavemon](https://github.com/uoaerg/wavemon) \| [iftop](https://code.blinkace.com/pdw/iftop) |
@@ -222,7 +224,8 @@ https://github.com/dandavison/delta
 | 🎨 Theme Manager  | [kvantum](https://github.com/tsujan/Kvantum) + [nwg-look](https://github.com/nwg-piotr/nwg-look) |
 | 🌈 GTK Themes     | [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
 | ✨ Qt Themes      | [kvlibadwaita](https://github.com/GabePoel/KvLibadwaita) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
-| 🧸 Icons          | [Papirus Dark](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) |
+| 🔤 Fonts          | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) · [cascadia-code](https://github.com/microsoft/cascadia-code) · [terminus-font](https://archlinux.org/packages/extra/any/terminus-font/) |
+| 🧸 Icons          | |
 
 ---
 
