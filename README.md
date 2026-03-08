@@ -147,77 +147,16 @@ cp -r dotfiles/.config/* ~/.config
 
 ## 🔰 WC Specific Modules
 
-<table>
-  <tr>
-    <th>▫️Sway &nbsp;</th>
-    <th colspan="1"></th>
-  </tr>
-  <tr>
-    <td>Анна</td>
-    <td>Email</td>
-    <td>Телефон</td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <th>▫️Labwc</th>
-    <th colspan="2">Контакты</th>
-  </tr>
-  <tr>
-    <td>Анна</td>
-    <td>Email</td>
-    <td>Телефон</td>
-  </tr>
-</table>
-
-<table border="1">
-  <tr>
-    <th colspan="2">▫️Sway &nbsp;</th>
-  </tr>
-    <tr>
-    <td>Wallpaper Tool</td>
-    <td>pcmanfm-qt</td>
-    <td>pcmanfm-qt</td>
-  </tr>
-    <tr>
-    <td>Анна</td>
-    <td>25</td>
-  </tr>
-</table>
-
 
 
 <table border="1">
   <tr>
-    <th colspan="2">Sway &nbsp;</th>
+    <th colspan="3">LabWC</th>
   </tr>
   <tr>
     <th>Module Type</th>
     <th>Module Name</th>
-  </tr>
-  <tr>
-    <td>Анна</td>
-    <td>25</td>
-  </tr>
-  <tr>
-    <td>Анна</td>
-    <td>25</td>
-  </tr>
-  <tr>
-    <td>Анна</td>
-    <td>25</td>
-  </tr>
-</table>
-
-
-<table border="1">
-  <tr>
-    <th colspan="3">LabWC &nbsp;</th>
-  </tr>
-  <tr>
-    <th>Module Type</th>
-    <th>Module Name</th>
+    <th>Config</th>
     <th>Note</th>
   </tr>
   <tr>
@@ -235,10 +174,11 @@ cp -r dotfiles/.config/* ~/.config
          target="_blank"
          rel="noopener noreferrer"
          title="pcmanfm-qt daemon mode">
-        config
+        Systemd Unit
       </a>
     </td>
   </tr>
+  <td>PCmanFM-QT Daemon Mode</td>
 </table>
 
 ---
