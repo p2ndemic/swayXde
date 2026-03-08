@@ -117,7 +117,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🔐 Session Access Manager  | [polkit](https://wiki.archlinux.org/title/Polkit) · [lxqt-policykit](https://archlinux.org/packages/extra/x86_64/lxqt-policykit/)
 | 🌌 XDG Portal Backend      | [xdg-desktop-portal](https://wiki.archlinux.org/title/XDG_Desktop_Portal) · [xdg-desktop-portal-wlr](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-wlr/) · [xdg-desktop-portal-lxqt](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-lxqt/)
 | 🗂️ XDG User Dirs & Utils   | [xdg-user-dirs](https://wiki.archlinux.org/title/XDG_user_directories) · [xdg-utils](https://wiki.archlinux.org/title/Xdg-utils)
-| 🚪 Display Manager         | _none_ | [greetd](https://git.sr.ht/~kennylevinsen/greetd) ﹢ [regreet](https://github.com/rharish101/ReGreet) \| [ly](https://codeberg.org/fairyglade/ly) |
+| 🔲⛶ Display Manager         | _none_ | [greetd](https://git.sr.ht/~kennylevinsen/greetd) ﹢ [regreet](https://github.com/rharish101/ReGreet) \| [ly](https://codeberg.org/fairyglade/ly) |
 
 ---
 
@@ -135,7 +135,7 @@ cp -r dotfiles/.config/* ~/.config
 ## 🔮 WL Compositor Core Modules
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
-| 🖼️ Wallpaper Tools     | [swaybg](https://github.com/swaywm/swaybg) | [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) \| [swww](https://github.com/LGFae/swww) |
+| 🌄 Wallpaper Tools     | [swaybg](https://github.com/swaywm/swaybg) | [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) \| [swww](https://github.com/LGFae/swww) |
 | 🌙 Idle Daemon         | [swayidle](https://github.com/swaywm/swayidle) |
 | 🔒 Lockscreen & Logout | [wlopm](https://aur.archlinux.org/packages/wlopm) ﹢ [swaylock](https://github.com/swaywm/swaylock) | [chayang](https://aur.archlinux.org/packages/chayang) |
 | 🔔 Notification Daemon | [mako](https://github.com/emersion/mako) | [fnott](https://codeberg.org/dnkl/fnott) |
