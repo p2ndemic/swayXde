@@ -149,13 +149,13 @@ cp -r dotfiles/.config/* ~/.config
 
 <table border="1">
   <tr>
-    <th colspan="4" style="text-align: left;">Sway &nbsp;</th>
+    <th colspan="4" style="text-align:left;">Sway &nbsp;</th>
   </tr>
   <tr>
-    <th style="text-align: left;">Module Type</th>
-    <th style="text-align: left;">Module Name</th>
-    <th style="text-align: left;">Config</th>
-    <th style="text-align: left;">Note</th>
+    <th style="text-align:left;">Module Type</th>
+    <th style="text-align:left;">Module Name</th>
+    <th style="text-align:left;">Config</th>
+    <th style="text-align:left;">Note</th>
   </tr>
   <tr>
     <td style="text-align: left;">▫️ Wallpaper Tool</td>
