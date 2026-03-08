@@ -147,21 +147,52 @@ cp -r dotfiles/.config/* ~/.config
 
 ## 🔰 WC Specific Modules
 
+<table border="1">
+  <tr>
+    <th colspan="4" style="text-align: center;">Sway &nbsp;</th>
+  </tr>
+  <tr>
+    <th style="text-align: left;">Module Type</th>
+    <th style="text-align: left;">Module Name</th>
+    <th style="text-align: left;">Config</th>
+    <th style="text-align: left;">Note</th>
+  </tr>
+  <tr>
+    <td style="text-align: left;">▫️ Wallpaper Tool</td>
+    <td style="text-align: left;">
+      <a href="https://archlinux.org/packages/extra/x86_64/swaybg/"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="swaybg">
+        swaybg
+      </a>
+    </td>
+    <td style="text-align: left;">
+      <a href="https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/swaybg.service"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="swaybg systemd unit">
+        Systemd Unit
+      </a>
+    </td>
+    <td style="text-align: left;">swaybg systemd unit</td>
+  </tr>
+</table>
 
 
 <table border="1">
   <tr>
-    <th colspan="3">LabWC</th>
+    <th colspan="4" style="text-align: center;">Labwc</th>
   </tr>
   <tr>
-    <th>Module Type</th>
-    <th>Module Name</th>
-    <th>Config</th>
-    <th>Note</th>
+    <th style="text-align: left;">Module Type</th>
+    <th style="text-align: left;">Module Name</th>
+    <th style="text-align: left;">Config</th>
+    <th style="text-align: left;">Note</th>
   </tr>
   <tr>
-    <td>▫️ Wallpaper Tool</td>
-    <td>
+    <td style="text-align: left;">▫️ Wallpaper Tool</td>
+    <td style="text-align: left;">
       <a href="https://wiki.archlinux.org/title/PCManFM"
          target="_blank"
          rel="noopener noreferrer"
@@ -169,16 +200,16 @@ cp -r dotfiles/.config/* ~/.config
         pcmanfm-qt
       </a>
     </td>
-    <td>
+    <td style="text-align: left;">
       <a href="https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/pcmanfm-qt.service"
          target="_blank"
          rel="noopener noreferrer"
-         title="pcmanfm-qt daemon mode">
+         title="PCmanFM-QT Daemon Mode">
         Systemd Unit
       </a>
     </td>
+    <td style="text-align: left;">PCManFM-QT Daemon Mode</td>
   </tr>
-  <td>PCmanFM-QT Daemon Mode</td>
 </table>
 
 ---
