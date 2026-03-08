@@ -136,7 +136,7 @@ cp -r dotfiles/.config/* ~/.config
 |-------------|-------------|--------------|
 | 🌄 Wallpaper Tools     | [swaybg](https://github.com/swaywm/swaybg) | [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) \| [swww](https://github.com/LGFae/swww) |
 | 🌙 Idle Management Daemon | [swayidle](https://github.com/swaywm/swayidle) |
-| 🔒 Screen Locker | [wlopm](https://archlinux.org/packages/extra/x86_64/wlopm/) ﹢ [swaylock](https://github.com/swaywm/swaylock) | [chayang](https://aur.archlinux.org/packages/chayang) |
+| 🔒 Screen Locker | [swaylock](https://github.com/swaywm/swaylock) ﹢ [wlopm](https://archlinux.org/packages/extra/x86_64/wlopm/) | [chayang](https://aur.archlinux.org/packages/chayang) |
 | 🔔 Notification Daemon | [mako](https://github.com/emersion/mako) | [fnott](https://codeberg.org/dnkl/fnott) |
 | 📋 Clipboard Manager   | [wl-clipboard-rs](https://github.com/YaLTeR/wl-clipboard-rs) ﹢ [wl-clip-persist](https://github.com/Linus789/wl-clip-persist) ﹢ [cliphist](https://github.com/sentriz/cliphist) | [wl-clipboard](https://github.com/bugaevc/wl-clipboard) \| [clipse](https://github.com/savedra1/clipse) \| [clipvault](https://github.com/rolv-apneseth/clipvault) |
 | 🧱 Bar                 | [waybar](https://github.com/Alexays/Waybar) | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) \| [ironbar](https://github.com/JakeStanger/ironbar) \| [gbar](https://aur.archlinux.org/packages/gbar-git) \| [vibepanel](https://github.com/prankstr/vibepanel)|
