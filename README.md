@@ -109,7 +109,7 @@ cp -r dotfiles/.config/* ~/.config
 ## 🧩 Wayland Stack
 | Module Type | Module Name  | Alternatives |
 |-------------|--------------|--------------|
-| 🌲 Wayland Compositor      | [sway](https://github.com/swaywm/sway) \| [labwc](https://wiki.archlinux.org/title/Labwc) | [mango](https://wiki.archlinux.org/title/MangoWM) \| [niri](https://wiki.archlinux.org/title/Niri) |
+| 🔰 Wayland Compositor      | [sway](https://github.com/swaywm/sway) \| [labwc](https://wiki.archlinux.org/title/Labwc) | [mango](https://wiki.archlinux.org/title/MangoWM) \| [niri](https://wiki.archlinux.org/title/Niri) |
 | 📜 Wayland Protocols       | [wayland-protocols](https://gitlab.freedesktop.org/wayland/wayland-protocols) ﹢ [wlr-protocols](https://gitlab.freedesktop.org/wlroots/wlr-protocols) ﹢ [frog-protocols](https://github.com/misyltoad/frog-protocols) |
 | 📗 Wayland Integration     | [egl-wayland](https://archlinux.org/packages/extra/x86_64/egl-wayland/) · [xorg-xwayland](https://archlinux.org/packages/extra/x86_64/xorg-xwayland/) · [qt5-wayland](https://archlinux.org/packages/extra/x86_64/qt5-wayland) · [qt6-wayland](https://archlinux.org/packages/extra/x86_64/qt6-wayland)
 | 🧵 Wayland Session Manager | [uwsm ](https://wiki.archlinux.org/title/Universal_Wayland_Session_Manager) |
@@ -131,7 +131,7 @@ cp -r dotfiles/.config/* ~/.config
 
 ---
 
-## 🔮 WC Core Modules
+## 🔰 WC Core Modules
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
 | 🌄 Wallpaper Tools     | [swaybg](https://github.com/swaywm/swaybg) | [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) \| [swww](https://github.com/LGFae/swww) |
@@ -148,10 +148,34 @@ cp -r dotfiles/.config/* ~/.config
 ---
 
 ## ▫️ WC Specific Modules
-|Sway|
+
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
-|        asd     |     asd        |      asd        |
+|    Sway     |     asd     |   asd        |
+
+<table>
+  <tr>
+    <th>🔰 Sway</th>
+    <th colspan="2">Контакты</th>
+  </tr>
+  <tr>
+    <td>Анна</td>
+    <td>Email</td>
+    <td>Телефон</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th>Labwc</th>
+    <th colspan="2">Контакты</th>
+  </tr>
+  <tr>
+    <td>Анна</td>
+    <td>Email</td>
+    <td>Телефон</td>
+  </tr>
+</table>
 
 ## 🔧 CLI Tools
 
