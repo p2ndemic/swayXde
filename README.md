@@ -135,7 +135,7 @@ cp -r dotfiles/.config/* ~/.config
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
 | 🖥️ Output Config Tools | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | [nwg-displays](https://github.com/nwg-piotr/nwg-displays) \| [shikane](https://gitlab.com/w0lff/shikane) |
-| 🏞️ Wallpaper Tools     | [swaybg](https://github.com/swaywm/swaybg) | [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) \| [swww](https://github.com/LGFae/swww) |
+| 🖼️ Wallpaper Tools     | [swaybg](https://github.com/swaywm/swaybg) | [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) \| [swww](https://github.com/LGFae/swww) |
 | 🌙 Idle Management Daemon | [swayidle](https://github.com/swaywm/swayidle) |
 | 🔒 Screen Locker | [swaylock](https://github.com/swaywm/swaylock) ﹢ [wlopm](https://archlinux.org/packages/extra/x86_64/wlopm/) | [chayang](https://aur.archlinux.org/packages/chayang) |
 | 🔔 Notification Daemon | [mako](https://github.com/emersion/mako) | [fnott](https://codeberg.org/dnkl/fnott) |
