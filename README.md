@@ -150,6 +150,7 @@ cp -r dotfiles/.config/* ~/.config
 <table>
   <tr>
     <th>▫️Sway &nbsp;</th>
+    <th colspan="1"></th>
   </tr>
   <tr>
     <td>Анна</td>
