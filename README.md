@@ -195,7 +195,7 @@ cp -r dotfiles/.config/* ~/.config
         Waybar Config
       </a>
     </td>
-    <td align="left">Keyboard state monitor</td>
+    <td align="left">Sway Waybar Config</td>
   </tr>
 </table>
 
@@ -247,7 +247,7 @@ cp -r dotfiles/.config/* ~/.config
         Waybar Config
       </a>
     </td>
-    <td align="left">Keyboard state monitor</td>
+    <td align="left">Labwc Waybar Config</td>
   </tr>
   <tr>
     <td align="left">Input tool</td>
