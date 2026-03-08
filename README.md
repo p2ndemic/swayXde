@@ -177,6 +177,26 @@ cp -r dotfiles/.config/* ~/.config
     </td>
     <td align="left"></td>
   </tr>
+  <tr>
+    <td align="left">Status Bar</td>
+    <td align="left">
+      <a href="https://wiki.archlinux.org/title/Waybar"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="xkb-monitor">
+        waybar
+      </a>
+    </td>
+    <td align="left">
+      <a href="https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="Waybar Config">
+        Waybar Config
+      </a>
+    </td>
+    <td align="left">Keyboard state monitor</td>
+  </tr>
 </table>
 
 <table border="1">
@@ -210,7 +230,7 @@ cp -r dotfiles/.config/* ~/.config
     <td align="left">PCmanFM-QT Daemon Mode</td>
   </tr>
   <tr>
-    <td align="left">Waybar</td>
+    <td align="left">Status Bar</td>
     <td align="left">
       <a href="https://wiki.archlinux.org/title/Waybar"
          target="_blank"
