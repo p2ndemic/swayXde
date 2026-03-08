@@ -97,7 +97,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🌊 GStreamer                 | | |  |
 | 📼 FFmpeg                    | | |  |
 
-### 🔹 Bluetooth Drivers & Utils
+### 🔷 Bluetooth Drivers & Utils
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
 | 🔹 Bluetooth Drivers | [bluez](https://wiki.archlinux.org/title/Bluetooth) · [bluez-libs](https://archlinux.org/packages/extra/x86_64/bluez-libs/) · [bluez-utils](https://archlinux.org/packages/extra/x86_64/bluez-utils/) · [bluez-hid2hci](https://archlinux.org/packages/extra/x86_64/bluez-hid2hci/) | [bluez-obex](https://archlinux.org/packages/extra/x86_64/bluez-obex/) | _[Arch Wiki](https://wiki.archlinux.org/title/Bluetooth)_ ➟  _rfkill unblock bluetooth_ ➟ _sudo systemctl enable --now bluetooth.service_ |
