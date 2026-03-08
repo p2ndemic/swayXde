@@ -135,7 +135,7 @@ cp -r dotfiles/.config/* ~/.config
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
 | 🌄 Wallpaper Tools     | [swaybg](https://github.com/swaywm/swaybg) | [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) \| [swww](https://github.com/LGFae/swww) |
-| 🌙 Idle management daemon | [swayidle](https://github.com/swaywm/swayidle) |
+| 🌙 Idle Management Daemon | [swayidle](https://github.com/swaywm/swayidle) |
 | 🔒 Lockscreen & Logout | [wlopm](https://aur.archlinux.org/packages/wlopm) ﹢ [swaylock](https://github.com/swaywm/swaylock) | [chayang](https://aur.archlinux.org/packages/chayang) |
 | 🔔 Notification Daemon | [mako](https://github.com/emersion/mako) | [fnott](https://codeberg.org/dnkl/fnott) |
 | 📋 Clipboard Manager   | [wl-clipboard-rs](https://github.com/YaLTeR/wl-clipboard-rs) ﹢ [cliphist](https://github.com/sentriz/cliphist) | [clipse](https://github.com/savedra1/clipse) \| [clipvault](https://github.com/rolv-apneseth/clipvault) |
