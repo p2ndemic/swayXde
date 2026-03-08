@@ -149,7 +149,7 @@ cp -r dotfiles/.config/* ~/.config
 
 <table border="1">
   <tr>
-    <th colspan="4" style="text-align: center;">Sway &nbsp;</th>
+    <th colspan="4" style="text-align: left;">Sway &nbsp;</th>
   </tr>
   <tr>
     <th style="text-align: left;">Module Type</th>
@@ -182,7 +182,7 @@ cp -r dotfiles/.config/* ~/.config
 
 <table border="1">
   <tr>
-    <th colspan="4" style="text-align: center;">Labwc</th>
+    <th colspan="4" style="text-align: left;">Labwc</th>
   </tr>
   <tr>
     <th style="text-align: left;">Module Type</th>
