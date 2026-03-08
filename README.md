@@ -88,7 +88,7 @@ cp -r dotfiles/.config/* ~/.config
 
 ---
 
-### 🎚️ Sound Drivers & Codecs
+### 🎧 Sound Drivers & Codecs
 | Module Type | Module Name | Optional | Note |
 |-------------|-------------|----------|------|
 | 🎛️ ALSA                   | [alsa-firmware](https://archlinux.org/packages/extra/any/alsa-firmware/) · [alsa-utils](https://archlinux.org/packages/extra/x86_64/alsa-utils/) · [alsa-plugins](https://archlinux.org/packages/extra/x86_64/alsa-plugins/) · [alsa-card-profiles](https://archlinux.org/packages/extra/x86_64/alsa-card-profiles/) | | _[Arch Wiki](https://wiki.archlinux.org/title/Advanced_Linux_Sound_Architecture)_ |
