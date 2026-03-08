@@ -149,7 +149,7 @@ cp -r dotfiles/.config/* ~/.config
 
 <table>
   <tr>
-    <th>▫️Sway </th>
+    <th>▫️Sway  </th>
     <th colspan="2">Контакты</th>
   </tr>
   <tr>
