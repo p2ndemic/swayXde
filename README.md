@@ -145,13 +145,7 @@ cp -r dotfiles/.config/* ~/.config
 | 📺 Output Config Tools | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | [nwg-displays](https://github.com/nwg-piotr/nwg-displays) \| [shikane](https://gitlab.com/w0lff/shikane) |
 | ⌨️ Input tools         | [xkb-monitor](https://github.com/drougas/xkb-monitor) | for Labwc + Waybar Integration! |
 
----
-
 ## 🔰 WC Specific Modules
-
-| Module Type | Module Name | Alternatives |
-|-------------|-------------|--------------|
-|    Sway     |     asd     |   asd        |
 
 <table>
   <tr>
@@ -176,6 +170,8 @@ cp -r dotfiles/.config/* ~/.config
     <td>Телефон</td>
   </tr>
 </table>
+
+---
 
 ## 🔧 CLI Tools
 
