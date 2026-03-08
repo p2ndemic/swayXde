@@ -125,7 +125,7 @@ cp -r dotfiles/.config/* ~/.config
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
 | 🐟 Shell             | [fish](https://github.com/fish-shell/fish-shell) |
-| 💫 Shell Enhancers   | [starship](https://github.com/starship/starship) ﹢ [navi](https://github.com/denisidoro/navi) |
+| 💫 Shell Enhancers   | [fastfetch](https://github.com/fastfetch-cli/fastfetch) ﹢ [starship](https://github.com/starship/starship) ﹢ [navi](https://github.com/denisidoro/navi) |
 | 📟 Terminal Emulator | [foot](https://codeberg.org/dnkl/foot) |
 | 🚀 App Launcher      | [fuzzel](https://codeberg.org/dnkl/fuzzel) ﹢ [fuzzel-custom-menu](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/fuzzel-launcher-index.sh) ﹢ [fuzzel-powermenu](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/fuzzel-powermenu-index.sh) | [walker](https://github.com/abenz1267/walker) |
 
@@ -146,6 +146,12 @@ cp -r dotfiles/.config/* ~/.config
 | ⌨️ Input tools         | [xkb-monitor](https://github.com/drougas/xkb-monitor) | for Labwc + Waybar Integration! |
 
 ---
+
+## ▫️ WC Specific Modules
+|Sway|
+| Module Type | Module Name | Alternatives |
+|-------------|-------------|--------------|
+|        asd     |     asd        |      asd        |
 
 ## 🔧 CLI Tools
 
@@ -174,7 +180,7 @@ https://github.com/dandavison/delta
 
 | Module Type | Module Name |
 |-------------|-------------|
-| 🔧 CLI Tools   | [bat](https://github.com/sharkdp/bat) · [eza](https://github.com/eza-community/eza) · [fzf](https://github.com/junegunn/fzf) · [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
+| 🔧 CLI Tools   | [bat](https://github.com/sharkdp/bat) · [eza](https://github.com/eza-community/eza) · [fzf](https://github.com/junegunn/fzf) · [inxi](https://codeberg.org/smxi/inxi) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
 
 
 | 📊 Monitoring & Metrics  | [btop](https://github.com/aristocratos/btop) \| [glances](https://github.com/nicolargo/glances) \| [netdata](https://github.com/netdata/netdata) \| [nvtop](https://github.com/Syllo/nvtop) \| [s-tui](https://github.com/amanusk/s-tui) \| [neohtop](https://github.com/Abdenasser/neohtop) \| [mission-center](https://gitlab.com/mission-center-devs/mission-center) |
