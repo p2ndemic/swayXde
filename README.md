@@ -147,7 +147,7 @@ cp -r dotfiles/.config/* ~/.config
 
 ---
 
-## ▫️ WC Specific Modules
+## 🔰 WC Specific Modules
 
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
@@ -155,7 +155,7 @@ cp -r dotfiles/.config/* ~/.config
 
 <table>
   <tr>
-    <th>🔰 Sway</th>
+    <th>▫️Sway</th>
     <th colspan="2">Контакты</th>
   </tr>
   <tr>
@@ -167,7 +167,7 @@ cp -r dotfiles/.config/* ~/.config
 
 <table>
   <tr>
-    <th>Labwc</th>
+    <th>▫️Labwc</th>
     <th colspan="2">Контакты</th>
   </tr>
   <tr>
