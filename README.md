@@ -212,6 +212,38 @@ cp -r dotfiles/.config/* ~/.config
   </tr>
 </table>
 
+<table border="1" style="text-align:left;">
+  <tr>
+    <th colspan="4">Labwc</th>
+  </tr>
+  <tr>
+    <th>Module Type</th>
+    <th>Module Name</th>
+    <th>Config</th>
+    <th>Note</th>
+  </tr>
+  <tr>
+    <td>▫️ Wallpaper Tool</td>
+    <td>
+      <a href="https://wiki.archlinux.org/title/PCManFM"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="pcmanfm-qt">
+        pcmanfm-qt
+      </a>
+    </td>
+    <td>
+      <a href="https://wiki.archlinux.org/title/PCManFM"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="PCmanFM-QT Daemon Mode">
+        Systemd Unit
+      </a>
+    </td>
+    <td>PCmanFM-QT Daemon Mode</td>
+  </tr>
+</table>
+
 ---
 
 ## 🔧 CLI Tools
