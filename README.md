@@ -209,6 +209,46 @@ cp -r dotfiles/.config/* ~/.config
     </td>
     <td align="left">PCmanFM-QT Daemon Mode</td>
   </tr>
+  <tr>
+    <td align="left">Waybar</td>
+    <td align="left">
+      <a href="https://wiki.archlinux.org/title/Waybar"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="xkb-monitor">
+        waybar
+      </a>
+    </td>
+    <td align="left">
+      <a href="https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="Waybar Config">
+        Waybar Config
+      </a>
+    </td>
+    <td align="left">Keyboard state monitor</td>
+  </tr>
+  <tr>
+    <td align="left">Input tool</td>
+    <td align="left">
+      <a href="https://github.com/drougas/xkb-monitor"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="xkb-monitor">
+        xkb-monitor
+      </a>
+    </td>
+    <td align="left">
+      <a href="https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc"
+         target="_blank"
+         rel="noopener noreferrer"
+         title="xkb-monitor waybar integration">
+        Waybar Integration
+      </a>
+    </td>
+    <td align="left">Keyboard state monitor</td>
+  </tr>
 </table>
 
 ---
