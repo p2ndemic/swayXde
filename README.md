@@ -150,8 +150,8 @@ cp -r dotfiles/.config/* ~/.config
 | Module Type | Module Name | Unit |  Note |
 |-------------|-------------|------|-------|
 | 🔹 Output Management    | sway internal |
-| 🔹 Device Automount     | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | [systemD unit](123) | _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ | _systemctl --user enable --now udiskie.service_
-| 🔹 Wallpaper Management | [swaybg](https://github.com/swaywm/swaybg) | [systemD unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/swaybg.service) | _systemctl --user enable --now swaybg.service_ |
+| 🔹 Device Automount     | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | [systemd unit](123) | _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ | _systemctl --user enable --now udiskie.service_
+| 🔹 Wallpaper Management | [swaybg](https://github.com/swaywm/swaybg) | [systemd unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/swaybg.service) | _systemctl --user enable --now swaybg.service_ |
 | 🔹 Status Bar           | [waybar](https://wiki.archlinux.org/title/Waybar) | [systemd Unit]([123](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/waybar.service)) | _[sway_waybar_config](https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc)_ ⤍ _systemctl --user enable --now waybar.service_
 
 
