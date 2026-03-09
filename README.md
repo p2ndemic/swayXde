@@ -276,8 +276,8 @@ cp -r dotfiles/.config/* ~/.config
 
 | Module Type | Module Name | Optional | Alternative |
 |-------------|-------------|----------|-------------|
-| 🔧 CLI Tools   | [jq](https://jqlang.org/) · [bat](https://github.com/sharkdp/bat) · [eza](https://github.com/eza-community/eza) · [fzf](https://github.com/junegunn/fzf) · [inxi](https://codeberg.org/smxi/inxi) · [duf](https://github.com/muesli/duf) · [kmon](https://github.com/orhun/kmon) | [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) \| [dua-cli](https://github.com/Byron/dua-cli) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) \| [skim](https://github.com/skim-rs/skim) |
-| 📊 Monitoring  | [btop](https://github.com/aristocratos/btop) · [mission-center](https://gitlab.com/mission-center-devs/mission-center) | [glances](https://github.com/nicolargo/glances) \| [trippy](https://github.com/fujiapple852/trippy) \| [nvtop](https://github.com/Syllo/nvtop) \| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) \| [pik](https://github.com/jacek-kurlit/pik) |
+| 🔧 CLI Tools   | [jq](https://jqlang.org/) · [bat](https://github.com/sharkdp/bat) · [eza](https://github.com/eza-community/eza) · [fzf](https://github.com/junegunn/fzf) · [inxi](https://codeberg.org/smxi/inxi) · [duf](https://github.com/muesli/duf) | [ripgrep](https://github.com/BurntSushi/ripgrep) · [fd](https://github.com/sharkdp/fd) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) \| [skim](https://github.com/skim-rs/skim) |
+| 📊 Monitoring  | [btop](https://github.com/aristocratos/btop) · [mission-center](https://gitlab.com/mission-center-devs/mission-center) · [kmon](https://github.com/orhun/kmon) | [glances](https://github.com/nicolargo/glances) \| [trippy](https://github.com/fujiapple852/trippy) \| [nvtop](https://github.com/Syllo/nvtop) \| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) \| [pik](https://github.com/jacek-kurlit/pik) |
 | 📝 Diff tools  | [meld](https://gitlab.gnome.org/GNOME/meld) |
 | 🔧 Misc        | [xdg-ninja](https://github.com/b3nj5m1n/xdg-ninja) · [arch-update](https://github.com/Antiz96/arch-update) |
 
@@ -307,7 +307,7 @@ cp -r dotfiles/.config/* ~/.config
 ## Other
 | Module Type | Module Name |
 |-------------|-------------|
-| Misc. Tools | [neohtop](https://github.com/Abdenasser/neohtop) · [s-tui](https://github.com/amanusk/s-tui) · [netdata](https://github.com/netdata/netdata) · [iotop](https://github.com/Tomas-M/iotop) · [powertop](https://github.com/fenrus75/powertop) · [wavemon](https://github.com/uoaerg/wavemon) · [fselect](https://github.com/jhspetersson/fselect) · [rainfrog](https://github.com/achristmascarl/rainfrog) · [usql](https://github.com/xo/usql) · [delta](https://github.com/dandavison/delta) [wayfreeze](https://github.com/Jappie3/wayfreeze) · [hyprfreeze](https://github.com/Zerodya/hyprfreeze) · [woomer](https://github.com/coffeeispower/woomer) |
+| Misc. Tools | [dua-cli](https://github.com/Byron/dua-cli) · [neohtop](https://github.com/Abdenasser/neohtop) · [s-tui](https://github.com/amanusk/s-tui) · [netdata](https://github.com/netdata/netdata) · [iotop](https://github.com/Tomas-M/iotop) · [powertop](https://github.com/fenrus75/powertop) · [wavemon](https://github.com/uoaerg/wavemon) · [fselect](https://github.com/jhspetersson/fselect) · [rainfrog](https://github.com/achristmascarl/rainfrog) · [usql](https://github.com/xo/usql) · [delta](https://github.com/dandavison/delta) [wayfreeze](https://github.com/Jappie3/wayfreeze) · [hyprfreeze](https://github.com/Zerodya/hyprfreeze) · [woomer](https://github.com/coffeeispower/woomer) |
 
 ---
 
