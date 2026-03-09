@@ -134,6 +134,7 @@ cp -r dotfiles/.config/* ~/.config
 ## 🔰 WC Core Modules
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
+| 🔌 Mount Tools         | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | [gvfs](https://wiki.archlinux.org/title/File_manager_functionality#Mounting) | _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ ➟ _[gvfs Wiki](https://wiki.gnome.org/Projects/gvfs/doc)_ ➟ _[pcmanfm-qt Wiki](https://github.com/lxqt/pcmanfm-qt/wiki#gvfs)_ ➟ _env GVFS_DISABLE_FUSE=1_ |
 | 🖥️ Output Config Tools | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | [nwg-displays](https://github.com/nwg-piotr/nwg-displays) \| [shikane](https://gitlab.com/w0lff/shikane) |
 | 🖼️ Wallpaper Tools     | [swaybg](https://github.com/swaywm/swaybg) | [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) \| [swww](https://github.com/LGFae/swww) |
 | 🌙 Idle Management Daemon | [swayidle](https://github.com/swaywm/swayidle) |
@@ -276,7 +277,7 @@ cp -r dotfiles/.config/* ~/.config
 
 | Module Type | Module Name | Optional | Alternative |
 |-------------|-------------|----------|-------------|
-| 🔧 CLI Tools   | [jq](https://jqlang.org/) · [bat](https://github.com/sharkdp/bat) · [eza](https://github.com/eza-community/eza) · [fzf](https://github.com/junegunn/fzf) · [inxi](https://codeberg.org/smxi/inxi) · [duf](https://github.com/muesli/duf) | [ripgrep](https://github.com/BurntSushi/ripgrep) · [fd](https://github.com/sharkdp/fd) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) \| [skim](https://github.com/skim-rs/skim) |
+| 🔧 CLI Tools   | [jq](https://jqlang.org/) · [bat](https://github.com/sharkdp/bat) · [eza](https://github.com/eza-community/eza) · [fzf](https://github.com/junegunn/fzf) · [inxi](https://codeberg.org/smxi/inxi) · [caligula](https://archlinux.org/packages/extra/x86_64/caligula/) · [duf](https://github.com/muesli/duf) | [ripgrep](https://github.com/BurntSushi/ripgrep) · [fd](https://github.com/sharkdp/fd) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) \| [skim](https://github.com/skim-rs/skim) |
 | 📊 Monitoring  | [btop](https://github.com/aristocratos/btop) · [mission-center](https://gitlab.com/mission-center-devs/mission-center) · [kmon](https://github.com/orhun/kmon) | | [glances](https://github.com/nicolargo/glances) \| [trippy](https://github.com/fujiapple852/trippy) \| [nvtop](https://github.com/Syllo/nvtop) \| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) \| [pik](https://github.com/jacek-kurlit/pik) |
 | 📝 Diff tools  | [meld](https://gitlab.gnome.org/GNOME/meld) |
 | 🔧 Misc        | [xdg-ninja](https://github.com/b3nj5m1n/xdg-ninja) |
