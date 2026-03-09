@@ -287,19 +287,19 @@ cp -r dotfiles/.config/* ~/.config
 
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
-| 📁 File Manager         | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) | [yazi](https://github.com/sxyazi/yazi) |
-| 📝 Text Editor          | [zed](https://github.com/zed-industries/zed) \| [vscode](https://wiki.archlinux.org/title/Visual_Studio_Code) \| [micro](https://github.com/zyedidia/micro) \| [nano](https://cgit.git.savannah.gnu.org/cgit/nano.git) | [geany](https://github.com/geany/geany) \| [notepadNext](https://github.com/dail8859/NotepadNext) \| [orbiton](https://github.com/xyproto/orbiton) \| [lite-xl](https://archlinux.org/packages/extra/x86_64/lite-xl/)|
-| 📸 Screenshot Tool      | [wayshot](https://git.sr.ht/~shinyzenith/wayshot) | [grimshot](https://github.com/OctopusET/sway-contrib) \| [shotman](https://git.sr.ht/~whynothugo/shotman) \| [satty](https://github.com/gabm/satty) |
-| 🎥 Screen Recording      | [gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) \| [obs](https://obsproject.com/) | [wf-recorder](https://github.com/ammen99/wf-recorder) \| [wl-screenrec](https://github.com/russelltg/wl-screenrec) |
+| 📁 File Manager     | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) | [yazi](https://github.com/sxyazi/yazi) |
+| 📝 Text Editor      | [zed](https://github.com/zed-industries/zed) · [featherpad](https://github.com/tsujan/FeatherPad) · [micro](https://github.com/zyedidia/micro) · [nano](https://cgit.git.savannah.gnu.org/cgit/nano.git) | [vscode](https://wiki.archlinux.org/title/Visual_Studio_Code) \| [notepadNext](https://github.com/dail8859/NotepadNext) \| [orbiton](https://github.com/xyproto/orbiton) |
+| 📸 Screenshot Tool  | [wayshot](https://git.sr.ht/~shinyzenith/wayshot) | [grimshot](https://github.com/OctopusET/sway-contrib) \| [shotman](https://git.sr.ht/~whynothugo/shotman) \| [satty](https://github.com/gabm/satty) |
+| 🎥 Screen Recording | [gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) \| [obs](https://obsproject.com/) | [wf-recorder](https://github.com/ammen99/wf-recorder) \| [wl-screenrec](https://github.com/russelltg/wl-screenrec) |
 | 🎚️ Multimedia Control Tool | [playerctl](https://github.com/altdesktop/playerctl) | [easyeffects](https://github.com/wwmm/easyeffects)|
-| 🎬 Media Player         | [mpv](https://github.com/mpv-player/mpv) + [yt-dlp](https://github.com/yt-dlp/yt-dlp) |
-| 🎵 Audio Player         | [rmpc](https://github.com/mierak/rmpc) + [ncspot](https://github.com/hrkfdn/ncspot) /
-| 📊 Audio Visualizer      | [cava](https://github.com/karlstav/cava) \| [musializer](https://github.com/tsoding/musializer) |
-| 📖 PDF Reader            | [zathura](https://github.com/pwmt/zathura)                                  |
-| 🖼️ Image Viewer          | [oculante](https://github.com/woelper/oculante)                             |
-| 🌧️ Terminal Visuals      | [tenki](https://github.com/ckaznable/tenki) · [ascii-rain](https://github.com/nkleemann/ascii-rain) |
-| 🗒️ Notes                 | [obsidian](https://obsidian.md/) \| [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) + [notesnook](https://notesnook.com/) \| [planify](https://github.com/alainm23/planify) |
-| 🔖 Bookmark Manager      | [raindrop](https://raindrop.io/)                                            |
+| 🎬 Media Player     | [mpv](https://github.com/mpv-player/mpv) + [yt-dlp](https://github.com/yt-dlp/yt-dlp) |
+| 🎵 Audio Player     | [rmpc](https://github.com/mierak/rmpc) + [ncspot](https://github.com/hrkfdn/ncspot) /
+| 📊 Audio Visualizer | [cava](https://github.com/karlstav/cava) \| [musializer](https://github.com/tsoding/musializer) |
+| 📖 PDF Reader       | [zathura](https://github.com/pwmt/zathura) |
+| 🖼️ Image Viewer     | [oculante](https://github.com/woelper/oculante) |
+| 🌧️ Terminal Visuals | [tenki](https://github.com/ckaznable/tenki) · [ascii-rain](https://github.com/nkleemann/ascii-rain) |
+| 🗒️ Notes            | [obsidian](https://obsidian.md/) \| [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) + [notesnook](https://notesnook.com/) \| [planify](https://github.com/alainm23/planify) |
+| 🔖 Bookmark Manager | [raindrop](https://raindrop.io/) |
 
 ---
 
