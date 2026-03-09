@@ -107,8 +107,8 @@ cp -r dotfiles/.config/* ~/.config
 ---
 
 ## 🧩 Wayland Stack
-| Module Type | Module Name  | Alternatives |
-|-------------|--------------|--------------|
+| Module Type | Module Name  | Alternative |
+|-------------|--------------|-------------|
 | 🔰 Wayland Compositor      | [sway](https://github.com/swaywm/sway) \| [labwc](https://wiki.archlinux.org/title/Labwc) | [mango](https://wiki.archlinux.org/title/MangoWM) \| [niri](https://wiki.archlinux.org/title/Niri) |
 | 📜 Wayland Protocols       | [wayland-protocols](https://gitlab.freedesktop.org/wayland/wayland-protocols) ﹢ [wlr-protocols](https://gitlab.freedesktop.org/wlroots/wlr-protocols) ﹢ [frog-protocols](https://github.com/misyltoad/frog-protocols) |
 | 📗 Wayland Integration     | [egl-wayland](https://archlinux.org/packages/extra/x86_64/egl-wayland/) · [xorg-xwayland](https://archlinux.org/packages/extra/x86_64/xorg-xwayland/) · [qt5-wayland](https://archlinux.org/packages/extra/x86_64/qt5-wayland) · [qt6-wayland](https://archlinux.org/packages/extra/x86_64/qt6-wayland)
@@ -122,8 +122,8 @@ cp -r dotfiles/.config/* ~/.config
 
 ## 🐚 Terminal & Shell
 
-| Module Type | Module Name | Alternatives |
-|-------------|-------------|--------------|
+| Module Type | Module Name | Alternative |
+|-------------|-------------|-------------|
 | 🐟 Shell             | [fish](https://github.com/fish-shell/fish-shell) |
 | 💫 Shell Enhancers   | [fastfetch](https://github.com/fastfetch-cli/fastfetch) ﹢ [starship](https://github.com/starship/starship) ﹢ [navi](https://github.com/denisidoro/navi) |
 | 📟 Terminal Emulator | [foot](https://codeberg.org/dnkl/foot) |
@@ -132,18 +132,18 @@ cp -r dotfiles/.config/* ~/.config
 ---
 
 ## 🔰 WC Core Modules
-| Module Type | Module Name | Alternatives |
-|-------------|-------------|--------------|
-| 🔌 Mount Tools         | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | [gvfs](https://wiki.archlinux.org/title/File_manager_functionality#Mounting) | _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ ➟ _[gvfs Wiki](https://wiki.gnome.org/Projects/gvfs/doc)_ ➟ _[pcmanfm-qt Wiki](https://github.com/lxqt/pcmanfm-qt/wiki#gvfs)_ ➟ _env GVFS_DISABLE_FUSE=1_ |
-| 🖥️ Output Config Tools | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | [nwg-displays](https://github.com/nwg-piotr/nwg-displays) \| [shikane](https://gitlab.com/w0lff/shikane) |
-| 🖼️ Wallpaper Tools     | [swaybg](https://github.com/swaywm/swaybg) | [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) \| [swww](https://github.com/LGFae/swww) |
-| 🌙 Idle Management Daemon | [swayidle](https://github.com/swaywm/swayidle) |
-| 🔒 Screen Locker | [swaylock](https://github.com/swaywm/swaylock) ﹢ [wlopm](https://archlinux.org/packages/extra/x86_64/wlopm/) | [chayang](https://aur.archlinux.org/packages/chayang) |
-| 🔔 Notification Daemon | [mako](https://github.com/emersion/mako) | [fnott](https://codeberg.org/dnkl/fnott) |
-| 📋 Clipboard Manager   | [wl-clipboard-rs](https://github.com/YaLTeR/wl-clipboard-rs) ﹢ [wl-clip-persist](https://github.com/Linus789/wl-clip-persist) ﹢ [cliphist](https://github.com/sentriz/cliphist) | [wl-clipboard](https://github.com/bugaevc/wl-clipboard) \| [clipse](https://github.com/savedra1/clipse) \| [clipvault](https://github.com/rolv-apneseth/clipvault) |
-| 🧱 Status Bar          | [waybar](https://github.com/Alexays/Waybar) | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) \| [ironbar](https://github.com/JakeStanger/ironbar) \| [gbar](https://aur.archlinux.org/packages/gbar-git) \| [vibepanel](https://github.com/prankstr/vibepanel)|
-| 🎴 OSD                 | [wob](https://github.com/francma/wob) ﹢ [wob-brightness.sh](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/wob-brightness.sh) ﹢ [wob-volume.sh](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/wob-volume.sh)
-| 🔆 Brightness & Gamma  | [brightnessctl](https://github.com/Hummer12007/brightnessctl) | [gammastep](https://gitlab.com/chinstrap/gammastep) \| [wlsunset](https://git.sr.ht/~kennylevinsen/wlsunset) \| [wluma](https://github.com/maximbaz/wluma) |
+| Module Type | Module Name | Optional | Alternative |
+|-------------|-------------|----------|-------------|
+| 🗄️ Device & Volume Management | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | [gvfs](https://wiki.archlinux.org/title/File_manager_functionality#Mounting) | _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ ➟ _[gvfs Wiki](https://wiki.gnome.org/Projects/gvfs/doc)_ ➟ _[pcmanfm-qt Wiki](https://github.com/lxqt/pcmanfm-qt/wiki#gvfs)_ ➟ _env GVFS_DISABLE_FUSE=1_ |
+| 🖥️ Display Management | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | [nwg-displays](https://github.com/nwg-piotr/nwg-displays) \| [shikane](https://gitlab.com/w0lff/shikane) |
+| 🖼️ Wallpaper Management       | [swaybg](https://github.com/swaywm/swaybg) | [wpaperd](https://github.com/danyspin97/wpaperd) \| [wallutils](https://github.com/xyproto/wallutils) |
+| 💤 Idle Management            | [swayidle](https://github.com/swaywm/swayidle) |
+| 🔒 Screen Lock                | [swaylock](https://github.com/swaywm/swaylock) ﹢ [wlopm](https://archlinux.org/packages/extra/x86_64/wlopm/) | [chayang](https://aur.archlinux.org/packages/chayang) |
+| 🔔 Notification Daemon        | [mako](https://github.com/emersion/mako) | [fnott](https://codeberg.org/dnkl/fnott) |
+| 📋 Clipboard Management       | [wl-clipboard-rs](https://github.com/YaLTeR/wl-clipboard-rs) ﹢ [wl-clip-persist](https://github.com/Linus789/wl-clip-persist) ﹢ [cliphist](https://github.com/sentriz/cliphist) | [wl-clipboard](https://github.com/bugaevc/wl-clipboard) \| [clipse](https://github.com/savedra1/clipse) \| [clipvault](https://github.com/rolv-apneseth/clipvault) |
+| 🧱 Status Bar                 | [waybar](https://github.com/Alexays/Waybar) | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) \| [ironbar](https://github.com/JakeStanger/ironbar) \| [gbar](https://aur.archlinux.org/packages/gbar-git) \| [vibepanel](https://github.com/prankstr/vibepanel)|
+| 🎴 OSD / Overlay              | [wob](https://github.com/francma/wob) ﹢ [wob-brightness.sh](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/wob-brightness.sh) ﹢ [wob-volume.sh](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/wob-volume.sh)
+| 🔆 Brightness Control         | [brightnessctl](https://github.com/Hummer12007/brightnessctl) | [gammastep](https://gitlab.com/chinstrap/gammastep) \| [wlsunset](https://git.sr.ht/~kennylevinsen/wlsunset) \| [wluma](https://github.com/maximbaz/wluma) |
 
 ## 🔰 WC Specific Modules
 
