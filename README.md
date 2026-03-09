@@ -35,7 +35,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🐧 Kernel             | [linux-prjc-lfbmq](https://gitlab.com/alfredchen/linux-prjc/-/tree/linux-6.17.y-prjc-lfbmq) | | _[Benchmark](https://www.reddit.com/r/linux_gaming/comments/1nkg0lr/update_on_my_bmq_scheduler_post_a_sidebyside/)_ |
 | 🗃️ File System        | [efitools](https://archlinux.org/packages/extra/x86_64/efitools/) · [smartmontools](https://archlinux.org/packages/extra/x86_64/smartmontools/) · [xfsprogs](https://archlinux.org/packages/core/x86_64/xfsprogs/) | [nfs-utils](https://wiki.archlinux.org/title/NFS) · [nilfs-utils](https://wiki.archlinux.org/title/NILFS2) · [fsarchiver](https://archlinux.org/packages/extra/x86_64/fsarchiver/)| _[Arch Wiki](https://wiki.archlinux.org/title/File_systems)_ ➟ _[xfs_config](https://github.com/p2ndemic/dotfiles/blob/main/etc/sysctl.d/99-xfs-sync-interval.conf)_ ➟ _sudo systemctl enable --now fstrim.timer_ ➟ _sudo systemctl enable --now xfs_scrub_all.timer_ |
 | 🔧 HW Utils           | [dmidecode](https://archlinux.org/packages/extra/x86_64/dmidecode/) · [hwdetect](https://wiki.archlinux.org/title/Hwdetect) · [hdparm](https://archlinux.org/packages/core/x86_64/hdparm/) · [usbutils](https://archlinux.org/packages/core/x86_64/usbutils/) | [hwinfo](https://archlinux.org/packages/extra/x86_64/hwinfo/) · [dmraid](https://archlinux.org/packages/core/x86_64/dmraid/) |
-| 🔌 Mount Tools        | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | [gvfs](https://wiki.archlinux.org/title/File_manager_functionality#Mounting) | _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ ➟ _[gvfs Wiki](https://wiki.gnome.org/Projects/gvfs/doc)_ ➟ _[pcmanfm-qt Wiki](https://github.com/lxqt/pcmanfm-qt/wiki#gvfs)_ ➟ _env GVFS_DISABLE_FUSE=1_ |
+| 🔌 Mount Tools        | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | [gvfs](https://wiki.archlinux.org/title/File_manager_functionality#Mounting) · [caligula](https://archlinux.org/packages/extra/x86_64/caligula/) | _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ ➟ _[gvfs Wiki](https://wiki.gnome.org/Projects/gvfs/doc)_ ➟ _[pcmanfm-qt Wiki](https://github.com/lxqt/pcmanfm-qt/wiki#gvfs)_ ➟ _env GVFS_DISABLE_FUSE=1_ |
 | 🕒 NTP Daemon         | [systemd-timesyncd](https://www.freedesktop.org/software/systemd/man/latest/systemd-timesyncd.service.html) | [chrony](https://wiki.archlinux.org/title/Chrony) | _[Arch Wiki](https://wiki.archlinux.org/title/Systemd-timesyncd)_ ➟ _[timesyncd_config](https://github.com/p2ndemic/dotfiles/blob/main/etc/systemd/timesyncd.conf.d/99-local.conf)_ ➟ _sudo systemctl enable --now systemd-timesyncd.service_ |
 | ⚡ Power Management   | [upower](https://archlinux.org/packages/extra/x86_64/upower/) · [poweralertd](https://sr.ht/~kennylevinsen/poweralertd/) · [tuned](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) ﹢ [tuned-gui](https://wiki.archlinux.org/title/CPU_frequency_scaling#tuned) | [tuned-ppd](https://archlinux.org/packages/extra/any/tuned-ppd/) · [systemtap](https://archlinux.org/packages/extra/x86_64/systemtap/) · [wireless_tools](https://archlinux.org/packages/extra/x86_64/wireless_tools/) · [laptop-mode-tools](https://wiki.archlinux.org/title/Laptop_Mode_Tools) | _[Arch Wiki](https://wiki.archlinux.org/title/Power_management)_ ➟ _[tuned Wiki](https://wiki.archlinux.org/title/TuneD)_ ➟ _sudo systemctl enable --now tuned.service_ ➟ _systemctl --user enable --now poweralertd.service_|
 | 📦 Package Management | [pacman-contrib](https://archlinux.org/packages/extra/x86_64/pacman-contrib/) · [pkgfile](https://wiki.archlinux.org/title/Pkgfile) · [reflector](https://wiki.archlinux.org/title/Reflector) · [rebuild-detector](https://archlinux.org/packages/extra/any/rebuild-detector/) · [git](https://wiki.archlinux.org/title/Git) · [octopi](https://aur.archlinux.org/packages/octopi) | | _[Arch Wiki](https://wiki.archlinux.org/title/Pacman)_ |
@@ -272,13 +272,25 @@ cp -r dotfiles/.config/* ~/.config
 
 ---
 
+## 🧰 Utils & System Tools
+
+| Module Type | Module Name | Optional | Alternative |
+|-------------|-------------|----------|-------------|
+| 🔧 CLI Tools   | [bat](https://github.com/sharkdp/bat) · [eza](https://github.com/eza-community/eza) · [fzf](https://github.com/junegunn/fzf) · [inxi](https://codeberg.org/smxi/inxi) · [duf](https://github.com/muesli/duf)  | [dua-cli](https://github.com/Byron/dua-cli) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
+
+| 📊 Monitoring  | [btop](https://github.com/aristocratos/btop) · [mission-center](https://gitlab.com/mission-center-devs/mission-center) | [glances](https://github.com/nicolargo/glances) \| [trippy](https://github.com/fujiapple852/trippy) \| [s-tui](https://github.com/amanusk/s-tui) \| [netdata](https://github.com/netdata/netdata) \| [nvtop](https://github.com/Syllo/nvtop) \| [neohtop](https://github.com/Abdenasser/neohtop) |
+
+
+
+
+
 ## 🔧 CLI Tools
 
 | Module Type | Module Name | Alternatives |
 |-------------|-------------|--------------|
 | 🔧 Core                  | [bat](https://github.com/sharkdp/bat) · [eza](https://github.com/eza-community/eza) · [fzf](https://github.com/junegunn/fzf) · [fastfetch](https://github.com/fastfetch-cli/fastfetch) · [inxi](https://codeberg.org/smxi/inxi) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
 | 🔍 File Search Tools     | [ripgrep](https://github.com/BurntSushi/ripgrep) \| [fd](https://github.com/sharkdp/fd) | [skim](https://github.com/skim-rs/skim) |
-| 💾 Disk Usage & Cleaning | [duf](https://github.com/muesli/duf) | [dua-cli](https://github.com/Byron/dua-cli)
+| 💾 Disk Usage & Cleaning | [duf](https://github.com/muesli/duf) | 
 | 🧰 System Fetch & Info   | [trippy](https://github.com/fujiapple852/trippy) |
 | 📝 Diff and merge tools  | [meld](https://gitlab.gnome.org/GNOME/meld) |
 
@@ -295,15 +307,18 @@ https://github.com/dandavison/delta
 
 ---
 
-## 🧰 Utilities & System Tools
+## 🧰 Utils & System Tools
 
 | Module Type | Module Name |
 |-------------|-------------|
 | 🔧 CLI Tools   | [bat](https://github.com/sharkdp/bat) · [eza](https://github.com/eza-community/eza) · [fzf](https://github.com/junegunn/fzf) · [inxi](https://codeberg.org/smxi/inxi) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) |
 
 
+
+
+
 | 📊 Monitoring & Metrics  | [btop](https://github.com/aristocratos/btop) \| [glances](https://github.com/nicolargo/glances) \| [netdata](https://github.com/netdata/netdata) \| [nvtop](https://github.com/Syllo/nvtop) \| [s-tui](https://github.com/amanusk/s-tui) \| [neohtop](https://github.com/Abdenasser/neohtop) \| [mission-center](https://gitlab.com/mission-center-devs/mission-center) |
-| 💻 System Utilities      | [iotop](https://github.com/Tomas-M/iotop) \| [kmon](https://github.com/orhun/kmon) \| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) \| [powertop](https://github.com/fenrus75/powertop) \| https://archlinux.org/packages/extra/x86_64/caligula/ |
+| 💻 System Utilities      | [iotop](https://github.com/Tomas-M/iotop) \| [kmon](https://github.com/orhun/kmon) \| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) \| [powertop](https://github.com/fenrus75/powertop) \| |
 | 🧠 Info & Diagnostics    | [wavemon](https://github.com/uoaerg/wavemon) \| [iftop](https://code.blinkace.com/pdw/iftop) |
 | 📁 Disk & File Tools     | [dua-cli](https://github.com/Byron/dua-cli) \| [fselect](https://github.com/jhspetersson/fselect) \| [broot](https://github.com/Canop/broot) |
 | 📚 Knowledge Tools       |  \| [xdg-ninja](https://github.com/b3nj5m1n/xdg-ninja) |
@@ -317,7 +332,6 @@ https://github.com/dandavison/delta
 
 | Module Type | Module Name |
 |-------------|-------------|
-| 🗂️ Clipboard Manager   | [wl-clipboard-rs](https://github.com/YaLTeR/wl-clipboard-rs) \| [cliphist](https://github.com/sentriz/cliphist) \| [clipse](https://github.com/savedra1/clipse) \| [clipvault](https://github.com/rolv-apneseth/clipvault) |
 | 🔠 Emoji Picker        | [bemoji](https://github.com/marty-oehme/bemoji)                             |
 
 ---
