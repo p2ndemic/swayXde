@@ -134,7 +134,7 @@ cp -r dotfiles/.config/* ~/.config
 | Module Type | Module Name | Optional | Alternative |Note |
 |-------------|-------------|----------|-------------|-----|
 | 🖥️ Display Management | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | | [nwg-displays](https://github.com/nwg-piotr/nwg-displays) |
-| 💾 Device & Volume Management | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | [gvfs](https://wiki.archlinux.org/title/File_manager_functionality#Mounting) | | _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ ➟ _[gvfs Wiki](https://wiki.gnome.org/Projects/gvfs/doc)_ ➟ _[pcmanfm-qt Wiki](https://github.com/lxqt/pcmanfm-qt/wiki#gvfs)_ ➟ _env GVFS_DISABLE_FUSE=1_ |
+| 💾 Device & Volume Management | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) ﹢ [gvfs](https://wiki.archlinux.org/title/File_manager_functionality#Mounting) | | _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ ➟ _[gvfs Wiki](https://wiki.gnome.org/Projects/gvfs/doc)_ ➟ _[pcmanfm-qt Wiki](https://github.com/lxqt/pcmanfm-qt/wiki#gvfs)_ ➟ _env GVFS_DISABLE_FUSE=1_ |
 | 🖼️ Wallpaper Management       | [swaybg](https://github.com/swaywm/swaybg) | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) |
 | 💤 Idle Management            | [swayidle](https://github.com/swaywm/swayidle) |
 | 🔒 Screen Lock                | [swaylock](https://github.com/swaywm/swaylock) ﹢ [wlopm](https://archlinux.org/packages/extra/x86_64/wlopm/) | [chayang](https://aur.archlinux.org/packages/chayang) |
