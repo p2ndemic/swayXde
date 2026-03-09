@@ -290,7 +290,7 @@ cp -r dotfiles/.config/* ~/.config
 | 📁 File Manager     | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) | [yazi](https://github.com/sxyazi/yazi) |
 | 📝 Text Editor      | [zed](https://github.com/zed-industries/zed) · [featherpad](https://github.com/tsujan/FeatherPad) · [micro](https://github.com/zyedidia/micro) · [nano](https://cgit.git.savannah.gnu.org/cgit/nano.git) | [vscode](https://wiki.archlinux.org/title/Visual_Studio_Code) \| [notepadNext](https://github.com/dail8859/NotepadNext) \| [orbiton](https://github.com/xyproto/orbiton) |
 | 📸 Screenshot Tool  | [wayshot](https://git.sr.ht/~shinyzenith/wayshot) | [grimshot](https://github.com/OctopusET/sway-contrib) \| [shotman](https://git.sr.ht/~whynothugo/shotman) \| [satty](https://github.com/gabm/satty) |
-| 🎥 Screen Recording | [gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) \| [obs](https://obsproject.com/) | [wf-recorder](https://github.com/ammen99/wf-recorder) \| [wl-screenrec](https://github.com/russelltg/wl-screenrec) |
+| 🎥 Screen Recording | [gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) \| [obs](https://obsproject.com/) | [wf-recorder](https://github.com/ammen99/wf-recorder) |
 | 🎚️ Multimedia Control Tool | [playerctl](https://github.com/altdesktop/playerctl) | [easyeffects](https://github.com/wwmm/easyeffects)|
 | 🎬 Media Player     | [mpv](https://github.com/mpv-player/mpv) + [yt-dlp](https://github.com/yt-dlp/yt-dlp) |
 | 🎵 Audio Player     | [rmpc](https://github.com/mierak/rmpc) + [ncspot](https://github.com/hrkfdn/ncspot) /
