@@ -140,7 +140,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🔒 Screen Lock                | [swaylock](https://github.com/swaywm/swaylock) ﹢ [wlopm](https://archlinux.org/packages/extra/x86_64/wlopm/) | [chayang](https://aur.archlinux.org/packages/chayang) |
 | 🔔 Notification Daemon        | [mako](https://github.com/emersion/mako) | | [fnott](https://codeberg.org/dnkl/fnott) |
 | 📋 Clipboard Management       | [wl-clipboard-rs](https://github.com/YaLTeR/wl-clipboard-rs) ﹢ [wl-clip-persist](https://github.com/Linus789/wl-clip-persist) ﹢ [cliphist](https://github.com/sentriz/cliphist) | | [wl-clipboard](https://github.com/bugaevc/wl-clipboard) \| [clipse](https://github.com/savedra1/clipse) |
-| 🧱 Status Bar                 | [waybar](https://github.com/Alexays/Waybar) | | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) \| [ironbar](https://github.com/JakeStanger/ironbar)  \| [vibepanel](https://github.com/prankstr/vibepanel)|
+| ☄️ Status Bar                 | [waybar](https://github.com/Alexays/Waybar) | | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) \| [ironbar](https://github.com/JakeStanger/ironbar)  \| [vibepanel](https://github.com/prankstr/vibepanel)|
 | 🎴 OSD / Overlay              | [wob](https://github.com/francma/wob) ﹢ [wob-brightness.sh](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/wob-brightness.sh) ﹢ [wob-volume.sh](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/wob-volume.sh)
 | 🔆 Brightness Control         | [brightnessctl](https://github.com/Hummer12007/brightnessctl) | [gammastep](https://gitlab.com/chinstrap/gammastep) \| [wlsunset](https://git.sr.ht/~kennylevinsen/wlsunset) \| [wluma](https://github.com/maximbaz/wluma) |
 
