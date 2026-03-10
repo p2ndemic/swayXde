@@ -178,7 +178,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🌄 Image Viewer     | [oculante](https://github.com/woelper/oculante) |
 | 📖 PDF Reader       | [zathura](https://github.com/pwmt/zathura) |
 | 🧰 Monitoring  | [btop](https://github.com/aristocratos/btop) · [mission-center](https://gitlab.com/mission-center-devs/mission-center) · [kmon](https://github.com/orhun/kmon) | | [glances](https://github.com/nicolargo/glances) \| [trippy](https://github.com/fujiapple852/trippy) \| [nvtop](https://github.com/Syllo/nvtop) \| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) \| [pik](https://github.com/jacek-kurlit/pik) |
-| 📷 Screenshot       | [wayshot](https://git.sr.ht/~shinyzenith/wayshot) | [grimshot](https://github.com/OctopusET/sway-contrib) \| [shotman](https://git.sr.ht/~whynothugo/shotman) \| [satty](https://github.com/gabm/satty) |
+| 📷 Screenshot       | [wayshot](https://git.sr.ht/~shinyzenith/wayshot) | [grimshot](https://github.com/OctopusET/sway-contrib) \| [shotman](https://git.sr.ht/~whynothugo/shotman) \| [satty](https://github.com/gabm/satty) \| [wayscriber](https://github.com/devmobasa/wayscriber) |
 | 📹 Screencast       | [gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) \| [obs](https://obsproject.com/) | [wf-recorder](https://github.com/ammen99/wf-recorder) |
 | 🎚️ Multimedia Control | [playerctl](https://github.com/altdesktop/playerctl) | [easyeffects](https://github.com/wwmm/easyeffects)|
 | 🎬 Media Player     | [mpv](https://github.com/mpv-player/mpv) + [yt-dlp](https://github.com/yt-dlp/yt-dlp) |
@@ -230,84 +230,8 @@ https://taingram.org/blog/sway-tips.html
 https://gist.github.com/Ashe/b1bf084206c17e984eb26e63f0fb9f59
 https://github.com/topics/sway
 https://ctlos.github.io/wiki/wm/sway/
+https://github.com/dawsers/scroll - тут описаны полезные настройки Sway и его форка Scroll. Указаны полезные переменные окружения и т.д
 ```
-🔄
-
-
-
-Горячие клавиши
-
-Конфиг ~/.config/sway/config.d/hotkeys.
-
-    MOD4: Super/Windows
-    MOD1: Alt
-
-Опция --to-code, работа вне зависимости от раскладки.
-Режимы и управление окнами
-Ключ	Описание
-super+space	toggle: переключение в активных режимах.
-super+shift+space	toggle: переключение окна в плавающий и обратно.
-super+shift+minus	scratchpad: Отправка окна в блокнот.
-super+minus	Сворачивание, вызов окна в scratchpad-е.
-super+b	Горизонтальный сплит.
-super+v	Вертикальный сплит.
-super+e	Переключение сплита.
-super+s	Режим стэйкинга.
-super+w	Режим табов.
-super+r	И изменение размеров vim(h,j,k,l) или ←,→,↑,↓, выход из режима Esc.
-super+{←,→,↑,↓} или super+{h,j,k,l}	Перемещение по окнам.
-super+shift+{←,→,↑,↓} или super+shift+{h,j,k,l}	Меняет позицию окна.
-super+{1-9,0}	Переход на тег.
-super+shift+{1-9,0}	Отправка окна на тег.
-super+shift+b	Показать скрыть панель waybar.
-
-
-
-Nerd Fonts Icons
-
-◱
-
-󰖲
-󰚯
-
-
-
-
-
-`
-󰈹
-
-
-
-
-⮝
-⮜
-󱂬
-
-
-
-
-󰏋
-
-󰘔
-󰘴
-
-
-󱂫
-
-󰹚
-
-
-
-
-
-
-
 
 https://labwc.github.io/hidpi-scaling-patches.html  
-
-
-https://github.com/dawsers/scroll - тут описаны полезные настройки Sway и его форка Scroll. Указаны полезные переменные окружения и т.д  
-https://github.com/devmobasa/wayscriber  
-https://github.com/snes19xx/EverCal  
-/opt/evercal/ever_cal  
+https://github.com/snes19xx/EverCal   
