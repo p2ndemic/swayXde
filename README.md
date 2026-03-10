@@ -146,24 +146,24 @@ cp -r dotfiles/.config/* ~/.config
 
 ## 🔰 WC Specific Modules
 
-#### Sway
+### 🔹 Sway
 | Module Type | Module Name | Unit |  Note |
 |-------------|-------------|------|-------|
 | 🔹 Output Management    | sway internal |
 | 🔹 Device Automount     | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | [systemd unit](123) | _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ | _systemctl --user enable --now udiskie.service_
 | 🔹 Wallpaper Management | [swaybg](https://github.com/swaywm/swaybg) | [systemd unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/swaybg.service) | _systemctl --user enable --now swaybg.service_ |
 | 🔹 Status Bar           | [waybar](https://wiki.archlinux.org/title/Waybar) | [systemd Unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/waybar.service) | _[sway_waybar_config](https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc)_ ⤍ _systemctl --user enable --now waybar.service_
-| 🔹 Autotiling           | [autotiling-rs](https://github.com/ammgws/autotiling-rs) | [systemd Unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/autotiling-rs.service) | _[sway_waybar_config](https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc)_ ⤍ _systemctl --user enable --now autotiling-rs.service_
+| 🔹 Autotiling           | [autotiling-rs](https://github.com/ammgws/autotiling-rs) | [systemd Unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/autotiling-rs.service) | _systemctl --user enable --now autotiling-rs.service_
 
 
-#### Labwc
+### 🔸 Labwc
 | Module Type | Module Name | Unit |  Note |
 |-------------|-------------|------|-------|
-| 🔹 Output Management    | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | [systemd-unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/kanshi.service) | _[kanshi_conig](https://github.com/p2ndemic/dotfiles/blob/main/.config/kanshi/config)_ ⤍ _systemctl --user enable --now kanshi.service_
-| 🔹 Device Automount     | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) ﹢ [gvfs](https://wiki.archlinux.org/title/File_manager_functionality#Mounting) | _[systemd_unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/pcmanfm-qt.service)_ | _[gvfs Wiki](https://wiki.gnome.org/Projects/gvfs/doc)_ ➟ _[pcmanfm-qt Wiki](https://github.com/lxqt/pcmanfm-qt/wiki#gvfs)_ ⤍ _env GVFS_DISABLE_FUSE=1_ ⤍ _[pcmanfm-qt_daemon_mode](https://lxqt-project.org/wiki/Pcmanfm-qt.html#using-desktop-under-wayland)_ ⤍ _systemctl --user enable --now pcmanfm-qt.service_ |
-| 🔹 Wallpaper Management | [pcmanfm-qt](https://wiki.archlinux.org/title/PCManFM) | [systemd_unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/pcmanfm-qt.service) | _systemctl --user enable --now pcmanfm-qt.service_
-| 🔹 Status Bar           | [waybar](https://wiki.archlinux.org/title/Waybar) | [systemd Unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/waybar.service) | _[sway_waybar_config](https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc)_ ⤍ _systemctl --user enable --now waybar.service_
-| 🔹 Autotiling           | [autotiling-rs](https://github.com/ammgws/autotiling-rs) | [systemd Unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/autotiling-rs.service) | _[sway_waybar_config](https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc)_ ⤍ _systemctl --user enable --now autotiling-rs.service_
+| 🔸 Output Management      | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | [systemd-unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/kanshi.service) | _[kanshi_conig](https://github.com/p2ndemic/dotfiles/blob/main/.config/kanshi/config)_ ⤍ _systemctl --user enable --now kanshi.service_
+| 🔸 Device Automount       | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) ﹢ [gvfs](https://wiki.archlinux.org/title/File_manager_functionality#Mounting) | _[systemd_unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/pcmanfm-qt.service)_ | _[gvfs Wiki](https://wiki.gnome.org/Projects/gvfs/doc)_ ➟ _[pcmanfm-qt Wiki](https://github.com/lxqt/pcmanfm-qt/wiki#gvfs)_ ⤍ _env GVFS_DISABLE_FUSE=1_ ⤍ _[pcmanfm-qt_daemon_mode](https://lxqt-project.org/wiki/Pcmanfm-qt.html#using-desktop-under-wayland)_ ⤍ _systemctl --user enable --now pcmanfm-qt.service_ |
+| 🔸 Wallpaper Management   | [pcmanfm-qt](https://wiki.archlinux.org/title/PCManFM) | [systemd_unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/pcmanfm-qt.service) | _systemctl --user enable --now pcmanfm-qt.service_
+| 🔸 Status Bar             | [waybar](https://wiki.archlinux.org/title/Waybar) | [systemd Unit](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/waybar.service) | _[labwc_waybar_config](https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc)_ ⤍ _systemctl --user enable --now waybar.service_
+| 🔸 Keyboard state monitor | [xkb-monitor](https://github.com/drougas/xkb-monitor) | | _[waybar_config](https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc)_
 
 
 
