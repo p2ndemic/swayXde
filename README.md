@@ -150,7 +150,7 @@ cp -r dotfiles/.config/* ~/.config
 | Module Type | Module Name | Unit |  Note |
 |-------------|-------------|------|-------|
 | 🔹 Display Management    | _sway internal_ |
-| 🔹 Device Automount     | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | _[systemd unit](123)_ | _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ | _systemctl --user enable --now udiskie.service_
+| 🔹 Device Automount     | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | _[udiskie.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/udiskie.service)_ | _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ ⤍ _[udiskie Wiki](https://github.com/coldfix/udiskie/wiki/Usage)_ ⤍ _systemctl --user enable --now udiskie.service_
 | 🔹 Wallpaper Management | [swaybg](https://github.com/swaywm/swaybg) | _[swaybg.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/swaybg.service)_ | _systemctl --user enable --now swaybg.service_ |
 | 🔹 Status Bar           | [waybar](https://wiki.archlinux.org/title/Waybar) | _[waybar.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/waybar.service)_ | _[sway_waybar_config](https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc)_ ⤍ _systemctl --user enable --now waybar.service_
 | 🔹 Autotiling           | [autotiling-rs](https://github.com/ammgws/autotiling-rs) | _[autotiling-rs.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/autotiling-rs.service)_ | _systemctl --user enable --now autotiling-rs.service_
