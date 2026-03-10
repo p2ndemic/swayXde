@@ -168,31 +168,25 @@ cp -r dotfiles/.config/* ~/.config
 
 ---
 
-## 🔧 Utils & System Tools
+## 📦 Applications
 
 | Module Type | Module Name | Optional | Alternative |
 |-------------|-------------|----------|-------------|
-| 🔧 CLI Tools   | [jq](https://jqlang.org/) · [bat](https://github.com/sharkdp/bat) · [eza](https://github.com/eza-community/eza) · [fzf](https://github.com/junegunn/fzf) · [inxi](https://codeberg.org/smxi/inxi) · [caligula](https://archlinux.org/packages/extra/x86_64/caligula/) · [duf](https://github.com/muesli/duf) | [ripgrep](https://github.com/BurntSushi/ripgrep) · [fd](https://github.com/sharkdp/fd) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) \| [skim](https://github.com/skim-rs/skim) |
-| 📊 Monitoring  | [btop](https://github.com/aristocratos/btop) · [mission-center](https://gitlab.com/mission-center-devs/mission-center) · [kmon](https://github.com/orhun/kmon) | | [glances](https://github.com/nicolargo/glances) \| [trippy](https://github.com/fujiapple852/trippy) \| [nvtop](https://github.com/Syllo/nvtop) \| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) \| [pik](https://github.com/jacek-kurlit/pik) |
-| 📝 Diff tools  | [meld](https://gitlab.gnome.org/GNOME/meld) |
-| 🔧 Misc        | [xdg-ninja](https://github.com/b3nj5m1n/xdg-ninja) |
-
----
-
-## 📦 Applications
-
-| Module Type | Module Name | Alternatives |
-|-------------|-------------|--------------|
+| 🔧 CLI      | [jq](https://jqlang.org/) · [bat](https://github.com/sharkdp/bat) · [eza](https://github.com/eza-community/eza) · [fzf](https://github.com/junegunn/fzf) · [inxi](https://codeberg.org/smxi/inxi) · [caligula](https://archlinux.org/packages/extra/x86_64/caligula/) · [duf](https://github.com/muesli/duf) | [ripgrep](https://github.com/BurntSushi/ripgrep) · [fd](https://github.com/sharkdp/fd) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) \| [skim](https://github.com/skim-rs/skim) |
 | 📁 File Manager     | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) | [yazi](https://github.com/sxyazi/yazi) |
 | 📝 Text Editor      | [zed](https://github.com/zed-industries/zed) · [featherpad](https://github.com/tsujan/FeatherPad) · [micro](https://github.com/zyedidia/micro) · [nano](https://cgit.git.savannah.gnu.org/cgit/nano.git) | [vscode](https://wiki.archlinux.org/title/Visual_Studio_Code) \| [notepadNext](https://github.com/dail8859/NotepadNext) \| [orbiton](https://github.com/xyproto/orbiton) |
+| 🌄 Image Viewer     | [oculante](https://github.com/woelper/oculante) |
+| 📖 PDF Reader       | [zathura](https://github.com/pwmt/zathura) |
+| 📊 Monitoring  | [btop](https://github.com/aristocratos/btop) · [mission-center](https://gitlab.com/mission-center-devs/mission-center) · [kmon](https://github.com/orhun/kmon) | | [glances](https://github.com/nicolargo/glances) \| [trippy](https://github.com/fujiapple852/trippy) \| [nvtop](https://github.com/Syllo/nvtop) \| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) \| [pik](https://github.com/jacek-kurlit/pik) |
 | 📸 Screenshot Tool  | [wayshot](https://git.sr.ht/~shinyzenith/wayshot) | [grimshot](https://github.com/OctopusET/sway-contrib) \| [shotman](https://git.sr.ht/~whynothugo/shotman) \| [satty](https://github.com/gabm/satty) |
 | 🎥 Screen Recording | [gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) \| [obs](https://obsproject.com/) | [wf-recorder](https://github.com/ammen99/wf-recorder) |
-| 🎚️ Multimedia Control Tool | [playerctl](https://github.com/altdesktop/playerctl) | [easyeffects](https://github.com/wwmm/easyeffects)|
+| 🎚️ Multimedia Control | [playerctl](https://github.com/altdesktop/playerctl) | [easyeffects](https://github.com/wwmm/easyeffects)|
 | 🎬 Media Player     | [mpv](https://github.com/mpv-player/mpv) + [yt-dlp](https://github.com/yt-dlp/yt-dlp) |
 | 🎵 Audio Player     | [rmpc](https://github.com/mierak/rmpc) + [ncspot](https://github.com/hrkfdn/ncspot) /
 | 📊 Audio Visualizer | [cava](https://github.com/karlstav/cava) \| [musializer](https://github.com/tsoding/musializer) |
-| 📖 PDF Reader       | [zathura](https://github.com/pwmt/zathura) |
-| 🖼️ Image Viewer     | [oculante](https://github.com/woelper/oculante) |
+| 📝 Diff tools  | [meld](https://gitlab.gnome.org/GNOME/meld) |
+| 🔧 Misc        | [xdg-ninja](https://github.com/b3nj5m1n/xdg-ninja) |
+
 | 🌧️ Terminal Visuals | [tenki](https://github.com/ckaznable/tenki) · [ascii-rain](https://github.com/nkleemann/ascii-rain) |
 | 🗒️ Notes            | [obsidian](https://obsidian.md/) \| [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) + [notesnook](https://notesnook.com/) \| [planify](https://github.com/alainm23/planify) |
 | 🔖 Bookmark Manager | [raindrop](https://raindrop.io/) |
