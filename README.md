@@ -136,13 +136,13 @@ cp -r dotfiles/.config/* ~/.config
 | Module Type | Module Name | Optional | Alternative |
 |-------------|-------------|----------|-------------|
 | 🖥️ Display Management | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | | [nwg-displays](https://github.com/nwg-piotr/nwg-displays) |
+| ☄️ Status Bar                 | [waybar](https://github.com/Alexays/Waybar) | | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) \| [ironbar](https://github.com/JakeStanger/ironbar)  \| [vibepanel](https://github.com/prankstr/vibepanel) |
 | 💾 Device & Volume Management | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) ﹢ [gvfs](https://wiki.archlinux.org/title/File_manager_functionality#Mounting) |
 | 🖼️ Wallpaper Management       | [swaybg](https://github.com/swaywm/swaybg) | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) |
 | 💤 Idle Management            | [swayidle](https://github.com/swaywm/swayidle) |
 | 🔒 Screen Lock                | [swaylock](https://github.com/swaywm/swaylock) ﹢ [wlopm](https://archlinux.org/packages/extra/x86_64/wlopm/) | [chayang](https://aur.archlinux.org/packages/chayang) |
 | 🔔 Notification Daemon        | [mako](https://github.com/emersion/mako) | | [fnott](https://codeberg.org/dnkl/fnott) |
 | 📋 Clipboard Management       | [wl-clipboard-rs](https://github.com/YaLTeR/wl-clipboard-rs) ﹢ [wl-clip-persist](https://github.com/Linus789/wl-clip-persist) ﹢ [cliphist](https://github.com/sentriz/cliphist) | | [wl-clipboard](https://github.com/bugaevc/wl-clipboard) \| [clipse](https://github.com/savedra1/clipse) |
-| ☄️ Status Bar                 | [waybar](https://github.com/Alexays/Waybar) | | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) \| [ironbar](https://github.com/JakeStanger/ironbar)  \| [vibepanel](https://github.com/prankstr/vibepanel)|
 | 🎴 OSD / Overlay              | [wob](https://github.com/francma/wob) ﹢ [wob-brightness.sh](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/wob-brightness.sh) ﹢ [wob-volume.sh](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/wob-volume.sh)
 | 🔆 Brightness Control         | [brightnessctl](https://github.com/Hummer12007/brightnessctl) | [gammastep](https://gitlab.com/chinstrap/gammastep) \| [wlsunset](https://git.sr.ht/~kennylevinsen/wlsunset) \| [wluma](https://github.com/maximbaz/wluma) |
 
@@ -152,20 +152,20 @@ cp -r dotfiles/.config/* ~/.config
 | Module Type | Module Name | Unit |  Note |
 |-------------|-------------|------|-------|
 | 🔹 Display Management    | _sway internal_ |
-| 🔹 Device Automount     | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | _[udiskie.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/udiskie.service)_ | _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ ⤍ _[udiskie Wiki](https://github.com/coldfix/udiskie/wiki/Usage)_ ⤍ _systemctl --user enable --now udiskie.service_
-| 🔹 Wallpaper Management | [swaybg](https://github.com/swaywm/swaybg) | _[swaybg.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/swaybg.service)_ | _systemctl --user enable --now swaybg.service_ |
 | 🔹 Status Bar           | [waybar](https://wiki.archlinux.org/title/Waybar) | _[waybar.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/waybar.service)_ | _[sway_waybar_config](https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc)_ ⤍ _systemctl --user enable --now waybar.service_
+| 🔹 Device<br>Automount     | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | _[udiskie.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/udiskie.service)_ | _[udisks Wiki](https://wiki.archlinux.org/title/Udisks)_ ⤍ _[udiskie Wiki](https://github.com/coldfix/udiskie/wiki/Usage)_ ⤍ _systemctl --user enable --now udiskie.service_
+| 🔹 Wallpaper Management | [swaybg](https://github.com/swaywm/swaybg) | _[swaybg.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/swaybg.service)_ | _systemctl --user enable --now swaybg.service_ |
 | 🔹 Autotiling           | [autotiling-rs](https://github.com/ammgws/autotiling-rs) | _[autotiling-rs.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/autotiling-rs.service)_ | _systemctl --user enable --now autotiling-rs.service_
-| 🔹 Window Switcher      | [wswitch](https://github.com/DreamMaoMao/wswitch) \| [snappy-switcher](https://github.com/OpalAayan/snappy-switcher) | _[]()_ | _systemctl --user enable --now .service_
+| 🔹 Window<br>Switcher      | [wswitch](https://github.com/DreamMaoMao/wswitch) \| [snappy-switcher](https://github.com/OpalAayan/snappy-switcher) | _[]()_ | _systemctl --user enable --now .service_
 
 
 ### 🔸 Labwc
 | Module Type | Module Name | Unit |  Note |
 |-------------|-------------|------|-------|
 | 🔸 Display Management      | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | _[kanshi.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/kanshi.service)_ | _[kanshi_conig](https://github.com/p2ndemic/dotfiles/blob/main/.config/kanshi/config)_ ⤍ _systemctl --user enable --now kanshi.service_
+| 🔸 Status Bar             | [waybar](https://wiki.archlinux.org/title/Waybar) | _[waybar.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/waybar.service)_ | _[labwc_waybar_config](https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc)_ ⤍ _systemctl --user enable --now waybar.service_ |
 | 🔸 Device Automount       | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) ﹢ [gvfs](https://wiki.archlinux.org/title/File_manager_functionality#Mounting) | _[pcmanfm-qt.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/pcmanfm-qt.service)_ | _[gvfs Wiki](https://wiki.gnome.org/Projects/gvfs/doc)_ ➟ _[pcmanfm-qt Wiki](https://github.com/lxqt/pcmanfm-qt/wiki#gvfs)_ ⤍ _[pcmanfm-qt Daemon Mode Wiki](https://lxqt-project.org/wiki/Pcmanfm-qt.html#using-desktop-under-wayland)_ ⤍ _**env GVFS_DISABLE_FUSE=1**_ ⤍ _systemctl --user enable --now pcmanfm-qt.service_ |
 | 🔸 Wallpaper Management   | [pcmanfm-qt](https://wiki.archlinux.org/title/PCManFM) | _[pcmanfm-qt.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/pcmanfm-qt.service)_ | _systemctl --user enable --now pcmanfm-qt.service_
-| 🔸 Status Bar             | [waybar](https://wiki.archlinux.org/title/Waybar) | _[waybar.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/waybar.service)_ | _[labwc_waybar_config](https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc)_ ⤍ _systemctl --user enable --now waybar.service_
 | 🔸 Keyboard state monitor | [xkb-monitor](https://github.com/drougas/xkb-monitor) | | _[waybar_config](https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc)_
 
 
