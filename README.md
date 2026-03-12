@@ -203,14 +203,14 @@ cp -r dotfiles/.config/* ~/.config
 
 ## 🎨 Theming & Appearance
 
-| Module Type | Module Name |
-|-------------|-------------|
-| 🎨 Theme Manager | [kvantum](https://github.com/tsujan/Kvantum) + [nwg-look](https://github.com/nwg-piotr/nwg-look) |
-| 🌈 GTK Themes    | [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
-| ✨ Qt Themes     | [kvlibadwaita](https://github.com/GabePoel/KvLibadwaita) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
-| 🔤 Fonts         | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) · [cascadia-code](https://github.com/microsoft/cascadia-code) · [terminus-font](https://archlinux.org/packages/extra/any/terminus-font/) |
-| 🔤 Nerd Fonts    | [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) · [cascadia-code](https://github.com/microsoft/cascadia-code) · [terminus-font](https://archlinux.org/packages/extra/any/terminus-font/) |
-| 🔠 Emoji         | [bemoji](https://github.com/marty-oehme/bemoji)
+| Module Type | Module Name | Optional |
+|-------------|-------------| ---------|
+| 🎨 Theme Manager | _none_ |  [nwg-look](https://github.com/nwg-piotr/nwg-look) |
+| 🌈 GTK Themes    | [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) · [adw-gtk3](https://github.com/lassekongo83/adw-gtk3) \| [nordic](https://github.com/EliverLara/Nordic) \| [whale](https://github.com/anufrievroman/whale) |
+| ✨ Qt Themes     | _none_ | [kvlibadwaita](https://github.com/GabePoel/KvLibadwaita) [whale](https://github.com/anufrievroman/whale) |
+| 🔤 Fonts         | [terminus-font](https://archlinux.org/packages/extra/any/terminus-font/) ⤍ [ttf-ibm-plex](https://archlinux.org/packages/extra/any/ttf-ibm-plex/) ⤍ [ttf-jetbrains-mono](https://archlinux.org/packages/extra/any/ttf-jetbrains-mono/) ⤍ [ttf-roboto](https://archlinux.org/packages/extra/any/ttf-roboto/) ⤍ [ttf-roboto-mono](https://archlinux.org/packages/extra/any/ttf-roboto-mono/) ⤍ [adwaita-fonts](https://archlinux.org/packages/extra/any/adwaita-fonts/) ⤍ [noto-fonts](https://archlinux.org/packages/extra/any/noto-fonts/) ⤍ [noto-fonts-cjk](https://archlinux.org/packages/extra/any/noto-fonts-cjk/) ⤍ [ttf-liberation](https://archlinux.org/packages/extra/any/ttf-liberation/) | [ttf-hack](https://archlinux.org/packages/extra/any/ttf-hack/) · [ttf-fira-code](https://archlinux.org/packages/extra/any/ttf-fira-code/) · [ttf-fira-mono](https://archlinux.org/packages/extra/any/ttf-fira-mono/) · [cascadia-code](https://github.com/microsoft/cascadia-code) |
+| 🔤 Nerd Fonts    | [ttf-ibmplex-mono-nerd](https://archlinux.org/packages/extra/any/ttf-ibmplex-mono-nerd/) ⤍ [ttf-jetbrains-mono-nerd](https://archlinux.org/packages/extra/any/ttf-jetbrains-mono-nerd/) ⤍ [ttf-roboto-mono-nerd](https://archlinux.org/packages/extra/any/ttf-roboto-mono-nerd/) |
+| 🔠 Emoji         | [noto-fonts-emoji](https://archlinux.org/packages/extra/any/noto-fonts-emoji/) | [bemoji](https://github.com/marty-oehme/bemoji) |
 | 🧸 Icons         | |
 
 ---
