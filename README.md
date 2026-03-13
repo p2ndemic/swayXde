@@ -116,7 +116,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🔐 Authentication Agent    | [polkit](https://wiki.archlinux.org/title/Polkit) · [lxqt-policykit](https://archlinux.org/packages/extra/x86_64/lxqt-policykit/) |
 | 🌀 XDG Portal Backend      | [xdg-desktop-portal](https://wiki.archlinux.org/title/XDG_Desktop_Portal) · [xdg-desktop-portal-wlr](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-wlr/) · [xdg-desktop-portal-lxqt](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-lxqt/)
 | 🗂️ XDG User Dirs & Utils   | [xdg-user-dirs](https://wiki.archlinux.org/title/XDG_user_directories) · [xdg-utils](https://wiki.archlinux.org/title/Xdg-utils) |
-| 👤 User Account Service    | [accountsservice](https://archlinux.org/packages/extra/x86_64/accountsservice/) |
+| 👤 User Account Service    | _none_ | [accountsservice](https://archlinux.org/packages/extra/x86_64/accountsservice/) |
 | 🪟 Display Manager         | _none_ | [greetd](https://git.sr.ht/~kennylevinsen/greetd) ﹢ [regreet](https://github.com/rharish101/ReGreet) \| [ly](https://codeberg.org/fairyglade/ly) |
 
 ---
