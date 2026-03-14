@@ -184,7 +184,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🧰 Monitoring  | [btop](https://github.com/aristocratos/btop) · [mission-center](https://gitlab.com/mission-center-devs/mission-center) · [kmon](https://github.com/orhun/kmon) | | [glances](https://github.com/nicolargo/glances) \| [trippy](https://github.com/fujiapple852/trippy) \| [nvtop](https://github.com/Syllo/nvtop) \| [systemd-manager-tui](https://github.com/matheus-git/systemd-manager-tui) \| [pik](https://github.com/jacek-kurlit/pik) |
 | 📷 Screenshot       | [wayshot](https://git.sr.ht/~shinyzenith/wayshot) | [grimshot](https://github.com/OctopusET/sway-contrib) \| [shotman](https://git.sr.ht/~whynothugo/shotman) \| [satty](https://github.com/gabm/satty) \| [wayscriber](https://github.com/devmobasa/wayscriber) |
 | 📹 Screencast       | [gpu-screen-recorder](https://git.dec05eba.com/gpu-screen-recorder/about/) \| [obs](https://obsproject.com/) | [wf-recorder](https://github.com/ammen99/wf-recorder) |
-| 🎚️ Multimedia Control | [playerctl](https://github.com/altdesktop/playerctl) | [easyeffects](https://github.com/wwmm/easyeffects)|
+| 🎚️ Multimedia Control | [mpris-ctl](https://github.com/mariusor/mpris-ctl) | [easyeffects](https://github.com/wwmm/easyeffects) · [playerctl](https://github.com/altdesktop/playerctl)|
 | 🎬 Media Player     | [mpv](https://github.com/mpv-player/mpv) + [yt-dlp](https://github.com/yt-dlp/yt-dlp) |
 | 🎵 Audio Player & Visualizer   | [rmpc](https://github.com/mierak/rmpc) ﹢ [cava](https://github.com/karlstav/cava) | [ncspot](https://github.com/hrkfdn/ncspot) | [musializer](https://github.com/tsoding/musializer) |
 | 📝 Diff tools  | [meld](https://gitlab.gnome.org/GNOME/meld) |
