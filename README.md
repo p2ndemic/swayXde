@@ -146,20 +146,6 @@ cp -r dotfiles/.config/* ~/.config
 | 🎴 OSD / Overlay              | [wob](https://github.com/francma/wob) ﹢ [wob-brightness.sh](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/wob-brightness.sh) ﹢ [wob-volume.sh](https://github.com/p2ndemic/dotfiles/blob/main/.local/bin/wob-volume.sh)
 | 🔆 Brightness Control         | [brightnessctl](https://github.com/Hummer12007/brightnessctl) | [gammastep](https://gitlab.com/chinstrap/gammastep) · [wlsunset](https://git.sr.ht/~kennylevinsen/wlsunset) · [wluma](https://github.com/maximbaz/wluma) |
 
-## 🎨 Theming & Appearance
-
-| Module Type | Module Name | Optional |
-|-------------|-------------| ---------|
-| 🔸 Theme Manager | _none_ | [qt6ct](https://archlinux.org/packages/extra/x86_64/qt6ct/) · [matugen](https://archlinux.org/packages/extra/x86_64/matugen/) · [lxappearance](https://archlinux.org/packages/extra/x86_64/lxappearance/) · [nwg-look](https://github.com/nwg-piotr/nwg-look) · [waypaper](https://github.com/anufrievroman/waypaper)|
-| 🔸 GTK Theme    | [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) · [adw-gtk3](https://github.com/lassekongo83/adw-gtk3) | [whale](https://github.com/anufrievroman/whale) |
-| 🔸 Qt​<br>Theme     | _none_ | [kvlibadwaita](https://github.com/GabePoel/KvLibadwaita) · [whale](https://github.com/anufrievroman/whale) |
-| 🔸 Fonts         | [terminus-font](https://archlinux.org/packages/extra/any/terminus-font/) ⤍ [ttf-ibm-plex](https://archlinux.org/packages/extra/any/ttf-ibm-plex/) ⤍ [ttf-jetbrains-mono](https://archlinux.org/packages/extra/any/ttf-jetbrains-mono/) ⤍ [ttf-roboto](https://archlinux.org/packages/extra/any/ttf-roboto/) ⤍ [ttf-roboto-mono](https://archlinux.org/packages/extra/any/ttf-roboto-mono/) ⤍ [adwaita-fonts](https://archlinux.org/packages/extra/any/adwaita-fonts/) ⤍ [noto-fonts](https://archlinux.org/packages/extra/any/noto-fonts/) ⤍ [noto-fonts-cjk](https://archlinux.org/packages/extra/any/noto-fonts-cjk/) ⤍ [ttf-dejavu](https://archlinux.org/packages/extra/any/ttf-dejavu/) ⤍ [ttf-liberation](https://archlinux.org/packages/extra/any/ttf-liberation/) | [ttf-hack](https://archlinux.org/packages/extra/any/ttf-hack/) · [ttf-fira-code](https://archlinux.org/packages/extra/any/ttf-fira-code/) · [ttf-fira-mono](https://archlinux.org/packages/extra/any/ttf-fira-mono/) · [cascadia-code](https://github.com/microsoft/cascadia-code) |
-| 🔸 Nerd Fonts    | [ttf-ibmplex-mono-nerd](https://archlinux.org/packages/extra/any/ttf-ibmplex-mono-nerd/) ⤍ [ttf-jetbrains-mono-nerd](https://archlinux.org/packages/extra/any/ttf-jetbrains-mono-nerd/) ⤍ [ttf-roboto-mono-nerd](https://archlinux.org/packages/extra/any/ttf-roboto-mono-nerd/) ⤍ [otf-font-awesome](https://archlinux.org/packages/extra/any/otf-font-awesome/) | [awesome-terminal-fonts](https://archlinux.org/packages/extra/any/awesome-terminal-fonts/)
-| 🔸 Emoji         | [noto-fonts-emoji](https://archlinux.org/packages/extra/any/noto-fonts-emoji/) | [ttf-twemoji](https://aur.archlinux.org/packages/ttf-twemoji) · [bemoji](https://github.com/marty-oehme/bemoji) |
-| 🔸 Icons         | [Nimux-Adwaita](https://github.com/p2ndemic/dotfiles/blob/main/.local/share/icons/install_numix-adwaita-theme.sh) ⤍ [Numix](https://aur.archlinux.org/packages/numix-icon-theme-git) ⤍ [MoreWaita](https://aur.archlinux.org/packages/morewaita-icon-theme-git) ⤍ [Adwaita](https://archlinux.org/packages/extra/any/adwaita-icon-theme/) | [Numix-Circle](https://aur.archlinux.org/packages/numix-circle-icon-theme-git)
-
----
-
 ## 🔰 WC Specific Modules
 
 ### 🔹 Sway
@@ -172,7 +158,6 @@ cp -r dotfiles/.config/* ~/.config
 | 🔹 Autotiling           | [autotiling-rs](https://github.com/ammgws/autotiling-rs) | _[autotiling-rs.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/autotiling-rs.service)_ | _systemctl --user enable --now autotiling-rs.service_
 | 🔹 Window<br>Switcher      | [wswitch](https://github.com/DreamMaoMao/wswitch) \| [snappy-switcher](https://github.com/OpalAayan/snappy-switcher) | _[]()_ | _systemctl --user enable --now .service_
 
-
 ### 🔸 Labwc
 | Module Type | Module Name | Unit |  Note |
 |-------------|-------------|------|-------|
@@ -182,6 +167,19 @@ cp -r dotfiles/.config/* ~/.config
 | 🔸 Wallpaper Management   | [pcmanfm-qt](https://wiki.archlinux.org/title/PCManFM) | _[pcmanfm-qt.service](https://github.com/p2ndemic/dotfiles/blob/main/.config/systemd/user/pcmanfm-qt.service)_ | _systemctl --user enable --now pcmanfm-qt.service_
 | 🔸 Keyboard state monitor | [xkb-monitor](https://github.com/drougas/xkb-monitor) | | _[waybar_config](https://github.com/p2ndemic/dotfiles/blob/main/.config/waybar/config.jsonc)_
 
+---
+
+## 🎨 Theming & Appearance
+
+| Module Type | Module Name | Optional |
+|-------------|-------------| ---------|
+| 🔸 Theme Manager | _none_ | [qt6ct](https://archlinux.org/packages/extra/x86_64/qt6ct/) · [matugen](https://archlinux.org/packages/extra/x86_64/matugen/) · [lxappearance](https://archlinux.org/packages/extra/x86_64/lxappearance/) · [nwg-look](https://github.com/nwg-piotr/nwg-look) · [waypaper](https://github.com/anufrievroman/waypaper)|
+| 🔸 GTK Theme    | [libadwaita](https://gitlab.gnome.org/GNOME/libadwaita) · [adw-gtk3](https://github.com/lassekongo83/adw-gtk3) | [whale](https://github.com/anufrievroman/whale) |
+| 🔸 Qt​<br>Theme     | _none_ | [kvlibadwaita](https://github.com/GabePoel/KvLibadwaita) · [whale](https://github.com/anufrievroman/whale) |
+| 🔸 Fonts         | [terminus-font](https://archlinux.org/packages/extra/any/terminus-font/) ⤍ [ttf-ibm-plex](https://archlinux.org/packages/extra/any/ttf-ibm-plex/) ⤍ [ttf-jetbrains-mono](https://archlinux.org/packages/extra/any/ttf-jetbrains-mono/) ⤍ [ttf-roboto](https://archlinux.org/packages/extra/any/ttf-roboto/) ⤍ [ttf-roboto-mono](https://archlinux.org/packages/extra/any/ttf-roboto-mono/) ⤍ [adwaita-fonts](https://archlinux.org/packages/extra/any/adwaita-fonts/) ⤍ [noto-fonts](https://archlinux.org/packages/extra/any/noto-fonts/) ⤍ [noto-fonts-cjk](https://archlinux.org/packages/extra/any/noto-fonts-cjk/) ⤍ [ttf-dejavu](https://archlinux.org/packages/extra/any/ttf-dejavu/) ⤍ [ttf-liberation](https://archlinux.org/packages/extra/any/ttf-liberation/) | [ttf-hack](https://archlinux.org/packages/extra/any/ttf-hack/) · [ttf-fira-code](https://archlinux.org/packages/extra/any/ttf-fira-code/) · [ttf-fira-mono](https://archlinux.org/packages/extra/any/ttf-fira-mono/) · [cascadia-code](https://github.com/microsoft/cascadia-code) |
+| 🔸 Nerd Fonts    | [ttf-ibmplex-mono-nerd](https://archlinux.org/packages/extra/any/ttf-ibmplex-mono-nerd/) ⤍ [ttf-jetbrains-mono-nerd](https://archlinux.org/packages/extra/any/ttf-jetbrains-mono-nerd/) ⤍ [ttf-roboto-mono-nerd](https://archlinux.org/packages/extra/any/ttf-roboto-mono-nerd/) ⤍ [otf-font-awesome](https://archlinux.org/packages/extra/any/otf-font-awesome/) | [awesome-terminal-fonts](https://archlinux.org/packages/extra/any/awesome-terminal-fonts/)
+| 🔸 Emoji         | [noto-fonts-emoji](https://archlinux.org/packages/extra/any/noto-fonts-emoji/) | [ttf-twemoji](https://aur.archlinux.org/packages/ttf-twemoji) · [bemoji](https://github.com/marty-oehme/bemoji) |
+| 🔸 Icons         | [Nimux-Adwaita](https://github.com/p2ndemic/dotfiles/blob/main/.local/share/icons/install_numix-adwaita-theme.sh) ⤍ [Numix](https://aur.archlinux.org/packages/numix-icon-theme-git) ⤍ [MoreWaita](https://aur.archlinux.org/packages/morewaita-icon-theme-git) ⤍ [Adwaita](https://archlinux.org/packages/extra/any/adwaita-icon-theme/) | [Numix-Circle](https://aur.archlinux.org/packages/numix-circle-icon-theme-git)
 
 ---
 
