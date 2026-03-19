@@ -203,6 +203,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🔧 Misc        | [xdg-ninja](https://github.com/b3nj5m1n/xdg-ninja) |
 | 🌧️ Terminal Visuals | [tenki](https://github.com/ckaznable/tenki) · [ascii-rain](https://github.com/nkleemann/ascii-rain) |
 | 🗒️ Notes            | [obsidian](https://obsidian.md/) \| [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) + [notesnook](https://notesnook.com/) \| [planify](https://github.com/alainm23/planify) |
+| UML | [AFFiNE](https://github.com/toeverything/AFFiNE) |
 | 🔖 Bookmark Manager | [raindrop](https://raindrop.io/) |
 
 ---
