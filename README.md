@@ -205,6 +205,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🗒️ Notes            | [obsidian](https://obsidian.md/) \| [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) + [notesnook](https://notesnook.com/) \| [planify](https://github.com/alainm23/planify) |
 | UML | [AFFiNE](https://github.com/toeverything/AFFiNE) |
 | 🔖 Bookmark Manager | [raindrop](https://raindrop.io/) |
+| Firewall |  | [opensnitch](https://archlinux.org/packages/extra/x86_64/opensnitch/) ·  [firewalld](https://wiki.archlinux.org/title/Firewalld) ﹢ [[firewall-config](https://archlinux.org/packages/extra/any/firewall-config/) · [firewall-applet](https://archlinux.org/packages/extra/any/firewall-applet/)] |
 
 ---
 
