@@ -136,7 +136,7 @@ cp -r dotfiles/.config/* ~/.config
 | Module Type | Module Name | Optional | Alternative |
 |-------------|-------------|----------|-------------|
 | 🖥️ Display Management | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | [nwg-displays](https://github.com/nwg-piotr/nwg-displays) |
-| ☄️ Status Bar                 | [waybar](https://github.com/Alexays/Waybar) | | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) |
+| ☄️ Status Bar                 | [waybar](https://github.com/Alexays/Waybar) | [better-control](https://github.com/better-ecosystem/better-control) | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) |
 | 💾 Device & Volume Management | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) ﹢ [gvfs](https://wiki.archlinux.org/title/File_manager_functionality#Mounting) |
 | 🖼️ Wallpaper Management       | [swaybg](https://github.com/swaywm/swaybg) | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) |
 | 💤 Idle Management            | [swayidle](https://github.com/swaywm/swayidle) |
