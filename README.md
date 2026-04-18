@@ -138,7 +138,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🖥️ Display Management | [wlr-randr](https://gitlab.freedesktop.org/emersion/wlr-randr) ﹢ [kanshi](https://sr.ht/~emersion/kanshi) | [nwg-displays](https://github.com/nwg-piotr/nwg-displays) |
 | ☄️ Status Bar                 | [waybar](https://github.com/Alexays/Waybar) | | [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell) |
 | 💾 Device & Volume Management | [udiskie](https://archlinux.org/packages/extra/any/udiskie/) | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) ﹢ [gvfs](https://wiki.archlinux.org/title/File_manager_functionality#Mounting) |
-| 🖼️ Wallpaper Management       | [swaybg](https://github.com/swaywm/swaybg) | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) |
+| 🖼️ Wallpaper Management       | [swaybg](https://github.com/swaywm/swaybg) ﹢ [waypaper](https://aur.archlinux.org/packages/waypaper) | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) |
 | 💤 Idle Management            | [swayidle](https://github.com/swaywm/swayidle) |
 | 🔒 Screen Lock                | [swaylock](https://github.com/swaywm/swaylock) ﹢ [wlopm](https://archlinux.org/packages/extra/x86_64/wlopm/) | [chayang](https://aur.archlinux.org/packages/chayang) |
 | 🔔 Notification Daemon        | [mako](https://github.com/emersion/mako) | | [fnott](https://codeberg.org/dnkl/fnott) |
