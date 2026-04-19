@@ -238,4 +238,5 @@ https://github.com/dawsers/scroll - тут описаны полезные на�
 ```
 
 https://labwc.github.io/hidpi-scaling-patches.html  
-https://github.com/snes19xx/EverCal   
+https://github.com/snes19xx/EverCal  
+https://awesome-dotfiles.web.app/
