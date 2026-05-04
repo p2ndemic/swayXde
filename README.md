@@ -207,6 +207,9 @@ cp -r dotfiles/.config/* ~/.config
 | 🔖 Bookmark Manager | [raindrop](https://raindrop.io/) |
 | Firewall |  | [opensnitch](https://archlinux.org/packages/extra/x86_64/opensnitch/) ·  [firewalld](https://wiki.archlinux.org/title/Firewalld) ﹢ [[firewall-config](https://archlinux.org/packages/extra/any/firewall-config/) · [firewall-applet](https://archlinux.org/packages/extra/any/firewall-applet/)] |
 
+| 🔧 Useful utils     | [profile-cleaner]([https://github.com/b3nj5m1n/xdg-ninja](https://archlinux.org/packages/extra/any/profile-cleaner/)) |
+
+
 ---
 
 ## Other
