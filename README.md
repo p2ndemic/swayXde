@@ -263,5 +263,9 @@ browser.translations.automaticallyPopup = false
 Enable Adblock-Rust:
 ───────────────────────────────────────
 privacy.trackingprotection.content.protection.enabled = true
+privacy.trackingprotection.content.protection.test_list_urls => https://big.oisd.nl|
+
+
+https://codeberg.org/celenity/adguard-home-settings
 
 
