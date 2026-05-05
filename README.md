@@ -266,6 +266,16 @@ privacy.trackingprotection.content.protection.enabled = true
 privacy.trackingprotection.content.protection.test_list_urls => https://big.oisd.nl|
 
 
-https://codeberg.org/celenity/adguard-home-settings
+Filter Lists:
+───────────────────────────────────────
+https://adguard.com/kb/ru/general/ad-filtering/adguard-filters/
+https://github.com/brave/adblock-lists/
+https://oisd.nl/
+https://github.com/hagezi/dns-blocklists
+───────────────────────────────────────
+Special Lists:
+───────────────────────────────────────
+
+───────────────────────────────────────
 
 
