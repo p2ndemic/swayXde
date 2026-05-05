@@ -245,12 +245,13 @@ https://github.com/snes19xx/EverCal
 https://awesome-dotfiles.web.app/
 
 ---
+
 ```
 Firefox tweaks:
+about:config =>
 ───────────────────────────────────────
 Enable WebGPU:
 ───────────────────────────────────────
-about:config => 
 dom.webgpu.enabled = true
 gfx.webgpu.ignore-blocklist = true
 gfx.webrender.all = true
