@@ -265,7 +265,11 @@ Enable Adblock-Rust:
 ───────────────────────────────────────
 privacy.trackingprotection.content.protection.enabled = true
 privacy.trackingprotection.content.protection.test_list_urls => https://big.oisd.nl|
-
+───────────────────────────────────────
+Disable Clipboard Autocopy:
+───────────────────────────────────────
+clipboard.autocopy = false
+───────────────────────────────────────
 
 Filter Lists:
 ───────────────────────────────────────
