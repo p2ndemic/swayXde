@@ -281,6 +281,7 @@ https://forums.lanik.us/viewtopic.php?f=102&t=22512-%D0%BE-%D1%84%D0%B8%D0%BB%D1
 https://github.com/arkenfox/user.js/wiki/4.1-Extensions
 https://github.com/yokoffing/filterlists
 https://github.com/knapah/uBlockOrigin-Filterlist
+https://chromium.googlesource.com/chromium/src/+/cdec4ebe6701dc2a6d4134e223629fe798e3161e/chrome/test/data/policy/policy_test_cases.json
 ───────────────────────────────────────
 Special Lists:
 ───────────────────────────────────────
