@@ -245,7 +245,7 @@ https://github.com/snes19xx/EverCal
 https://awesome-dotfiles.web.app/
 
 ---
-
+```
 Firefox tweaks:
 ───────────────────────────────────────
 Enable WebGPU:
@@ -277,5 +277,5 @@ Special Lists:
 ───────────────────────────────────────
 
 ───────────────────────────────────────
-
+```
 
