@@ -256,7 +256,7 @@ dom.webgpu.enabled = true
 gfx.webgpu.ignore-blocklist = true
 gfx.webrender.all = true
 ───────────────────────────────────────
-Disable Firefox translation:
+Disable Firefox translation [Use TWP] :
 ───────────────────────────────────────
 browser.translations.enable = false
 browser.translations.automaticallyPopup = false
