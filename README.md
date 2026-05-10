@@ -257,6 +257,11 @@ dom.webgpu.enabled = true
 gfx.webgpu.ignore-blocklist = true
 gfx.webrender.all = true
 ───────────────────────────────────────
+Xdg-Desktop-Portal settings:
+───────────────────────────────────────
+widget.use-xdg-desktop-portal.file-picker = 1
+widget.use-xdg-desktop-portal.mime-handler = 1
+───────────────────────────────────────
 Disable Firefox translation [Use TWP] :
 ───────────────────────────────────────
 browser.translations.enable = false
