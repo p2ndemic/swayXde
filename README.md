@@ -239,6 +239,9 @@ https://gist.github.com/Ashe/b1bf084206c17e984eb26e63f0fb9f59
 https://github.com/topics/sway
 https://ctlos.github.io/wiki/wm/sway/
 https://github.com/dawsers/scroll - тут описаны полезные настройки Sway и его форка Scroll. Указаны полезные переменные окружения и т.д
+
+Тут можно позаимствовать некоторые хорошие настройки Sway | Niri и др
+https://git.tile-os.com/TileOS
 ```
 
 https://labwc.github.io/hidpi-scaling-patches.html  
