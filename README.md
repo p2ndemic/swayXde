@@ -183,6 +183,18 @@ cp -r dotfiles/.config/* ~/.config
 
 ---
 
+
+## 🎮 Gaming
+
+| Module Type | Module Name | Optional |
+|-------------|-------------| ---------|
+| 🔹 Laucher primary   |  |  |
+| 🔹 Laucher secondary |  |  |
+| 🔹 Proton            |  |  |
+| 🔹 Wine              |  |  |
+
+---
+
 ## 📦 Applications
 
 | Module Type | Module Name | Optional | Alternative |
@@ -190,7 +202,8 @@ cp -r dotfiles/.config/* ~/.config
 | 🔧 CLI      | [curl](https://archlinux.org/packages/core/x86_64/curl/) · [wget](https://archlinux.org/packages/extra/x86_64/wget/) · [rsync](https://archlinux.org/packages/extra/x86_64/rsync/) · [jq](https://jqlang.org/) · [socat](https://archlinux.org/packages/extra/x86_64/socat/) · [bat](https://github.com/sharkdp/bat) · [eza](https://github.com/eza-community/eza) · [fzf](https://github.com/junegunn/fzf) · [inxi](https://codeberg.org/smxi/inxi) · [openssh](https://archlinux.org/packages/core/x86_64/openssh/) · [duf](https://github.com/muesli/duf) · [caligula](https://archlinux.org/packages/extra/x86_64/caligula/)  | [ripgrep](https://github.com/BurntSushi/ripgrep) · [fd](https://github.com/sharkdp/fd) · [pv](https://archlinux.org/packages/extra/x86_64/pv/) · [fsarchiver](https://archlinux.org/packages/extra/x86_64/fsarchiver/) | [broot](https://github.com/Canop/broot) \| [zoxide](https://github.com/ajeetdsouza/zoxide) \| [skim](https://github.com/skim-rs/skim) \| [trash-cli](https://archlinux.org/packages/extra/any/trash-cli/) |
 | 🐍 Python Packages | [uv](https://archlinux.org/packages/extra/x86_64/uv/) · [defusedxml](https://archlinux.org/packages/extra/any/python-defusedxml/) 
 | 📁 File Manager     | [pcmanfm-qt](https://github.com/lxqt/pcmanfm-qt) | [yazi](https://github.com/sxyazi/yazi) |
-| 📝 Text Editor      | [zed](https://github.com/zed-industries/zed) · [featherpad](https://github.com/tsujan/FeatherPad) · [micro](https://github.com/zyedidia/micro) · [nano](https://cgit.git.savannah.gnu.org/cgit/nano.git) ﹢ [nano-syntax-highlighting](https://archlinux.org/packages/extra/any/nano-syntax-highlighting/) | [vscode](https://wiki.archlinux.org/title/Visual_Studio_Code) \| [notepadNext](https://github.com/dail8859/NotepadNext) \| [orbiton](https://github.com/xyproto/orbiton) |
+| 📝 GUI Text Editor | [zed](https://github.com/zed-industries/zed) | [vscode](https://wiki.archlinux.org/title/Visual_Studio_Code) \| [notepadNext](https://github.com/dail8859/NotepadNext) \| [featherpad](https://github.com/tsujan/FeatherPad) |
+| 📝 Terminal Text Editor | [micro](https://github.com/zyedidia/micro) · [nano](https://cgit.git.savannah.gnu.org/cgit/nano.git) ﹢ [nano-syntax-highlighting](https://archlinux.org/packages/extra/any/nano-syntax-highlighting/) | [fresh](https://aur.archlinux.org/packages/fresh-editor) \| [orbiton](https://github.com/xyproto/orbiton) |
 | 🌄 Image Viewer     | [oculante](https://github.com/woelper/oculante) |
 | 📖 PDF Reader       | [zathura](https://github.com/pwmt/zathura) ﹢ [zathura-pdf-mupdf](https://archlinux.org/packages/extra/x86_64/zathura-pdf-mupdf/) | [zathura-djvu](https://archlinux.org/packages/extra/x86_64/zathura-djvu/) · [zathura-cb](https://archlinux.org/packages/extra/x86_64/zathura-cb/) · [zathura-ps](https://archlinux.org/packages/extra/x86_64/zathura-ps/) |
 | 🌎 Browser          | [firefox](https://archlinux.org/packages/extra/x86_64/firefox/) · [brave](https://packages.cachyos.org/package/cachyos/x86_64/brave-bin) · [helium](https://packages.cachyos.org/package/cachyos/x86_64/helium-browser-bin)
