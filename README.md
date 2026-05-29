@@ -192,6 +192,8 @@ cp -r dotfiles/.config/* ~/.config
 | 🔹 Laucher secondary |  |  |
 | 🔹 Proton            |  |  |
 | 🔹 Wine              |  |  |
+| 🔹 DXVK              | [dxvk-low-latency](https://github.com/netborg-afps/dxvk-low-latency) · [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/) |  |
+
 
 ---
 
