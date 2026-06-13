@@ -193,6 +193,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🔹 Proton            |  |  |
 | 🔹 Wine              |  |  |
 | 🔹 DXVK              | [dxvk-low-latency](https://github.com/netborg-afps/dxvk-low-latency) · [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/) |  |
+| 🔹 Misc              | [innoextract](https://archlinux.org/packages/extra/x86_64/innoextract/) · | |
 
 
 ---
