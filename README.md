@@ -276,6 +276,10 @@ dom.webgpu.enabled = true
 gfx.webgpu.ignore-blocklist = true
 gfx.webrender.all = true
 ───────────────────────────────────────
+Enable WebGL:
+───────────────────────────────────────
+webgl.disabled = true
+───────────────────────────────────────
 Xdg-Desktop-Portal settings:
 ───────────────────────────────────────
 widget.use-xdg-desktop-portal.file-picker = 1
