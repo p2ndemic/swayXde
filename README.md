@@ -276,7 +276,7 @@ dom.webgpu.enabled = true
 gfx.webgpu.ignore-blocklist = true
 gfx.webrender.all = true
 ───────────────────────────────────────
-Enable WebGL:
+Disable WebGL:
 ───────────────────────────────────────
 webgl.disabled = true
 ───────────────────────────────────────
