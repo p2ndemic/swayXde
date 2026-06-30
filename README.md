@@ -325,5 +325,6 @@ DACs & AMPs:
 https://hifi-port.ru/forums/usiliteli-capy.12/
 https://hifigo.com/collections/amp-dacs
 https://t.me/s/HiFiport
+https://hifi-port.ru/threads/fosi-audio-magnetic-back-clip-kreplenie-capousilitelja-k-telefonu.5495/
 ```
 
