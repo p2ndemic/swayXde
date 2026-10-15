@@ -192,7 +192,7 @@ cp -r dotfiles/.config/* ~/.config
 | 🔹 Laucher secondary |  |  |
 | 🔹 Proton            |  |  |
 | 🔹 Wine              |  |  |
-| 🔹 DXVK              | [dxvk-low-latency](https://github.com/netborg-afps/dxvk-low-latency) · [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/) |  |
+| 🔹 DXVK              | [dxvk-low-latency](https://github.com/netborg-afps/dxvk-low-latency) · [dxvk-gplasync](https://gitlab.com/Ph42oN/dxvk-gplasync/) · [dxvk-igdext](https://www.comss.ru/page.php?id=22137)|  |
 | 🔹 VRAM MAnagement   | [dmemcg-booster](https://wiki.nobaraproject.org/graphics/amd/dmemcg-booster) · | |
 | 🔹 Misc              | [innoextract](https://archlinux.org/packages/extra/x86_64/innoextract/) · | |
 
